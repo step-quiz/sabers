@@ -13,9 +13,12 @@
 }
 .saber-head:hover { background: #f8f9fb; }
 .saber-caret {
-  font-size: 9px; color: var(--hint); margin-top: 5px;
+  font-size: 15px; color: var(--hint); margin-top: 1px;
   flex-shrink: 0; transition: transform .12s;
+  display: flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 6px;
 }
+.saber-head:hover .saber-caret { background: var(--accent-soft); color: var(--blue); }
 .saber-head.open .saber-caret { transform: rotate(90deg); }
 .saber-main { flex: 1; min-width: 0; }
 .saber-title-row { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
