@@ -8,6 +8,7 @@
  * per això aquí "moure" un saber vol dir canviar-li el select cursImpartir/sentit,
  * no arrossegar-lo entre contenidors — més senzill i sense modal. */
 
+let isEditing = false;
 let editSabers = null;   // còpia mutable de SABERS_STATE.sabers durant l'edició
 
 /* ─── Start / stop ────────────────────────────────────────────────── */
