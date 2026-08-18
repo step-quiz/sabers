@@ -1,0 +1,60 @@
+/* layout.css — shell compartit: contenidor de l'app, topbar, barra de pestanyes de curs.
+ * Depèn de tokens.css. Es fa servir a repartiment.html i sabers.html per igual. */
+
+/* ── Shell ─────────────────────────────────────────────────────────── */
+.app { min-height: 100dvh; display: flex; flex-direction: column; }
+
+/* ── Topbar ────────────────────────────────────────────────────────── */
+.topbar {
+  flex: 0 0 auto;
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 16px; height: 52px;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  z-index: 30;
+}
+.brand {
+  font-size: 16.5px; font-weight: 800; color: var(--navy); flex: 1;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.brand small { font-weight: 400; color: var(--muted); font-size: 13.2px; margin-left: 6px; }
+
+/* ── Barra de pestanyes de curs ───────────────────────────────────────
+ * Compartida entre repartiment.html i sabers.html: un ".ctab" per curs,
+ * marcat ".active" pel curs vigent. */
+.tabs-bar {
+  flex: 0 0 auto;
+  display: flex; gap: 0;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  padding: 0 12px;
+  overflow-x: auto;
+}
+.tabs-bar::-webkit-scrollbar { height: 0; }
+.ctab {
+  padding: 11px 18px;
+  font-size: 14.85px; font-weight: 600;
+  color: var(--muted);
+  border-bottom: 2.5px solid transparent;
+  cursor: pointer; transition: .12s; white-space: nowrap;
+  user-select: none;
+}
+.ctab:hover { color: var(--navy); }
+.ctab.active { color: var(--navy); border-bottom-color: var(--navy); }
+.ctab .h-badge {
+  font-size: 12.1px; font-weight: 400; color: var(--hint);
+  margin-left: 4px;
+}
+
+/* ── Main ──────────────────────────────────────────────────────────── */
+.main { flex: 1 1 auto; overflow-y: auto; }
+.cview { display: none; max-width: 900px; margin: 0 auto; padding: 22px 20px 60px; }
+.cview.active { display: block; }
+
+.cview-header {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  margin-bottom: 20px; padding-bottom: 14px;
+  border-bottom: 2px solid var(--line);
+}
+.cview-header h2 { font-size: 23.1px; color: var(--navy); }
+.cview-header .meta { font-size: 13.75px; color: var(--muted); }

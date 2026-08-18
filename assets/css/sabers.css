@@ -1,0 +1,152 @@
+/* sabers.css — Estils de la pàgina "Sabers". Depèn de tokens.css, layout.css
+ * i reutilitza la paleta --s-* definida a repartiment.css (per això sabers.html
+ * carrega repartiment.css també — vegeu comentari a l'HTML). */
+
+/* ── Saber card ────────────────────────────────────────────────────── */
+.saber-card {
+  border: 1px solid var(--line); border-radius: 10px;
+  margin-bottom: 8px; overflow: hidden; background: var(--card);
+}
+.saber-head {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 11px 14px; cursor: pointer; user-select: none;
+}
+.saber-head:hover { background: #f8f9fb; }
+.saber-caret {
+  font-size: 9px; color: var(--hint); margin-top: 5px;
+  flex-shrink: 0; transition: transform .12s;
+}
+.saber-head.open .saber-caret { transform: rotate(90deg); }
+.saber-main { flex: 1; min-width: 0; }
+.saber-title-row { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.saber-title { font-size: 15.2px; font-weight: 600; color: var(--ink); line-height: 1.35; }
+.saber-codi {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px; font-weight: 700; letter-spacing: .01em;
+  padding: 1px 6px; border-radius: 5px; flex-shrink: 0;
+}
+.saber-bloc { font-size: 12.3px; color: var(--muted); margin-top: 2px; }
+
+/* codi background per sentit (reutilitza --s-* de repartiment.css) */
+.saber-codi.numeric        { color: var(--s-numeric);    background: var(--s-numeric-bg); }
+.saber-codi.espacial-mesura{ color: var(--s-mesura);      background: var(--s-mesura-bg); }
+.saber-codi.algebraic      { color: var(--s-algebraic);   background: var(--s-algebraic-bg); }
+.saber-codi.estocastic     { color: var(--s-estocastic);  background: var(--s-estocastic-bg); }
+
+/* ── Indicador "on apareix" (1r 2n 3r 4t) ─────────────────────────────
+ * Quatre punts petits per curs: ple si present, buit si no, amb la nota
+ * (si n'hi ha) com a tooltip natiu i com a mini-etiqueta al costat. */
+.apareix-row { display: flex; align-items: center; gap: 5px; margin-top: 6px; flex-wrap: wrap; }
+.apareix-dot-group { display: flex; align-items: center; gap: 3px; }
+.apareix-dot {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 20px; height: 18px; border-radius: 5px;
+  font-size: 10px; font-weight: 800; color: var(--hint);
+  background: var(--line-2); border: 1px solid transparent;
+  flex-shrink: 0;
+}
+.apareix-dot.present { color: #fff; background: var(--blue); }
+.apareix-dot.principal { background: var(--navy); }
+.apareix-dot.puntual { color: var(--blue); background: var(--blue-bg); border-color: var(--s-numeric-bd); }
+.apareix-nota {
+  font-size: 11px; color: var(--hint); font-style: italic;
+}
+
+/* ── Cos expandible ────────────────────────────────────────────────── */
+.saber-body { display: none; padding: 2px 16px 16px 32px; }
+.saber-head.open + .saber-body { display: block; }
+
+.saber-fonts { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 4px; }
+@media (min-width: 720px) {
+  .saber-fonts { grid-template-columns: 1fr 1fr; }
+}
+.font-box {
+  border: 1px solid var(--line-2); border-radius: 8px; padding: 10px 12px; background: var(--surface-2);
+}
+.font-box h4 {
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; font-weight: 800;
+  color: var(--hint); margin-bottom: 5px;
+}
+.font-box p { font-size: 13.3px; color: var(--ink); line-height: 1.5; }
+
+.saber-meta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 12.8px; color: var(--muted); }
+.saber-meta-row strong { color: var(--ink); font-weight: 700; }
+.connexio-chip {
+  display: inline-flex; align-items: center;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px; font-weight: 700; color: var(--muted);
+  background: var(--line-2); padding: 1px 6px; border-radius: 5px; margin-right: 3px;
+}
+
+/* ── Chips "Vist al repartiment" (enllaç cap a repartiment.html) ─────── */
+.tema-links { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+.tema-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11.5px; font-weight: 700;
+  padding: 3px 9px 3px 8px; border-radius: 20px;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--muted);
+  text-decoration: none; transition: .12s;
+}
+.tema-chip:hover { border-color: var(--navy); color: var(--navy); background: #eef1f5; text-decoration: none; }
+.tema-chip svg { width: 10px; height: 10px; flex-shrink: 0; }
+.tema-links-empty { font-size: 12px; color: var(--hint); font-style: italic; margin-top: 10px; }
+
+/* ── Barra de filtres ──────────────────────────────────────────────── */
+.filters-bar {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  margin-bottom: 16px; padding: 10px 12px;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px;
+}
+.filter-search {
+  flex: 1 1 200px; min-width: 140px;
+  padding: 6px 11px; border: 1px solid var(--line); border-radius: 8px;
+  font: inherit; font-size: 13.8px; background: #fff; color: var(--ink);
+}
+.filter-search:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 2px rgba(46, 117, 182, .15); }
+.filter-select {
+  padding: 6px 9px; border: 1px solid var(--line); border-radius: 8px;
+  font: inherit; font-size: 13.3px; background: #fff; color: var(--ink);
+}
+.filter-select:focus { outline: none; border-color: var(--blue); }
+.filter-clear {
+  font-size: 12.5px; font-weight: 600; color: var(--muted);
+  padding: 5px 10px; border-radius: 7px; cursor: pointer; border: 1px solid transparent;
+}
+.filter-clear:hover { color: #c0392b; background: #fde8ef; }
+.filter-count { font-size: 12.3px; color: var(--hint); white-space: nowrap; }
+
+.no-results { padding: 40px 20px; text-align: center; color: var(--muted); font-size: 14px; }
+
+/* ── MODE EDICIÓ (sabers) ─────────────────────────────────────────────
+ * Reutilitza les classes .edit-banner / .edit-mini-btn / .edit-add-btn
+ * ja definides a repartiment.css (compartides visualment). Aquí només
+ * els camps específics d'un saber en edició. */
+.saber-edit-grid { display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 8px; }
+@media (min-width: 720px) { .saber-edit-grid { grid-template-columns: 1fr 1fr; } }
+.saber-edit-field label {
+  display: block; font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .04em; color: var(--hint); margin-bottom: 3px;
+}
+.saber-edit-field input, .saber-edit-field textarea, .saber-edit-field select {
+  width: 100%; padding: 6px 9px; font: inherit; font-size: 13.5px; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 6px; background: #fff;
+}
+.saber-edit-field textarea { resize: vertical; min-height: 52px; }
+.saber-edit-field input:focus, .saber-edit-field textarea:focus, .saber-edit-field select:focus {
+  outline: none; border-color: var(--blue); box-shadow: 0 0 0 2px rgba(46, 117, 182, .15);
+}
+.apareix-edit-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.apareix-edit-cell { display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
+.apareix-edit-cell .curs-lbl { font-size: 10.5px; font-weight: 700; color: var(--hint); }
+.apareix-edit-cell input[type="text"] { width: 92px; padding: 4px 6px; font-size: 12.5px; }
+.apareix-edit-cell label.chk { display: flex; align-items: center; gap: 4px; font-size: 12px; color: var(--muted); }
+
+@media print {
+  .filters-bar { display: none !important; }
+  .saber-body { display: block !important; padding-left: 16px; }
+  .saber-card { break-inside: avoid; }
+}
+
+@media (max-width: 600px) {
+  .saber-body { padding-left: 16px; }
+}

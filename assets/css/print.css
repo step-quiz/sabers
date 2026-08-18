@@ -1,0 +1,8 @@
+/* print.css — @media print transversal. Cada vista afegeix les seves pròpies
+ * regles addicionals al costat del component (repartiment.css, sabers.css). */
+
+@media print {
+  body { background: #fff; }
+  a { color: inherit; text-decoration: none; }
+  .state { display: none !important; }
+}

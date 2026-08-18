@@ -1,0 +1,221 @@
+/* repartiment.css — Estils de la pàgina "Repartiment de continguts".
+ * Depèn de tokens.css i layout.css. Aquí només s'afegeix la paleta de
+ * sentits i els estils propis de la taula de temes i del mode edició. */
+
+:root {
+  /* paleta per sentit — es fa servir també a sabers.css (mateixos noms de variable) */
+  --s-comprensio:   #506080; --s-comprensio-bg: #ecf0f7; --s-comprensio-bd: #b0bfcf;
+  --s-numeric:      #1a6fa8; --s-numeric-bg:    #e8f2fb; --s-numeric-bd:    #8bbfe0;
+  --s-espacial:     #1a8a5c; --s-espacial-bg:   #e5f5ed; --s-espacial-bd:   #80ccaa;
+  --s-mesura:       #b56010; --s-mesura-bg:     #fdf3e5; --s-mesura-bd:     #e0aa60;
+  --s-algebraic:    #6b3fa0; --s-algebraic-bg:  #f2ecfb; --s-algebraic-bd:  #b090d8;
+  --s-estocastic:   #a02848; --s-estocastic-bg: #fde8ef; --s-estocastic-bd: #d888a8;
+}
+
+/* ── Sentit section ────────────────────────────────────────────────── */
+.s-section {
+  margin-bottom: 10px;
+  border-radius: 10px; overflow: hidden;
+  border: 1px solid var(--line);
+}
+.s-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; cursor: pointer; user-select: none;
+  transition: filter .1s;
+}
+.s-header:hover { filter: brightness(.97); }
+.s-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.s-label { font-size: 12.65px; text-transform: uppercase; letter-spacing: .07em; font-weight: 800; flex: 1; }
+.s-hores { font-size: 13.2px; font-weight: 700; opacity: .7; }
+.s-chevron { font-size: 11px; color: rgba(0, 0, 0, .35); transition: transform .15s; margin-left: 4px; }
+.s-section.open .s-chevron { transform: rotate(90deg); }
+
+.s-body { background: var(--card); display: none; }
+.s-section.open .s-body { display: block; }
+
+/* ── Tema table ────────────────────────────────────────────────────── */
+.tema-table { width: 100%; border-collapse: collapse; }
+.tema-table colgroup col:first-child { width: auto; }
+.tema-table colgroup col:last-child { width: 56px; }
+
+.tema-table thead th {
+  text-align: left; font-size: 12.1px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em; color: var(--hint);
+  padding: 7px 14px 5px; border-bottom: 1px solid var(--line);
+}
+.tema-table thead th:last-child { text-align: right; }
+.tema-row td {
+  padding: 9px 14px; border-bottom: 1px solid #eef1f4;
+  vertical-align: top;
+}
+.tema-row:last-child td { border-bottom: none; }
+.tema-row:hover td { background: #f6f8fb; }
+
+.tema-toggle {
+  display: flex; align-items: flex-start; gap: 8px;
+  cursor: pointer; user-select: none;
+}
+.tema-caret {
+  font-size: 9px; color: var(--hint); margin-top: 4px;
+  flex-shrink: 0; transition: transform .12s;
+}
+.tema-toggle.open .tema-caret { transform: rotate(90deg); }
+.tema-name { font-size: 15.4px; font-weight: 600; color: var(--ink); line-height: 1.35; }
+
+.hores-td { font-size: 14.3px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; padding-top: 10px; }
+
+/* ── Continguts list ───────────────────────────────────────────────── */
+.cont-list { display: none; margin-top: 8px; padding-left: 4px; }
+.cont-list.open { display: block; }
+.cont-list li {
+  position: relative;
+  font-size: 13.75px; color: var(--muted);
+  padding: 2px 0 2px 22px;
+  line-height: 1.4;
+  list-style: none; display: flex; gap: 7px;
+}
+.cont-list li::before {
+  content: '';
+  position: absolute; left: 8px; top: 6px;
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--hint);
+}
+.cont-num { color: var(--hint); font-size: 12.1px; flex-shrink: 0; margin-top: 1px; }
+
+/* ── Chips "Saber relacionat" (enllaç cap a sabers.html) ──────────────
+ * S'injecten sota el nom del tema quan data-links.json en té algun. */
+.saber-links { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+.saber-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11.5px; font-weight: 700; letter-spacing: .01em;
+  padding: 2px 8px 2px 7px; border-radius: 20px;
+  border: 1px solid var(--line); background: var(--surface-2); color: var(--muted);
+  text-decoration: none; transition: .12s;
+}
+.saber-chip:hover { border-color: var(--blue); color: var(--blue); background: var(--blue-bg); text-decoration: none; }
+.saber-chip svg { width: 10px; height: 10px; flex-shrink: 0; }
+
+/* ── Sentit themes (header BG + dot color + border) ───────────────────── */
+.s-header.comprensio { background: var(--s-comprensio-bg); }
+.s-header.comprensio .s-dot { background: var(--s-comprensio); }
+.s-header.comprensio .s-label { color: var(--s-comprensio); }
+.s-section.comprensio { border-color: var(--s-comprensio-bd); }
+
+.s-header.numeric { background: var(--s-numeric-bg); }
+.s-header.numeric .s-dot { background: var(--s-numeric); }
+.s-header.numeric .s-label { color: var(--s-numeric); }
+.s-section.numeric { border-color: var(--s-numeric-bd); }
+
+.s-header.espacial { background: var(--s-espacial-bg); }
+.s-header.espacial .s-dot { background: var(--s-espacial); }
+.s-header.espacial .s-label { color: var(--s-espacial); }
+.s-section.espacial { border-color: var(--s-espacial-bd); }
+
+.s-header.mesura { background: var(--s-mesura-bg); }
+.s-header.mesura .s-dot { background: var(--s-mesura); }
+.s-header.mesura .s-label { color: var(--s-mesura); }
+.s-section.mesura { border-color: var(--s-mesura-bd); }
+
+.s-header.algebraic { background: var(--s-algebraic-bg); }
+.s-header.algebraic .s-dot { background: var(--s-algebraic); }
+.s-header.algebraic .s-label { color: var(--s-algebraic); }
+.s-section.algebraic { border-color: var(--s-algebraic-bd); }
+
+.s-header.estocastic { background: var(--s-estocastic-bg); }
+.s-header.estocastic .s-dot { background: var(--s-estocastic); }
+.s-header.estocastic .s-label { color: var(--s-estocastic); }
+.s-section.estocastic { border-color: var(--s-estocastic-bd); }
+
+/* ── Print ─────────────────────────────────────────────────────────── */
+@media print {
+  .topbar, .tabs-bar, .pill-btn { display: none !important; }
+  .cview { padding: 0; }
+  .s-body { display: block !important; }
+  .cont-list { display: block !important; }
+  .s-section { break-inside: avoid; margin-bottom: 16px; }
+}
+
+/* ── Responsive ────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .brand small { display: none; }
+  .cview { padding: 14px 12px 50px; }
+}
+
+/* ── MODE EDICIÓ ───────────────────────────────────────────────────── */
+.edit-banner {
+  flex: 0 0 auto;
+  display: none; align-items: center; gap: 10px;
+  padding: 8px 16px; font-size: 14px; font-weight: 600; color: #7a6010;
+  background: #fff8e0; border-bottom: 2px solid #e8c840;
+}
+body.is-editing .edit-banner { display: flex; }
+.edit-banner-note { font-weight: 400; font-size: 13px; color: #a07820; }
+.pill-btn.edit-stop, .pill-btn.edit-dl { display: none; }
+body.is-editing .pill-btn.edit-start { display: none; }
+body.is-editing .pill-btn.edit-stop { display: inline-flex; border-color: #c0392b; color: #c0392b; }
+body.is-editing .pill-btn.edit-stop:hover { background: #c0392b; color: #fff; border-color: #c0392b; }
+body.is-editing .pill-btn.edit-dl { display: inline-flex; background: var(--blue-bg); border-color: var(--blue); color: var(--blue); }
+body.is-editing .pill-btn.edit-dl:hover { background: var(--blue); color: #fff; }
+
+.edit-tema-head { display: flex; align-items: center; gap: 8px; width: 100%; cursor: default; }
+.tema-label-inp {
+  flex: 1; min-width: 60px; padding: 2px 4px; font-family: inherit;
+  font-size: 15.4px; font-weight: 600; color: var(--ink);
+  border: none; border-bottom: 1.5px solid var(--blue); background: transparent;
+}
+.tema-label-inp:focus { outline: none; border-bottom-color: var(--navy); }
+.cont-inp {
+  flex: 1; min-width: 0; padding: 3px 7px; font-family: inherit;
+  font-size: 13.75px; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 4px; background: #fff;
+}
+.cont-inp:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 2px rgba(46, 117, 182, .15); }
+.hores-inp {
+  width: 46px; padding: 2px 5px; text-align: right; font-family: inherit;
+  font-size: 13.5px; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 4px; background: #fff;
+}
+.hores-inp:focus { outline: none; border-color: var(--blue); }
+
+.edit-mini-btns { display: flex; gap: 3px; flex-shrink: 0; }
+.edit-mini-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 24px; height: 24px; padding: 0; border-radius: 5px; flex-shrink: 0;
+  font-size: 11px; color: var(--muted); border: 1px solid var(--line); background: var(--card);
+  cursor: pointer; transition: .1s; font-family: inherit;
+}
+.edit-mini-btn:hover:not([disabled]) { border-color: var(--blue); color: var(--blue); background: var(--blue-bg); }
+.edit-mini-btn.del:hover:not([disabled]) { border-color: #c0392b; color: #c0392b; background: #fde8ef; }
+.edit-mini-btn.move:hover:not([disabled]) { border-color: #b56010; color: #b56010; background: #fdf3e5; }
+.edit-mini-btn[disabled] { opacity: .3; cursor: default; }
+.edit-add-btn {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 7px;
+  padding: 4px 12px; border-radius: 6px; font-size: 13px; font-weight: 600;
+  color: var(--blue); border: 1.5px dashed #8bbfe0;
+  background: transparent; cursor: pointer; transition: .12s; font-family: inherit;
+}
+.edit-add-btn:hover { background: var(--blue-bg); }
+.edit-cont-row { display: flex; align-items: center; gap: 6px; width: 100%; padding: 2px 0; }
+
+.move-modal-bg {
+  position: fixed; inset: 0; background: rgba(0, 0, 0, .35);
+  display: flex; align-items: center; justify-content: center; z-index: 200;
+}
+.move-modal-bg[hidden] { display: none; }
+.move-modal {
+  background: #fff; border-radius: 14px; padding: 22px 26px;
+  min-width: 300px; max-width: 90vw; box-shadow: 0 12px 40px rgba(0, 0, 0, .18);
+}
+.move-modal h3 { font-size: 16px; color: var(--navy); margin-bottom: 4px; }
+.move-modal .move-sub { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+.move-modal label { display: block; font-size: 13px; color: var(--muted); font-weight: 600; margin: 12px 0 5px; }
+.move-modal select {
+  width: 100%; padding: 7px 10px; border: 1px solid var(--line);
+  border-radius: 7px; font: inherit; font-size: 14.5px; background: #fff; color: var(--ink);
+}
+.move-modal select:focus { outline: none; border-color: var(--blue); }
+.move-modal-btns { display: flex; gap: 8px; justify-content: flex-end; margin-top: 18px; }
+
+@media print {
+  .edit-banner, .pill-btn.edit-start, .pill-btn.edit-stop, .pill-btn.edit-dl, .saber-links { display: none !important; }
+}

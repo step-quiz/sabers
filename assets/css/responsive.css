@@ -1,0 +1,11 @@
+/* responsive.css — ajustos transversals que no encaixen dins de cap altre fitxer
+ * (els ajustos propis de cada vista viuen al seu propi CSS, al costat del
+ * component que afecten: repartiment.css i sabers.css ja porten les seves). */
+
+@media (max-width: 600px) {
+  .topbar { gap: 6px; padding: 0 10px; }
+  .topbar .pill-btn { font-size: 0; padding: 7px 9px; gap: 0; }
+  .topbar .pill-btn svg { width: 15px; height: 15px; }
+  .topbar .pill-btn.edit-dl { font-size: 12px; padding: 7px 10px; }
+  .topbar .pill-btn.edit-dl svg { margin-right: 2px; }
+}
