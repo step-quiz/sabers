@@ -1,0 +1,915 @@
+{
+  "_meta": {
+    "font": "Repartiment_de_continguts_ESO (2025-26).docx",
+    "descripcio": "Programació temporal de continguts de Matemàtiques ESO per curs, sentit matemàtic i tema. Les hores de cada bloc (sentit) es calculen sumant les hores dels seus temes; no es guarden com a valor fix.",
+    "cursOrder": [
+      "1ESO",
+      "2ESO",
+      "3ESO",
+      "4ESO"
+    ]
+  },
+  "sentits": {
+    "comprensio": {
+      "label": "Millora de la comprensió lectora",
+      "short": "Comprensió"
+    },
+    "numeric": {
+      "label": "Sentit numèric",
+      "short": "Numèric"
+    },
+    "espacial": {
+      "label": "Sentit espacial",
+      "short": "Espacial"
+    },
+    "mesura": {
+      "label": "Sentit de la mesura",
+      "short": "Mesura"
+    },
+    "algebraic": {
+      "label": "Sentit algebraic",
+      "short": "Algebraic"
+    },
+    "estocastic": {
+      "label": "Sentit estocàstic",
+      "short": "Estocàstic"
+    }
+  },
+  "cursos": {
+    "1ESO": {
+      "label": "1r d’ESO",
+      "horesAny": 90,
+      "horesInfo": "1r d’ESO  90 hores (aprox 10 setmanes/trimestre i 3h/setmana)",
+      "blocs": [
+        {
+          "sentit": "comprensio",
+          "temes": [
+            {
+              "id": "comprensio-lectora",
+              "label": "MILLORA DE LA COMPRENSIÓ LECTORA",
+              "continguts": [
+                "Adquisició de vocabulari específic.",
+                "Obtenció d’informació en textos d’àmbit matemàtic.",
+                "Expressió algebraica de patrons.",
+                "Resolució de problemes a partir d’un context (enunciats CB)"
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "numeric",
+          "temes": [
+            {
+              "id": "nombres-naturals",
+              "label": "Nombres naturals",
+              "continguts": [
+                "Definició de nombre natural",
+                "Ordre dels nombres naturals",
+                "Sistemes de numeració: base 2, base 10",
+                "Potències de base i exponents naturals",
+                "Jerarquia de les operacions",
+                "Operacions combinades"
+              ],
+              "hores": 9
+            },
+            {
+              "id": "divisibilitat",
+              "label": "Divisibilitat",
+              "continguts": [
+                "Divisibilitat",
+                "Múltiples",
+                "Divisors",
+                "Criteris de divisibilitat",
+                "Nombres primers i nombres compostos",
+                "Factorització en nombres primers",
+                "MCD i mcm"
+              ],
+              "hores": 9
+            },
+            {
+              "id": "nombres-decimals",
+              "label": "Nombres decimals",
+              "continguts": [
+                "Representació dels decimals a la recta numèrica",
+                "Ordre dels nombres decimals",
+                "Operacions amb nombres decimals",
+                "Aproximació per truncament i per arrodoniment"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "fraccions",
+              "label": "Fraccions",
+              "continguts": [
+                "Definició i representació d’una fracció",
+                "Fracció pròpia i impròpia",
+                "Fraccions equivalents",
+                "Simplificació de fraccions. Fracció irreductible.",
+                "Representació d’una fracció a la recta numèrica",
+                "Comparació de fraccions (gràficament)",
+                "Suma i resta de fraccions amb mateix denominador",
+                "Fracció d’un nombre"
+              ],
+              "hores": 9
+            },
+            {
+              "id": "fraccions-i-decimals",
+              "label": "Fraccions i decimals",
+              "continguts": [
+                "Expressar una fracció com un nombre decimal",
+                "Donat un decimal, expressar-lo com una fracció"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "arrel-quadrada",
+              "label": "Arrel quadrada",
+              "continguts": [
+                "Quadrats perfectes",
+                "Arrel quadrada exacta i no exacta"
+              ],
+              "hores": 3
+            }
+          ]
+        },
+        {
+          "sentit": "espacial",
+          "temes": [
+            {
+              "id": "elements-geometrics-al-pla",
+              "label": "Elements geomètrics al pla",
+              "continguts": [
+                "Punt, segment, recta, semirecta, circumferència, angle",
+                "Rectes secants, rectes paral·leles",
+                "Rectes perpendiculars",
+                "Vocabulari en una circumferència (radi, diàmetre, …)"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "angles",
+              "label": "Angles",
+              "continguts": [
+                "Angles que formen dues rectes secants",
+                "Representació d’angles convexos i còncaus",
+                "Mesura d’angles amb el transportador",
+                "Angles complementaris i suplementaris"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "poligons",
+              "label": "Polígons",
+              "continguts": [
+                "Vocabulari: vèrtex, costat, diagonal, angle intern",
+                "triangle, quadrilàter, pentàgon, hexàgon…",
+                "Definició de polígon regular"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "triangles",
+              "label": "Triangles",
+              "continguts": [
+                "Condició per poder construir un triangle",
+                "Suma dels 3 angles d’un triangle",
+                "Classificació de triangles segons angles i costats"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "geogebra",
+              "label": "Geogebra",
+              "continguts": [
+                "Es treballen continguts explicats, amb Geogebra"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "fotomatiques",
+              "label": "Fotomàtiques",
+              "continguts": [
+                "Estudi de fotografies matemàtiques publicades al centre."
+              ],
+              "hores": 2
+            }
+          ]
+        },
+        {
+          "sentit": "mesura",
+          "temes": [
+            {
+              "id": "magnituds-i-unitats",
+              "label": "Magnituds i unitats",
+              "continguts": [
+                "Mesures de longitud, massa i capacitat",
+                "Mesures de superfície"
+              ],
+              "hores": 2
+            },
+            {
+              "id": "escala",
+              "label": "Escala",
+              "continguts": [
+                "Escales en un plànol",
+                "Escales en un mapa",
+                "Tria adequada de l’escala per a representar"
+              ],
+              "hores": 2
+            },
+            {
+              "id": "calcul-de-perimetres",
+              "label": "Càlcul de perímetres",
+              "continguts": [
+                "Definició de perímetre",
+                "Càlcul del perímetre (quadrat, rectangle, polígon regular)",
+                "Càlcul del perímetre d’una circumferència"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "calcul-d-arees",
+              "label": "Càlcul d’àrees",
+              "continguts": [
+                "Definició de superfície. Visualització d’un metre quadrat",
+                "Càlcul de l’àrea (quadrat, rectangle, triangle)",
+                "Càlcul de l’àrea d’un cercle",
+                "Càlcul de l’àrea de figures que es poden descomposar"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "angles",
+              "label": "Angles",
+              "continguts": [
+                "Definició d’angles",
+                "Càlcul d’angles amb un transportador",
+                "Classificació d’angles",
+                "Càlcul d’angles complementaris, de triangles i quadrilàters"
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "algebraic",
+          "temes": [
+            {
+              "id": "llenguatge-algebraic",
+              "label": "Llenguatge algebraic",
+              "continguts": [
+                "Traduir al llenguatge algebraic un enunciat",
+                "(edat d’aquí 5 anys, perímetre d’un quadrat de costat x, etc.)"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "grafics-i-taules",
+              "label": "Gràfics i taules",
+              "continguts": [
+                "Interpretació de gràfics i taules. Buidat de dades i deducció de patrons a partir d’informació gràfica o de taules"
+              ],
+              "hores": 3
+            }
+          ]
+        }
+      ]
+    },
+    "2ESO": {
+      "label": "2n d’ESO",
+      "horesAny": 90,
+      "horesInfo": "2n d’ESO  90 hores (aprox 10 setmanes/trimestre i 3h/setmana)",
+      "blocs": [
+        {
+          "sentit": "comprensio",
+          "temes": [
+            {
+              "id": "comprensio-lectora",
+              "label": "MILLORA DE LA COMPRENSIÓ LECTORA",
+              "continguts": [
+                "Adquisició de vocabulari específic.",
+                "Obtenció d’informació en textos d’àmbit matemàtic.",
+                "Expressió algebraica de patrons.",
+                "Resolució de problemes a partir d’un context."
+              ],
+              "hores": 9
+            }
+          ]
+        },
+        {
+          "sentit": "numeric",
+          "temes": [
+            {
+              "id": "divisibilitat",
+              "label": "Divisibilitat",
+              "continguts": [
+                "Divisibilitat, múltiples, divisors",
+                "Nombres primers i compostos.",
+                "Màxim comú divisor",
+                "Mínim comú múltiple"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "fraccions",
+              "label": "Fraccions",
+              "continguts": [
+                "Representació de fraccions",
+                "Fracció d’un nombre",
+                "Suma i resta de fraccions amb mateix denominador",
+                "Fraccions equivalents. Reducció a comú denominador",
+                "Suma i resta de fraccions",
+                "Multiplicació de fraccions",
+                "Divisió de fraccions"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "percentatges",
+              "label": "Percentatges",
+              "continguts": [
+                "Relació entre fracció, decimal i percentatge",
+                "Representació gràfica d’un percentatge",
+                "Càlcul de percentatges menors o iguals que 100%",
+                "Càlcul de percentatges majors que 100%"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "nombres",
+              "label": "Nombres",
+              "continguts": [
+                "Representació dels enters a la recta real",
+                "Oposat d’un nombre enter. Valor absolut",
+                "Ordenar nombres enters",
+                "Suma d’enters",
+                "Resta d’enters",
+                "Multiplicació d’enters",
+                "Divisió d’enters"
+              ],
+              "hores": 9
+            },
+            {
+              "id": "potencies",
+              "label": "Potències",
+              "continguts": [
+                "Potències de base i exponents naturals",
+                "Potències de base entera i exponent natural",
+                "Potències de base racional i exponent natural"
+              ],
+              "hores": 3
+            }
+          ]
+        },
+        {
+          "sentit": "espacial",
+          "temes": [
+            {
+              "id": "vocabulari",
+              "label": "Vocabulari",
+              "continguts": [
+                "Vocabulari al pla: punt, segment, vèrtex, costat, polígon, polígon regular, circumferència (radi, diàmetre…)",
+                "Vocabulari a l’espai: vèrtex, aresta, cara, poliedre, cos de revolució"
+              ],
+              "hores": 2
+            },
+            {
+              "id": "poligons",
+              "label": "Polígons",
+              "continguts": [
+                "Vocabulari: triangle, quadrilàter, pentàgon, hexàgon…",
+                "Triangles: classificació segons angles i costats",
+                "Quadrilàters: paral·lelogram (rombe, rectangle, quadrat), trapezi",
+                "Polígons convexos i còncaus",
+                "Polígons regulars"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "triangles",
+              "label": "Triangles",
+              "continguts": [
+                "Les 3 altures d’un triangle qualsevol. Peu d’altura.",
+                "Triangle rectangle: angle recte, catets, hipotenusa",
+                "Teorema de Pitàgores",
+                "Teorema de l’altura",
+                "Resolució de triangles rectangles, coneguts 2 costats",
+                "Resolució de problemes aplicant el teorema de Pitàgores"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "circumferencia-i-cercle",
+              "label": "Circumferència i cercle",
+              "continguts": [
+                "Vocabulari en una circumferència (radi, diàmetre, …)",
+                "Arc capaç i arc central",
+                "Circumferència i polígon regular inscrit"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "geogebra",
+              "label": "Geogebra",
+              "continguts": [
+                "S’implementen conceptes treballats amb Geogebra"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "poliedres",
+              "label": "Poliedres",
+              "continguts": [
+                "Desenvolupament pla de poliedres",
+                "Fórmula d’Euler per a poliedres convexos",
+                "Poliedres regulars: tetraedre, cub, octaedre, dodecaedre, icosaedre"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "cossos-de-revolucio",
+              "label": "Cossos de revolució",
+              "continguts": [
+                "Cilindre. Base i altura.",
+                "Con. Base, altura i generatriu.",
+                "Desenvolupament pla de cilindre i de con",
+                "Esfera"
+              ],
+              "hores": 3
+            }
+          ]
+        },
+        {
+          "sentit": "mesura",
+          "temes": [
+            {
+              "id": "perimetres-i-arees-al-pla",
+              "label": "Perímetres i àrees al pla",
+              "continguts": [
+                "Càlcul del perímetre d’un polígon",
+                "Càlcul del perímetre d’una circumferència",
+                "Càlcul de l’àrea d’un quadrat, rectangle, triangle",
+                "Càlcul de l’àrea d’un rombe",
+                "Càlcul de l’àrea d’un paral·lelogram",
+                "Càlcul de l’àrea d’un trapezi",
+                "Càlcul de l’àrea d’un cercle"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "arees-i-volums-a-l-espai",
+              "label": "Àrees i volums a l’espai",
+              "continguts": [
+                "Construcció d’1 metre cúbic",
+                "Càlcul de l’àrea de les cares i càlcul del volum",
+                "d’un cub, ortoedre, piràmide, cilindre, con"
+              ],
+              "hores": 2
+            }
+          ]
+        },
+        {
+          "sentit": "algebraic",
+          "temes": [
+            {
+              "id": "el-pla-cartesia",
+              "label": "El pla cartesià",
+              "continguts": [
+                "Vocabulari: pla cartesià, coordenades d’un punt, eix d’abscisses i d’ordenades, origen de coordenades",
+                "Representació de punts al pla cartesià (4 quadrants)"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "proporcionalitat",
+              "label": "Proporcionalitat",
+              "continguts": [
+                "Magnituds directament proporcionals",
+                "y=mx. Funció lineal. Representació gràfica"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "llenguatge-algebraic",
+              "label": "Llenguatge algebraic",
+              "continguts": [
+                "Patrons geomètrics: traducció al llenguatge algebraic",
+                "Traducció al llenguatge algebraic d’un enunciat",
+                "Vocabulari: equació, identitat, grau equació, membres, termes, incògnita, resoldre, aïllar",
+                "Solució d’una equació. Comprovar la solució"
+              ],
+              "hores": 3
+            },
+            {
+              "id": "equacio-de-1r-grau",
+              "label": "Equació de 1r grau",
+              "continguts": [
+                "ax=b; ax+b=c",
+                "Resolució d’una equació agrupant termes i aplicant propietat distributiva",
+                "Resolució d’un enunciat plantejant una equació de 1r grau"
+              ],
+              "hores": 9
+            }
+          ]
+        },
+        {
+          "sentit": "estocastic",
+          "temes": [
+            {
+              "id": "variables-estadistiques",
+              "label": "Variables estadístiques",
+              "continguts": [
+                "Població i mostra",
+                "Variables quantitatives i qualitatives",
+                "Variables quantitatives discretes i contínues",
+                "Taula estadística: freqüència absoluta, relativa, percentatge",
+                "Gràfic de barres",
+                "Diagrama de sectors"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "mesures-de-centralitzacio",
+              "label": "Mesures de centralització",
+              "continguts": [
+                "La mediana i els quartils",
+                "La mitjana aritmètica",
+                "La mitjana aritmètica ponderada"
+              ],
+              "hores": 3
+            }
+          ]
+        }
+      ]
+    },
+    "3ESO": {
+      "label": "3r d’ESO",
+      "horesAny": 90,
+      "horesInfo": "3r d’ESO  90 hores (aprox 10 setmanes/trimestre i 3h/setmana)",
+      "blocs": [
+        {
+          "sentit": "comprensio",
+          "temes": [
+            {
+              "id": "comprensio-lectora",
+              "label": "MILLORA DE LA COMPRENSIÓ LECTORA",
+              "continguts": [
+                "Adquisició de vocabulari específic.",
+                "Obtenció d’informació en textos d’àmbit matemàtic.",
+                "Expressió algebraica de patrons.",
+                "Resolució de problemes a partir d’un context."
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "numeric",
+          "temes": [
+            {
+              "id": "nombres-enters",
+              "label": "Nombres enters",
+              "continguts": [
+                "Operacions combinades amb nombres enters",
+                "Potència de base entera i exponent natural",
+                "Potència amb exponent negatiu, amb exponent zero"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "notacio-cientifica",
+              "label": "Notació científica",
+              "continguts": [
+                "Potències de base 10, amb exponent positiu o negatiu",
+                "Aproximar nombres i expressar en notació científica",
+                "Multiplicar i dividir en notació científica"
+              ],
+              "hores": 3
+            }
+          ]
+        },
+        {
+          "sentit": "espacial",
+          "temes": [
+            {
+              "id": "semblanca",
+              "label": "Semblança",
+              "continguts": [
+                "Teorema de Tales",
+                "Triangles en posició de Tales. Triangles semblants",
+                "Resolució de problemes emprant semblança de triangles",
+                "Figures semblants. Raó de semblança (k>=1, k<1, k<0)"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "moviments-al-pla",
+              "label": "Moviments al pla",
+              "continguts": [
+                "Mòdul, direcció i sentit en un vector lliure",
+                "Coordenades d’un vector al pla cartesià. v=AB=B-A",
+                "Translació determinada per un vector",
+                "Gir determinat pel centre de gir i l’angle",
+                "Simetria axial",
+                "Simetria central"
+              ],
+              "hores": 9
+            }
+          ]
+        },
+        {
+          "sentit": "mesura",
+          "temes": [
+            {
+              "id": "semblanca",
+              "label": "Semblança",
+              "continguts": [
+                "Càlcul de perímetres i àrees de figures semblants",
+                "Raó entre perímetres de figures semblants i raó entre àrees de figures semblants"
+              ],
+              "hores": 3
+            }
+          ]
+        },
+        {
+          "sentit": "algebraic",
+          "temes": [
+            {
+              "id": "funcio-lineal-i-funcio-afi",
+              "label": "Funció lineal i funció afí",
+              "continguts": [
+                "Representació gràfica de y=mx i de y=mx+n",
+                "Pendent de la recta, ordenada a l’origen",
+                "Rectes paral·leles amb mateix pendent. Recta paral·lela a l’eix d’abscisses amb m=0",
+                "Equació de la recta que passa per dos punts, conegudes les seves coordenades",
+                "Equació de la recta conegut el pendent i també les coordenades d’un punt per on passa"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "llenguatge-algebraic",
+              "label": "Llenguatge algebraic",
+              "continguts": [
+                "Traducció al llenguatge algebraic d’un enunciat",
+                "Vocabulari: equació, identitat, grau equació, membres, termes, incògnita, resoldre, aïllar",
+                "Solució d’una equació. Comprovar la solució"
+              ],
+              "hores": 2
+            },
+            {
+              "id": "equacio-de-1r-grau",
+              "label": "Equació de 1r grau",
+              "continguts": [
+                "ax+b=c",
+                "Resolució d’equacions agrupant termes, aplicant distributiva i manipulant algebraicament denominadors"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "sistema-d-equacions",
+              "label": "Sistema d’equacions",
+              "continguts": [
+                "Resolució gràfica d’un sistema d’equacions",
+                "Nombre de solucions d’un sistema d’equacions i nombre de punts en comú que tenen 2 rectes",
+                "Resolució d’un sistema d’equacions: mètode substitució"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "estudi-d-una-funcio",
+              "label": "Estudi d’una funció",
+              "continguts": [
+                "Definició de funció. Exemples de no funció",
+                "Variable independent i variable dependent",
+                "Formes d’expressar una funció: text, taula de valors, gràfica, fórmula",
+                "Domini d’una funció",
+                "Creixement i decreixement. Intervals de nombres reals",
+                "Màxims i mínims relatius i també absoluts",
+                "Punts de tall de la gràfica amb eixos de coordenades"
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "estocastic",
+          "temes": [
+            {
+              "id": "experiments-aleatoris",
+              "label": "Experiments aleatoris",
+              "continguts": [
+                "Espai mostral",
+                "Esdeveniment elemental",
+                "Esdeveniment segur, impossible, contrari a un altre",
+                "Diagrames de Venn",
+                "Tècniques de recompte: taules i diagrames d’arbre",
+                "Probabilitat d’un esdeveniment",
+                "Regla de Laplace"
+              ],
+              "hores": 15
+            }
+          ]
+        }
+      ]
+    },
+    "4ESO": {
+      "label": "4t d’ESO",
+      "horesAny": 120,
+      "horesInfo": "4t d’ESO  120 hores (aprox 10 setmanes/trimestre i 4h/setmana)",
+      "blocs": [
+        {
+          "sentit": "comprensio",
+          "temes": [
+            {
+              "id": "comprensio-lectora",
+              "label": "MILLORA DE LA COMPRENSIÓ LECTORA",
+              "continguts": [
+                "Adquisició de vocabulari específic.",
+                "Obtenció d’informació en textos d’àmbit matemàtic.",
+                "Expressió algebraica de patrons.",
+                "Resolució de problemes a partir d’un context."
+              ],
+              "hores": 16
+            }
+          ]
+        },
+        {
+          "sentit": "numeric",
+          "temes": [
+            {
+              "id": "el-conjunt-de-nombres-reals",
+              "label": "El conjunt de nombres reals",
+              "continguts": [
+                "Subconjunts: naturals, enters, racionals, irracionals",
+                "Infinitud de nombres decimals entre dos nombres donats",
+                "Relació entre fracció, decimal i percentatge",
+                "Notació i convencions en escriure potències: exponent negatiu, exponent zero, exponent racional",
+                "Nombres que no són reals. Relació amb l’equació de segon grau: x^2=k (k<0)"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "logaritmes",
+              "label": "Logaritmes",
+              "continguts": [
+                "Definició i propietats dels logaritmes",
+                "Logaritmes en base 10. Logaritme neperià"
+              ],
+              "hores": 4
+            },
+            {
+              "id": "percentatge",
+              "label": "Percentatge",
+              "continguts": [
+                "Interpretació d’un diagrama de sectors",
+                "Mitjana aritmètica ponderada",
+                "Augments i disminucions percentuals",
+                "Càlcul de l’IVA",
+                "Interès en un crèdit"
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "espacial",
+          "temes": [
+            {
+              "id": "repas-previ-a-la-trigonometria",
+              "label": "Repàs previ a la Trigonometria",
+              "continguts": [
+                "Circumferència: radi, centre, angle central",
+                "Triangles rectangles: vocabulari. Teorema de Pitàgores.",
+                "Triangles semblants: propietats que compleixen els angles respectius i els costats respectius",
+                "Signe de les coordenades d’un punt en funció del quadrant"
+              ],
+              "hores": 4
+            }
+          ]
+        },
+        {
+          "sentit": "mesura",
+          "temes": [
+            {
+              "id": "trigonometria",
+              "label": "Trigonometria",
+              "continguts": [
+                "Definició de les raons trigonomètriques sin(A), cos(A)",
+                "Circumferència goniomètrica",
+                "Estudi de les raons dels angles 0º, 30º, 45º, 60º, 90º",
+                "Reducció del càlcul de raons trigonomètriques al primer quadrant: sin(180º-A), sin(180º+A), sin(360º-A)",
+                "Raons trigonomètriques d’angles complementaris",
+                "Teorema del sinus",
+                "Teorema del cosinus",
+                "Resolució de problemes i de triangles amb trigonometria"
+              ],
+              "hores": 12
+            }
+          ]
+        },
+        {
+          "sentit": "algebraic",
+          "temes": [
+            {
+              "id": "llenguatge-algebraic",
+              "label": "Llenguatge algebraic",
+              "continguts": [
+                "Expressar en llenguatge algebraic relacions o patrons mostrats en taules o en representacions gràfiques",
+                "Demostració d’identitats notables, de forma gràfica i manipulant algebraicament"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "equacio-de-2n-grau",
+              "label": "Equació de 2n grau",
+              "continguts": [
+                "Resolució de l’equació x^2=k",
+                "Resolució de l’equació (x-a)^2=k",
+                "Resolució de l’equació (ax-b)(cx-d)=0",
+                "Nombre de solucions que pot tenir una equació de 2n grau",
+                "Resolució d’una equació de 2n grau complerta",
+                "Discriminant d’una equació de 2n grau"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "funcio-quadratica",
+              "label": "Funció quadràtica",
+              "continguts": [
+                "Representació gràfica de y=ax^2",
+                "Representació gràfica de y=ax^2+c",
+                "Punts de tall amb els eixos de coordenades de la gràfica de y=ax^2+bx+c (gràficament i amb resolució d’equacions)",
+                "Vocabulari associat a la paràbola: branques, vèrtex, còncava, convexa, eix de simetria",
+                "Càlcul de les coordenades del vèrtex de la paràbola"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "magnituds-inversament-proporcionals",
+              "label": "Magnituds inversament proporcionals",
+              "continguts": [
+                "Definició de magnituds inversament proporcionals",
+                "Exemple: donada una àrea A=24, trobar tots els rectangles que tenen aquesta àrea.",
+                "Representació de la hipèrbola, a partir de y=k/x, segons k>0 o bé k<0"
+              ],
+              "hores": 6
+            },
+            {
+              "id": "funcio-exponencial-i-funcio-logaritmica",
+              "label": "Funció exponencial i funció logarítmica",
+              "continguts": [
+                "Funció exponencial: contextos on apareix.",
+                "Representació gràfica b^x, segons 0<b<1, b>1",
+                "Estudi d'asímptotes i del creixement/decreixement",
+                "Funció logarítmica: contextos on apareix. Domini",
+                "Representació gràfica log_b(x), amb base=10 o base=e"
+              ],
+              "hores": 6
+            }
+          ]
+        },
+        {
+          "sentit": "estocastic",
+          "temes": [
+            {
+              "id": "variable",
+              "label": "Variable",
+              "continguts": [
+                "Variables quantitatives discretes",
+                "Variables quantitatives contínues. Marca de classe",
+                "Paràmetres de centralització.",
+                "Paràmetres de dispersió."
+              ],
+              "hores": 10
+            },
+            {
+              "id": "combinatoria",
+              "label": "Combinatòria",
+              "continguts": [
+                "Variacions",
+                "Permutacions. Factorial d’un nombre",
+                "Variacions amb repetició",
+                "Combinacions.",
+                "Triangle de Tartaglia. Binomi de Newton"
+              ],
+              "hores": 8
+            },
+            {
+              "id": "probabilitat",
+              "label": "Probabilitat",
+              "continguts": [
+                "Diagrames de Venn",
+                "Regla de Laplace per a esdeveniments equiprobables",
+                "Probabilitat condicionada",
+                "Probabilitat composta",
+                "Llei dels grans nombres"
+              ],
+              "hores": 10
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

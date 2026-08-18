@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "descripcio": "Relació entre cada saber (data-sabers.json, per id) i el/s tema/es del repartiment (data-repartiment.json) on s'imparteix. La clau és l'id del saber; el valor és una llista de 'rid' amb format 'CURS__sentit__temaId'. Una llista buida indica un saber transversal sense tema dedicat en un únic bloc."
+  },
+  "links": {
+    "jerarquia-operacions-operacions-combinades": [
+      "1ESO__numeric__nombres-naturals"
+    ],
+    "identificacio": [
+      "1ESO__numeric__fraccions"
+    ],
+    "concepte-multiple-divisor-identificacio-nombres-primers": [
+      "1ESO__numeric__divisibilitat"
+    ],
+    "unitats-mesura-canvis-d-unitat-sistema": [
+      "1ESO__mesura__magnituds-i-unitats"
+    ],
+    "calcul-perimetres-arees-figures-basiques-quadrat": [
+      "1ESO__mesura__calcul-de-perimetres",
+      "1ESO__mesura__calcul-d-arees"
+    ],
+    "geometria-sintetica": [
+      "1ESO__espacial__elements-geometrics-al-pla",
+      "1ESO__espacial__triangles"
+    ],
+    "geometria-circumferencia-vocabulari-basic-corda": [],
+    "calcul-superficies-descomposicio-figures-d-area": [
+      "1ESO__mesura__calcul-d-arees"
+    ],
+    "coneixement-us-l-error-absolut-relatiu": [],
+    "descomposicio-problemes-parts-mes-petites-com": [],
+    "formulacio-preguntes-no-esbiaixades-recollida": [],
+    "divisibilitat": [
+      "2ESO__numeric__divisibilitat"
+    ],
+    "operar-fraccions-4-operacions-fraccio-d": [
+      "2ESO__numeric__fraccions"
+    ],
+    "relacio-fraccio-decimal-percentatge-calcul-percentatges": [
+      "2ESO__numeric__percentatges"
+    ],
+    "comprendre-relacio-entre-fraccio": [
+      "2ESO__algebraic__proporcionalitat"
+    ],
+    "proporcionalitat-directa-regla-tres-identificar-quan": [
+      "2ESO__algebraic__proporcionalitat"
+    ],
+    "nombres-enters": [
+      "2ESO__numeric__nombres"
+    ],
+    "estimacio-aproximacio-sentit-critic-l-error": [],
+    "calcul-mental-us-raonat-calculadora-full": [],
+    "distingir-entre-area-perimetre-son-conceptes": [
+      "2ESO__mesura__perimetres-i-arees-al-pla"
+    ],
+    "teorema-pitagores": [
+      "2ESO__espacial__triangles"
+    ],
+    "estudi-propietats-elements-cossos-geometrics-classificacio": [
+      "2ESO__espacial__poliedres",
+      "2ESO__espacial__cossos-de-revolucio"
+    ],
+    "pla-cartesia": [
+      "2ESO__algebraic__el-pla-cartesia"
+    ],
+    "traduir-enunciat-llenguatge-algebraic": [
+      "2ESO__algebraic__llenguatge-algebraic"
+    ],
+    "resoldre-equacions-1r-grau-plantejar-des": [
+      "2ESO__algebraic__equacio-de-1r-grau"
+    ],
+    "analisi-solucions-d-problema": [],
+    "lectura-construccio-taules-grafics-estadistics-barres": [
+      "2ESO__estocastic__variables-estadistiques"
+    ],
+    "confeccio-taules-frequencies-absolutes": [
+      "2ESO__estocastic__mesures-de-centralitzacio"
+    ],
+    "notacio-cientifica-lectura-nombres-molt-grans": [
+      "3ESO__numeric__notacio-cientifica"
+    ],
+    "potencies": [
+      "3ESO__numeric__nombres-enters"
+    ],
+    "existencia-nombres-no-racionals-decimals-no": [
+      "3ESO__numeric__nombres-enters"
+    ],
+    "resolucio-problemes-proporcionalitat-directa": [],
+    "transformacions-geometriques": [
+      "3ESO__espacial__moviments-al-pla"
+    ],
+    "calcul-volum-cossos-basics-cub": [
+      "3ESO__mesura__semblanca"
+    ],
+    "interpretar-representar-funcio-text": [
+      "3ESO__algebraic__funcio-lineal-i-funcio-afi",
+      "3ESO__algebraic__estudi-d-una-funcio"
+    ],
+    "comprendre-es-necessari-vegades-resoldre-sistema": [
+      "3ESO__algebraic__sistema-d-equacions"
+    ],
+    "aprendre-gestionar-equacions-on-incognita-no": [
+      "3ESO__algebraic__equacio-de-1r-grau"
+    ],
+    "estudi-funcio-proporcionalitat-inversa": [
+      "3ESO__algebraic__estudi-d-una-funcio"
+    ],
+    "distingir-succes-segur-impossible-possible-contrari": [
+      "3ESO__estocastic__experiments-aleatoris"
+    ],
+    "regla-laplace-probabilitat-d-succes": [
+      "3ESO__estocastic__experiments-aleatoris"
+    ],
+    "reconeixement-d-esdeveniments-dependents-independents": [
+      "3ESO__estocastic__experiments-aleatoris"
+    ],
+    "mitjana-aritmetica-ponderada": [
+      "4ESO__estocastic__variable"
+    ],
+    "combinatoria-basica-numeric": [
+      "4ESO__estocastic__combinatoria"
+    ],
+    "equacio-2n-grau-resolucio": [
+      "4ESO__algebraic__equacio-de-2n-grau"
+    ],
+    "parabola": [
+      "4ESO__algebraic__funcio-quadratica"
+    ],
+    "mesures-dispersio": [
+      "4ESO__estocastic__variable"
+    ],
+    "combinatoria-basica-estocastic": [
+      "4ESO__estocastic__combinatoria"
+    ]
+  }
+}

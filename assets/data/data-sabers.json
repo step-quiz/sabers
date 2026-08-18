@@ -1,0 +1,1511 @@
+{
+  "_meta": {
+    "font": "Assoliment_sabers_ESO.xlsx (fulls 'Sabers bàsics ESO' + 'Traçabilitat sabers')",
+    "descripcio": "Llista de sabers/assoliments curriculars de Matemàtiques ESO, amb el curs on cal impartir-los, en quins altres cursos apareixen (repàs, ampliació...), el seu codi de currículum, connexions amb altres sabers, i el text oficial vs. la redacció interna del departament.",
+    "cursOrder": [
+      "1ESO",
+      "2ESO",
+      "3ESO",
+      "4ESO"
+    ],
+    "notaApareix": "El camp 'nota' dins 'apareix' recull qualificadors del document font (p. ex. 'enters', 'breu', 'lineal', 'parcial', 'repàs', 'nocions', 'intuïtiu') que maticen com apareix el saber en aquell curs; 'puntual' indica una aparició marcada amb un punt (.) a la font, en contrast amb una marca ✓ plena."
+  },
+  "sabers": [
+    {
+      "id": "jerarquia-operacions-operacions-combinades",
+      "codi": "NUM.SO",
+      "sentit": "numeric",
+      "bloc": "Sentit de les operacions",
+      "saber": "Jerarquia de les operacions i operacions combinades",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "enters"
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.QU"
+      ],
+      "fontOficial": "Ús de les propietats de les operacions aritmètiques per realitzar càlculs de manera eficient (naturals, enters, fraccions, decimals).",
+      "fontInterna": "Interpretació dels efectes de les operacions aritmètiques amb nombres enters, fraccions i expressions decimals."
+    },
+    {
+      "id": "divisibilitat",
+      "codi": "NUM.RE",
+      "sentit": "numeric",
+      "bloc": "Relacions",
+      "saber": "Divisibilitat, MCD i mcm",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Utilització de factors primers, múltiples i divisors per resoldre problemes.",
+      "fontInterna": "Utilització de factors primers, múltiples i divisors per resoldre problemes, mitjançant estratègies i/o eines diverses."
+    },
+    {
+      "id": "operar-fraccions-4-operacions-fraccio-d",
+      "codi": "NUM.SO",
+      "sentit": "numeric",
+      "bloc": "Sentit de les operacions",
+      "saber": "Operar amb fraccions (4 operacions) i fracció d'un nombre",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": "parcial"
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.QU",
+        "#NUM.RP"
+      ],
+      "fontOficial": "Reconeixement i aplicació de les operacions amb nombres enters, fraccionaris o decimals per resoldre situacions contextualitzades.",
+      "fontInterna": "Reconeixement i aplicació de les operacions amb nombres enters, fraccionaris o decimals útils per resoldre situacions contextualitzades."
+    },
+    {
+      "id": "relacio-fraccio-decimal-percentatge-calcul-percentatges",
+      "codi": "NUM.QU / NUM.RP",
+      "sentit": "numeric",
+      "bloc": "Quantitat / Raonament proporcional",
+      "saber": "Relació fracció–decimal–percentatge i càlcul de percentatges",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.RP"
+      ],
+      "fontOficial": "Selecció i utilització de la representació més adequada d'una mateixa quantitat (natural, sencer, decimal o fracció) per a cada situació.",
+      "fontInterna": "Percentatges: comprensió i utilització en la resolució de problemes, inclosos els majors que 100% o menors que 1%."
+    },
+    {
+      "id": "comprendre-relacio-entre-fraccio",
+      "codi": "NUM.RP",
+      "sentit": "numeric",
+      "bloc": "Raonament proporcional",
+      "saber": "Comprendre la relació entre fracció, proporció, escala",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ESP.FG",
+        "#MES.MA"
+      ],
+      "fontOficial": "Identificació de situacions proporcionals i no proporcionals en problemes de la vida quotidiana.",
+      "fontInterna": "Identificació de situacions proporcionals i no proporcionals (incloent proporcionalitat inversa) en problemes de la vida quotidiana."
+    },
+    {
+      "id": "proporcionalitat-directa-regla-tres-identificar-quan",
+      "codi": "NUM.RP",
+      "sentit": "numeric",
+      "bloc": "Raonament proporcional",
+      "saber": "Proporcionalitat directa (regla de tres) i identificar quan NO és proporcional o és inversament proporcional",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.MM"
+      ],
+      "fontOficial": "Desenvolupament i anàlisi de mètodes per resoldre problemes en situacions de proporcionalitat directa en diferents contextos.",
+      "fontInterna": "Desenvolupament i anàlisi de mètodes per resoldre problemes en situacions de proporcionalitat directa (augments/disminucions percentuals, rebaixes, impostos, escales…)."
+    },
+    {
+      "id": "nombres-enters",
+      "codi": "NUM.QU / NUM.SO",
+      "sentit": "numeric",
+      "bloc": "Quantitat / Sentit de les operacions",
+      "saber": "Nombres enters: operar-hi amb soltesa (signes, ordre, op. combinades)",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Ús dels nombres enters, fraccions, decimals i arrels per expressar quantitats en diferents contextos, amb la precisió requerida.",
+      "fontInterna": "Reconeixement i aplicació de diferents formes de representació (inclosa la recta numèrica) dels nombres enters."
+    },
+    {
+      "id": "estimacio-aproximacio-sentit-critic-l-error",
+      "codi": "NUM.QU",
+      "sentit": "numeric",
+      "bloc": "Quantitat",
+      "saber": "Estimació i aproximació amb sentit crític de l'error (és raonable aquest resultat? quants decimals calen?)",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.ER"
+      ],
+      "fontOficial": "Expressió d'estimacions amb la precisió requerida.",
+      "fontInterna": "Expressió d'estimacions amb la precisió requerida."
+    },
+    {
+      "id": "calcul-mental-us-raonat-calculadora-full",
+      "codi": "NUM.SO",
+      "sentit": "numeric",
+      "bloc": "Sentit de les operacions",
+      "saber": "Càlcul mental i ús raonat de la calculadora / full de càlcul (saber quan calcular de cap, a mà o amb eina)",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Aplicació d'estratègies de càlcul mental amb nombres naturals, fraccions i decimals.",
+      "fontInterna": "Ús de les propietats de les operacions per fer càlculs de manera eficient (mentalment, a mà, amb calculadora o full de càlcul), adaptant les estratègies a cada situació."
+    },
+    {
+      "id": "notacio-cientifica-lectura-nombres-molt-grans",
+      "codi": "NUM.QU",
+      "sentit": "numeric",
+      "bloc": "Quantitat",
+      "saber": "Notació científica i lectura de nombres molt grans i molt petits (frontera: discutible com a must universal)",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Interpretació de nombres grans i petits; reconeixement i utilització de la notació exponencial i científica.",
+      "fontInterna": "Interpretació de nombres grans i petits, reconeixement i utilització de la notació exponencial i científica (a mà i a la calculadora/full de càlcul)."
+    },
+    {
+      "id": "potencies",
+      "codi": "NUM.SO",
+      "sentit": "numeric",
+      "bloc": "Sentit de les operacions",
+      "saber": "Potències",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.QU"
+      ],
+      "fontOficial": "Comprensió i utilització de les relacions inverses (potència i arrels) per simplificar i resoldre problemes.",
+      "fontInterna": "Comprensió i utilització de les relacions inverses, entre la potència i les arrels, per simplificar i resoldre problemes."
+    },
+    {
+      "id": "mitjana-aritmetica-ponderada",
+      "codi": "EST.DI",
+      "sentit": "numeric",
+      "bloc": "Distribució",
+      "saber": "Mitjana aritmètica ponderada",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "breu"
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.SO"
+      ],
+      "fontOficial": "Mesures de centralització i dispersió: interpretació i càlcul.",
+      "fontInterna": "Mesures de centralització i dispersió: interpretació i càlcul (amb suport tecnològic)."
+    },
+    {
+      "id": "combinatoria-basica-numeric",
+      "codi": "NUM.CO",
+      "sentit": "numeric",
+      "bloc": "Comptatge",
+      "saber": "Combinatòria bàsica: comprendre què significa \"combinació\", \"variació\", \"permutació\" i com fer un arbre de recompte. No cal fer els nombres combinatoris, però sí veure com cada context ens duu a una manera diferent de recomptar sistemàticament",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#EST.DI"
+      ],
+      "fontOficial": "Resolució de problemes en què s'hagin de fer recomptes sistemàtics (diagrames d'arbre, tècniques de combinatòria).",
+      "fontInterna": "Resolució de problemes i situacions en què s'hagin de fer recomptes sistemàtics (tècniques de combinatòria)."
+    },
+    {
+      "id": "identificacio",
+      "codi": "NUM.QU",
+      "sentit": "numeric",
+      "bloc": "Quantitat",
+      "saber": "Identificació, representació i ús d'una fracció en diferents contextos (com a divisió, operador i raó)",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.SO",
+        "#NUM.RP"
+      ],
+      "fontOficial": "Identificació, representació i ús d'una fracció en diferents contextos.",
+      "fontInterna": "Reconeixement i aplicació de diferents formes de representació (inclosa la recta numèrica) de nombres fraccionaris i decimals."
+    },
+    {
+      "id": "concepte-multiple-divisor-identificacio-nombres-primers",
+      "codi": "NUM.RE",
+      "sentit": "numeric",
+      "bloc": "Relacions",
+      "saber": "Concepte de múltiple i divisor; identificació de nombres primers i compostos",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Adquisició del concepte de múltiple i divisor d'un nombre; identificació de nombres primers i compostos.",
+      "fontInterna": "Utilització de factors primers, múltiples i divisors per resoldre problemes."
+    },
+    {
+      "id": "existencia-nombres-no-racionals-decimals-no",
+      "codi": "NUM.QU",
+      "sentit": "numeric",
+      "bloc": "Quantitat",
+      "saber": "Existència de nombres no racionals; decimals no exactes ni periòdics",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.RE"
+      ],
+      "fontOficial": "Existència de nombres no racionals. Nombres decimals no exactes ni periòdics.",
+      "fontInterna": "Selecció i utilització de la representació més adequada d'una mateixa quantitat per a cada situació."
+    },
+    {
+      "id": "resolucio-problemes-proporcionalitat-directa",
+      "codi": "NUM.RP",
+      "sentit": "numeric",
+      "bloc": "Raonament proporcional",
+      "saber": "Resolució de problemes de proporcionalitat directa, inversa i repartiments proporcionals",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.MM"
+      ],
+      "fontOficial": "Resolució de problemes de proporcionalitat directa, inversa i repartiments proporcionals en diferents contextos.",
+      "fontInterna": "Identificació de situacions proporcionals i no proporcionals (incloent proporcionalitat inversa) en problemes de la vida quotidiana."
+    },
+    {
+      "id": "unitats-mesura-canvis-d-unitat-sistema",
+      "codi": "MES.ME",
+      "sentit": "espacial-mesura",
+      "bloc": "Mesurament",
+      "saber": "Unitats de mesura i canvis d'unitat del sistema mètric (longitud, massa, capacitat, superfície)",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.MA"
+      ],
+      "fontOficial": "Elecció de les unitats i operacions adequades en situacions que impliquin mesura.",
+      "fontInterna": "Elecció de les unitats i operacions adequades en situacions que impliquin mesura."
+    },
+    {
+      "id": "calcul-perimetres-arees-figures-basiques-quadrat",
+      "codi": "MES.ME",
+      "sentit": "espacial-mesura",
+      "bloc": "Mesurament",
+      "saber": "Càlcul de perímetres i àrees de figures bàsiques (quadrat, rectangle, triangle, cercle)",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ESP.FG"
+      ],
+      "fontOficial": "Deducció, interpretació i aplicació de les principals estratègies per obtenir longituds, àrees i volums en figures planes i tridimensionals.",
+      "fontInterna": "Deducció, interpretació i aplicació de les principals estratègies per obtenir longituds, àrees i volums en figures planes."
+    },
+    {
+      "id": "geometria-sintetica",
+      "codi": "ESP.FG",
+      "sentit": "espacial-mesura",
+      "bloc": "Formes geomètriques de 2 i 3 dimensions",
+      "saber": "Geometria sintètica: estudi de les propietats d'un triangle, classificació de quadrilàters, mesura d'angles amb transportador, propietats dels angles",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.ME"
+      ],
+      "fontOficial": "Descripció i classificació de formes geomètriques en funció de les seves propietats o característiques.",
+      "fontInterna": "Descripció i classificació de formes geomètriques, en funció de les seves propietats o característiques (formes planes)."
+    },
+    {
+      "id": "geometria-circumferencia-vocabulari-basic-corda",
+      "codi": "ESP.FG",
+      "sentit": "espacial-mesura",
+      "bloc": "Formes geomètriques de 2 i 3 dimensions",
+      "saber": "Geometria de la circumferència. Vocabulari bàsic (corda, diàmetre...) i fórmula per a trobar el perímetre d'una circumferència",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.ME"
+      ],
+      "fontOficial": "Construcció de formes geomètriques amb diferents eines (regle, transportador, Geogebra).",
+      "fontInterna": "Construcció de formes geomètriques amb diferents eines: regle, transportador, materials manipulables, Geogebra."
+    },
+    {
+      "id": "distingir-entre-area-perimetre-son-conceptes",
+      "codi": "MES.ME",
+      "sentit": "espacial-mesura",
+      "bloc": "Mesurament",
+      "saber": "Distingir entre àrea i perímetre. Són conceptes bàsics que sovint l'alumnat confón.",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ESP.FG"
+      ],
+      "fontOficial": "Atributs mesurables dels objectes físics i matemàtics: recerca i relació entre aquests.",
+      "fontInterna": "Atributs mesurables dels objectes físics i matemàtics: recerca i relació entre aquests."
+    },
+    {
+      "id": "teorema-pitagores",
+      "codi": "ESP.FG",
+      "sentit": "espacial-mesura",
+      "bloc": "Formes geomètriques de 2 i 3 dimensions",
+      "saber": "Teorema de Pitàgores",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "repàs"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.ME",
+        "#NUM.SO"
+      ],
+      "fontOficial": "Reconeixement de relacions geomètriques en figures planes i tridimensionals (relació pitagòrica).",
+      "fontInterna": "Relació entre les aplicacions dels teoremes de Tales i de Pitàgores en diferents contextos històrics (Grècia, Índia, Xina)."
+    },
+    {
+      "id": "transformacions-geometriques",
+      "codi": "ESP.MT",
+      "sentit": "espacial-mesura",
+      "bloc": "Moviments i transformacions",
+      "saber": "Transformacions geomètriques: girs, translacions i simetries (frontera: discutible com a must universal)",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Anàlisi de transformacions elementals com girs, translacions i simetries en situacions diverses.",
+      "fontInterna": "Anàlisi de transformacions elementals com girs, translacions i simetries utilitzant eines tecnològiques i/o manipulatives."
+    },
+    {
+      "id": "calcul-volum-cossos-basics-cub",
+      "codi": "MES.ME",
+      "sentit": "espacial-mesura",
+      "bloc": "Mesurament",
+      "saber": "Càlcul del volum dels cossos bàsics (cub, ortoedre, cilindre…)",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ESP.FG"
+      ],
+      "fontOficial": "Deducció, interpretació i aplicació de les estratègies per obtenir volums en figures tridimensionals.",
+      "fontInterna": "Deducció, interpretació i aplicació de les principals estratègies per obtenir volums (figures tridimensionals)."
+    },
+    {
+      "id": "estudi-propietats-elements-cossos-geometrics-classificacio",
+      "codi": "ESP.FG",
+      "sentit": "espacial-mesura",
+      "bloc": "Formes geomètriques de 2 i 3 dimensions",
+      "saber": "Estudi de les propietats i elements de cossos geomètrics; classificació de poliedres",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#MES.ME"
+      ],
+      "fontOficial": "Estudi de les propietats i els elements de cossos geomètrics. Classificació de poliedres.",
+      "fontInterna": "Descripció i classificació de formes geomètriques en funció de les seves propietats (formes tridimensionals)."
+    },
+    {
+      "id": "calcul-superficies-descomposicio-figures-d-area",
+      "codi": "MES.ME",
+      "sentit": "espacial-mesura",
+      "bloc": "Mesurament",
+      "saber": "Càlcul de superfícies per descomposició en figures d'àrea coneguda; mesura d'angles de polígons",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ESP.FG"
+      ],
+      "fontOficial": "Càlcul de superfícies de regions poligonals per descomposició en figures d'àrea coneguda; mesura d'angles de polígons.",
+      "fontInterna": "Deducció, interpretació i aplicació de les principals estratègies per obtenir longituds i àrees en figures planes."
+    },
+    {
+      "id": "coneixement-us-l-error-absolut-relatiu",
+      "codi": "MES.ER",
+      "sentit": "espacial-mesura",
+      "bloc": "Estimació i relacions",
+      "saber": "Coneixement i ús de l'error absolut i relatiu per adequar la precisió dels resultats",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.QU"
+      ],
+      "fontOficial": "Coneixement i ús de l'error absolut i relatiu per convenir i adequar la precisió dels resultats.",
+      "fontInterna": "Presa de decisió justificada del grau de precisió requerida en situacions de mesura."
+    },
+    {
+      "id": "pla-cartesia",
+      "codi": "ESP.LS",
+      "sentit": "algebraic",
+      "bloc": "Localització i sistemes de representació",
+      "saber": "El pla cartesià",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.RF"
+      ],
+      "fontOficial": "Localització i descripció de relacions espacials: coordenades geomètriques i altres sistemes de representació.",
+      "fontInterna": "Localització i descripció de relacions espacials: coordenades geomètriques i altres sistemes de representació."
+    },
+    {
+      "id": "traduir-enunciat-llenguatge-algebraic",
+      "codi": "ALG.MM / ALG.VA",
+      "sentit": "algebraic",
+      "bloc": "Model matemàtic / Variable",
+      "saber": "Traduir un enunciat al llenguatge algebraic",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.ID"
+      ],
+      "fontOficial": "Representació abstracta i simplificada de la realitat utilitzant el llenguatge i eines de les matemàtiques.",
+      "fontInterna": "Modelització i resolució de problemes contextualitzats basant-se en representacions matemàtiques i en el llenguatge algebraic."
+    },
+    {
+      "id": "resoldre-equacions-1r-grau-plantejar-des",
+      "codi": "ALG.ID",
+      "sentit": "algebraic",
+      "bloc": "Igualtat i desigualtat",
+      "saber": "Resoldre equacions de 1r grau i plantejar-les des d'un enunciat",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.MM",
+        "#NUM.SO"
+      ],
+      "fontOficial": "Resolució de problemes d'equacions de primer grau contextualitzats.",
+      "fontInterna": "Cerca de solucions en equacions lineals, tant manualment com utilitzant la tecnologia."
+    },
+    {
+      "id": "interpretar-representar-funcio-text",
+      "codi": "ALG.RF",
+      "sentit": "algebraic",
+      "bloc": "Relacions i funcions",
+      "saber": "Interpretar i representar una funció (text, taula, gràfic, fórmula) i funció lineal/afí",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "lineal"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.VA",
+        "#ESP.LS"
+      ],
+      "fontOficial": "Estudi i aplicació en contextos de les funcions constant, lineal o de proporcionalitat directa i afí; representació i característiques (pendent, ordenada a l'origen).",
+      "fontInterna": "Identificació i ús de funcions, lineals o no lineals, i comparació de propietats a partir de taules, gràfiques o expressions algebraiques (funció lineal)."
+    },
+    {
+      "id": "comprendre-es-necessari-vegades-resoldre-sistema",
+      "codi": "ALG.ID",
+      "sentit": "algebraic",
+      "bloc": "Igualtat i desigualtat",
+      "saber": "Comprendre per què és necessari de vegades resoldre un sistema d'equacions lineals. 2 equacions amb 2 incògnites. Sense mencionar SI/SCI/SCD, cal saber que un sistema té 3 tipus de solucions: infinites, cap, o una única solució.",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.MM"
+      ],
+      "fontOficial": "Resolució de problemes contextualitzats a través de sistemes de dues equacions lineals amb dues incògnites.",
+      "fontInterna": "Cerca de solucions en sistemes d'equacions lineals, tant manualment com utilitzant la tecnologia."
+    },
+    {
+      "id": "aprendre-gestionar-equacions-on-incognita-no",
+      "codi": "ALG.MM / ALG.VA",
+      "sentit": "algebraic",
+      "bloc": "Model matemàtic / Variable",
+      "saber": "Aprendre a gestionar equacions on la incògnita no es diu \"x\". Per exemple, comprendre que la llei d'Ohm en el fons planteja una equació de 1r grau ax=b",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.ID"
+      ],
+      "fontOficial": "Ús de variables en situacions contextualitzades.",
+      "fontInterna": "Comprensió del concepte de variable en les seves diferents naturaleses."
+    },
+    {
+      "id": "equacio-2n-grau-resolucio",
+      "codi": "ALG.ID",
+      "sentit": "algebraic",
+      "bloc": "Igualtat i desigualtat",
+      "saber": "Equació de 2n grau (resolució)",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.RF"
+      ],
+      "fontOficial": "Resolució de problemes senzills d'equacions quadràtiques contextualitzats.",
+      "fontInterna": "Cerca de solucions en equacions quadràtiques, tant manualment com utilitzant la tecnologia."
+    },
+    {
+      "id": "parabola",
+      "codi": "ALG.RF",
+      "sentit": "algebraic",
+      "bloc": "Relacions i funcions",
+      "saber": "La paràbola",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.ID",
+        "#ESP.VM"
+      ],
+      "fontOficial": "Estudi i aplicació en contextos de la funció quadràtica i les seves característiques (paràbola, vèrtex, simetria, punts de tall).",
+      "fontInterna": "Identificació de relacions quantitatives i determinació dels tipus de funcions que les modelitzen (funcions quadràtiques)."
+    },
+    {
+      "id": "analisi-solucions-d-problema",
+      "codi": "ALG.MM",
+      "sentit": "algebraic",
+      "bloc": "Model matemàtic",
+      "saber": "Anàlisi de les solucions d'un problema, presa de decisions i formulació de prediccions",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.RP"
+      ],
+      "fontOficial": "Anàlisi de les solucions d'un problema, presa de decisions en conseqüència i formulació de prediccions, si escau.",
+      "fontInterna": "Obtenció de conclusions raonables sobre una situació de la vida quotidiana una vegada modelitzada."
+    },
+    {
+      "id": "estudi-funcio-proporcionalitat-inversa",
+      "codi": "ALG.RF",
+      "sentit": "algebraic",
+      "bloc": "Relacions i funcions",
+      "saber": "Estudi de la funció de proporcionalitat inversa: representació i característiques",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.RP",
+        "#ESP.VM"
+      ],
+      "fontOficial": "Estudi i aplicació en contextos de la funció de proporcionalitat inversa: representació i característiques.",
+      "fontInterna": "Identificació i ús de funcions, lineals o no lineals, i comparació de propietats a partir de taules, gràfiques o expressions algebraiques."
+    },
+    {
+      "id": "descomposicio-problemes-parts-mes-petites-com",
+      "codi": "ALG.PC",
+      "sentit": "algebraic",
+      "bloc": "Pensament computacional",
+      "saber": "Descomposició de problemes en parts més petites com a estratègia de resolució",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#SOE"
+      ],
+      "fontOficial": "Descomposició de problemes en parts més petites com a estratègia de resolució.",
+      "fontInterna": "Identificació i ús d'estratègies quan s'interpreten, modifiquen o creen algorismes (processos seqüencials, bucles, condicionals, variables)."
+    },
+    {
+      "id": "lectura-construccio-taules-grafics-estadistics-barres",
+      "codi": "EST.DI",
+      "sentit": "estocastic",
+      "bloc": "Distribució",
+      "saber": "Lectura i construcció de taules i gràfics estadístics (barres, sectors); mitjana i mediana",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": "barres"
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#ALG.VA"
+      ],
+      "fontOficial": "Anàlisi i interpretació de taules i gràfics estadístics de variables qualitatives, quantitatives discretes i contínues.",
+      "fontInterna": "Anàlisi i interpretació de taules i gràfics estadístics de variables qualitatives, quantitatives discretes i contínues."
+    },
+    {
+      "id": "distingir-succes-segur-impossible-possible-contrari",
+      "codi": "EST.PI",
+      "sentit": "estocastic",
+      "bloc": "Predictibilitat i incertesa",
+      "saber": "Distingir succés segur/impossible/possible/contrari; improbable ≠ impossible",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": "nocions"
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "nocions"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Identificació de fenòmens deterministes i aleatoris.",
+      "fontInterna": "Identificació de fenòmens deterministes i aleatoris."
+    },
+    {
+      "id": "regla-laplace-probabilitat-d-succes",
+      "codi": "EST.PI",
+      "sentit": "estocastic",
+      "bloc": "Predictibilitat i incertesa",
+      "saber": "Regla de Laplace i probabilitat d'un succés",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": "intuïtiu"
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.RP"
+      ],
+      "fontOficial": "Assignació de la probabilitat a partir de l'experimentació i del concepte de freqüència relativa.",
+      "fontInterna": "Interpretació de la probabilitat com a mesura associada a la incertesa d'experiments aleatoris."
+    },
+    {
+      "id": "mesures-dispersio",
+      "codi": "EST.DI",
+      "sentit": "estocastic",
+      "bloc": "Distribució",
+      "saber": "Mesures de dispersió: la idea que descriuen la variabilitat de les dades",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": false,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.SO"
+      ],
+      "fontOficial": "Reconeixement que les mesures de dispersió descriuen la variabilitat de les dades.",
+      "fontInterna": "Mesures de dispersió: interpretació i càlcul; reconeixement que descriuen la variabilitat de les dades."
+    },
+    {
+      "id": "combinatoria-basica-estocastic",
+      "codi": "NUM.CO",
+      "sentit": "estocastic",
+      "bloc": "Comptatge",
+      "saber": "Combinatòria bàsica: comprendre què significa \"combinació\", \"variació\", \"permutació\" i com fer un arbre de recompte. No cal fer els nombres combinatoris, però sí veure com cada context ens duu a una manera diferent de recomptar sistemàticament",
+      "cursImpartir": "4ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.CO"
+      ],
+      "fontOficial": "Resolució de problemes en què s'hagin de fer recomptes sistemàtics (diagrames d'arbre, tècniques de combinatòria).",
+      "fontInterna": "Resolució de problemes i situacions en què s'hagin de fer recomptes sistemàtics (tècniques de combinatòria)."
+    },
+    {
+      "id": "formulacio-preguntes-no-esbiaixades-recollida",
+      "codi": "EST.IN",
+      "sentit": "estocastic",
+      "bloc": "Inferència",
+      "saber": "Formulació de preguntes no esbiaixades i recollida, depuració i organització de dades",
+      "cursImpartir": "1ESO",
+      "apareix": {
+        "1ESO": {
+          "present": true,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#EST.DI"
+      ],
+      "fontOficial": "Formulació de preguntes senzilles no esbiaixades; recollida, depuració i organització de dades rellevants.",
+      "fontInterna": "Formulació de preguntes adequades per conèixer les característiques d'interès d'una població."
+    },
+    {
+      "id": "confeccio-taules-frequencies-absolutes",
+      "codi": "EST.DI",
+      "sentit": "estocastic",
+      "bloc": "Distribució",
+      "saber": "Confecció de taules de freqüències (absolutes, relatives, acumulades) a partir de dades",
+      "cursImpartir": "2ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": true,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": "puntual"
+        },
+        "4ESO": {
+          "present": false,
+          "nota": null
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [
+        "#NUM.QU"
+      ],
+      "fontOficial": "Confecció de taules de freqüències (absolutes i relatives, ordinàries i acumulades) a partir de dades.",
+      "fontInterna": "Recollida i organització de dades de situacions contextualitzades que involucren una sola variable."
+    },
+    {
+      "id": "reconeixement-d-esdeveniments-dependents-independents",
+      "codi": "EST.PI",
+      "sentit": "estocastic",
+      "bloc": "Predictibilitat i incertesa",
+      "saber": "Reconeixement d'esdeveniments dependents/independents, compatibles/incompatibles",
+      "cursImpartir": "3ESO",
+      "apareix": {
+        "1ESO": {
+          "present": false,
+          "nota": null
+        },
+        "2ESO": {
+          "present": false,
+          "nota": null
+        },
+        "3ESO": {
+          "present": true,
+          "nota": null
+        },
+        "4ESO": {
+          "present": true,
+          "nota": "puntual"
+        }
+      },
+      "ampEss": "ESS",
+      "connexions": [],
+      "fontOficial": "Reconeixement d'esdeveniments dependents i independents, compatibles i incompatibles.",
+      "fontInterna": "Interpretació de la probabilitat com a mesura associada a la incertesa d'experiments aleatoris."
+    }
+  ]
+}
