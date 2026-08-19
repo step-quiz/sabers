@@ -153,17 +153,27 @@ function buildTemaChips(saberId) {
  * Si RECURSOS_DATA no s'ha carregat (fitxer absent o pàgina antiga), no mostra res. */
 function countRecursosForCodiCurs(codi, curs) {
   if (!SABERS_STATE.recursosData) return 0;
-  return SABERS_STATE.recursosData.recursos.filter(r => r.codi === codi && r.curs === curs).length;
+  return SABERS_STATE.recursosData.recursos.filter(r => codiMatches(r.codi, codi) && r.curs === curs).length;
 }
+
+/* Un saber de codi combinat ("NUM.QU / NUM.RP") té recursos a dos blocs
+ * diferents, i cada bloc és un grup separat a recursos.html. Per això es
+ * genera un chip per cada part amb recursos, amb el codi visible al text
+ * per distingir-los; amb codi simple el chip queda igual que sempre.
+ * L'enllaç sempre porta un codi simple, que és el que espera
+ * openRecursGroupDirect() per trobar el grup. */
 function buildRecursChip(s) {
-  const n = countRecursosForCodiCurs(s.codi, s.cursImpartir);
-  if (!n) return '';
-  return `<div class="tema-links">
-    <a class="tema-chip" href="recursos.html?recurs-codi=${encodeURIComponent(s.codi)}&recurs-curs=${encodeURIComponent(s.cursImpartir)}" title="Veure els recursos TOR d'aquest bloc">
+  const parts = slashParts(s.codi)
+    .map(codi => ({ codi, n: countRecursosForCodiCurs(codi, s.cursImpartir) }))
+    .filter(p => p.n);
+  if (!parts.length) return '';
+  const multiple = parts.length > 1;
+  const chips = parts.map(p => `
+    <a class="tema-chip" href="recursos.html?recurs-codi=${encodeURIComponent(p.codi)}&recurs-curs=${encodeURIComponent(s.cursImpartir)}" title="Veure els recursos TOR de ${escHtml(p.codi)}">
       <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2.5l6 3.5v6l-6 3.5-6-3.5v-6z"/></svg>
-      ${n} recurs${n === 1 ? '' : 'os'} TOR
-    </a>
-  </div>`;
+      ${multiple ? escHtml(p.codi) + ' · ' : ''}${p.n} recurs${p.n === 1 ? '' : 'os'} TOR
+    </a>`).join('');
+  return `<div class="tema-links">${chips}</div>`;
 }
 
 function buildSaberCard(s) {

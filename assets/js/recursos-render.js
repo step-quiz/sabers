@@ -55,10 +55,28 @@ function recursosGroupedPerCurs(curs) {
  * un codi pot correspondre a més d'un bloc, p.ex. NUM.QU). */
 function sabersForCodiCurs(codi, curs) {
   return RECURSOS_STATE.sabers.sabers.filter(s =>
-    s.codi === codi && s.apareix[curs] && s.apareix[curs].present);
+    codiMatches(s.codi, codi) && s.apareix[curs] && s.apareix[curs].present);
+}
+
+/* Etiqueta de bloc d'un saber vista des d'un codi concret. Si el saber porta
+ * codi i bloc combinats i les dues llistes tenen el mateix nombre de parts,
+ * agafa només la part aparellada amb el codi demanat ("NUM.QU / NUM.RP" vist
+ * des de NUM.RP → "Raonament proporcional"); si no quadren, retorna l'etiqueta
+ * sencera en lloc d'endevinar. */
+function blocLabelForSaberCodi(s, codi) {
+  const codis = slashParts(s.codi);
+  const blocs = slashParts(s.bloc);
+  if (codis.length === blocs.length) {
+    const demanats = slashParts(codi);
+    const i = codis.findIndex(c => demanats.includes(c));
+    if (i >= 0) return blocs[i];
+  }
+  return s.bloc;
 }
 function blocLabelsForCodi(codi) {
-  return [...new Set(RECURSOS_STATE.sabers.sabers.filter(s => s.codi === codi).map(s => s.bloc))];
+  return [...new Set(RECURSOS_STATE.sabers.sabers
+    .filter(s => codiMatches(s.codi, codi))
+    .map(s => blocLabelForSaberCodi(s, codi)))];
 }
 
 /* ─── RENDER ──────────────────────────────────────────────────────── */
@@ -128,11 +146,15 @@ function buildGroupBlock(curs, group) {
 
 /* Chips cap a sabers.html pels sabers que comparteixen aquest codi+curs
  * (mateix patró que buildSaberChips a repartiment-render.js, adaptat perquè
- * aquí l'origen és un grup codi+curs, no un rid). */
+ * aquí l'origen és un grup codi+curs, no un rid). Quan no n'hi ha cap
+ * ("grup penjat"), no és un error de dades: és una decisió deliberada
+ * i confirmada per l'usuari — extreure els recursos del TOR encara que
+ * cap saber de data-sabers.json coincideixi amb aquest codi+curs. Vegeu
+ * HANDOFF.md, "Grups penjats — norma estàndard". */
 function buildSaberChipsForGroup(codi, curs) {
   const sabers = sabersForCodiCurs(codi, curs);
   if (!sabers.length) {
-    return `<div class="tema-links-empty">Cap saber de data-sabers.json coincideix amb ${escHtml(codi)} a ${escHtml(CURS_LABELS_CURT_R[curs] || curs)}.</div>`;
+    return `<div class="tema-links-empty" title="Decisió deliberada: aquest bloc s'extreu igualment encara que cap saber hi coincideixi.">Cap saber vinculat a ${escHtml(codi)} a ${escHtml(CURS_LABELS_CURT_R[curs] || curs)} — bloc extret igualment.</div>`;
   }
   const chips = sabers.map(s => `
     <a class="saber-chip" href="sabers.html?saber=${encodeURIComponent(s.id)}" title="${escHtml(s.saber)}">
@@ -142,13 +164,21 @@ function buildSaberChipsForGroup(codi, curs) {
   return `<div class="saber-links">${chips}</div>`;
 }
 
+/* Una activitat pot no tenir cap font externa enllaçable (elaboració
+ * pròpia sense publicar, per exemple) — `url` és opcional (null, absent o
+ * cadena buida). En aquest cas es mostra el títol sense enllaç i una
+ * insígnia discreta, en lloc d'ometre l'activitat (decisió deliberada i
+ * confirmada per l'usuari, vegeu HANDOFF.md "Activitats sense URL"). */
 function buildRecursCard(r) {
-  return `<div class="recurs-card" id="recurs-${escHtml(r.id)}" data-recurs-id="${escHtml(r.id)}"
+  const hasUrl = !!(r.url && r.url.trim());
+  const titleHtml = hasUrl
+    ? `<a href="${escHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escHtml(r.titol)}</a>
+       <svg class="recurs-ext-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3M9.5 2.5h4v4M13.2 2.8L7.5 8.5"/></svg>`
+    : `<span class="recurs-title-plain">${escHtml(r.titol)}</span>
+       <span class="recurs-no-url-badge" title="Activitat pròpia, sense font externa enllaçable">sense font externa</span>`;
+  return `<div class="recurs-card${hasUrl ? '' : ' recurs-no-url'}" id="recurs-${escHtml(r.id)}" data-recurs-id="${escHtml(r.id)}"
       data-search="${escHtml((r.titol + ' ' + r.descripcio + ' ' + r.codi + ' ' + (r.font || '')).toLowerCase())}">
-    <div class="recurs-card-title">
-      <a href="${escHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escHtml(r.titol)}</a>
-      <svg class="recurs-ext-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3M9.5 2.5h4v4M13.2 2.8L7.5 8.5"/></svg>
-    </div>
+    <div class="recurs-card-title">${titleHtml}</div>
     <p class="recurs-desc">${escHtml(r.descripcio)}</p>
     ${r.font ? `<div class="recurs-font"><strong>Font:</strong> ${escHtml(r.font)}</div>` : ''}
   </div>`;
@@ -217,7 +247,11 @@ function openRecursGroupDirect(codi, curs) {
   switchCurs(curs);
   clearFilters(curs);
   requestAnimationFrame(() => {
-    const group = document.querySelector(`.recurs-group[data-codi="${CSS.escape(codi)}"]`);
+    /* Els chips de sabers.html ja envien un codi simple, però un enllaç desat
+     * o escrit a mà pot portar-ne un de combinat: si no hi ha grup exacte,
+     * prova cada part per separat. */
+    const group = document.querySelector(`.recurs-group[data-codi="${CSS.escape(codi)}"]`)
+      || slashParts(codi).map(c => document.querySelector(`.recurs-group[data-codi="${CSS.escape(c)}"]`)).find(Boolean);
     if (group) group.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
   return true;

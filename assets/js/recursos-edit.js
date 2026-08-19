@@ -154,8 +154,8 @@ function buildRecursCardEdit(r, i, total) {
       </div>
     </div>
     <div class="saber-edit-grid">
-      <div class="saber-edit-field" style="grid-column:1/-1"><label>URL</label>
-        <input type="text" value="${escHtml(r.url)}" data-edit="field" data-field="url" data-id="${escHtml(r.id)}"></div>
+      <div class="saber-edit-field" style="grid-column:1/-1"><label>URL (deixa en blanc si no té font externa enllaçable)</label>
+        <input type="text" value="${escHtml(r.url || '')}" placeholder="https://…" data-edit="field" data-field="url" data-id="${escHtml(r.id)}"></div>
       <div class="saber-edit-field"><label>Codi curricular</label>
         <input type="text" value="${escHtml(r.codi)}" data-edit="field" data-field="codi" data-id="${escHtml(r.id)}"></div>
       <div class="saber-edit-field"><label>Curs</label>
