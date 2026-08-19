@@ -1,986 +1,1544 @@
 {
-  "_meta": {
-    "font": "TOR d'ESO. Blocs processats: 'TOR_ESO Sentit numeric_Relacions.pdf', 'TOR_ESO Sentit numeric_Quantitat.pdf' i 'TOR_ESO Sentit numeric_comptatge.pdf'. Mostra parcial del sentit numèric — pendent la resta de blocs (Raonament proporcional, Sentit de les operacions) i els altres 3 sentits (16 PDFs).",
-    "descripcio": "Exemples concrets d'activitats i recursos didàctics, amb enllaç a la font original, extrets dels documents TOR del departament. Cada recurs s'enllaça a un bloc curricular (codi) dins d'un curs (curs), seguint el mateix nivell d'agregació que 'codi' a data-sabers.json — no a un saber individual, ja que els PDF TOR desglossen sub-sabers (A, B, C...) que no tenen una entrada pròpia a data-sabers.json.",
-    "cursOrder": [
-      "1ESO",
-      "2ESO",
-      "3ESO",
-      "4ESO"
-    ]
-  },
-  "recursos": [
-    {
-      "id": "cartes-multiplicacio-10x10",
-      "titol": "Cartes de multiplicació 10x10",
-      "descripcio": "Joc de cartes amb productes de parelles de nombres de l'1 al 10; una cara mostra l'expressió aritmètica i la representació geomètrica en rectangle, l'altra el resultat.",
-      "url": "https://drive.google.com/file/d/1_CElW0k7avoe-BXoDvafai7ofD461cpr/view",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Manel Martínez, jornades d'Ademgi 2024 — Parlem i compartim dels sabers a les competències"
-    },
-    {
-      "id": "cartes-de-l-1-al-100",
-      "titol": "Cartes de l'1 al 100 (i activitat de l'hotel de les 100 portes)",
-      "descripcio": "Cartes amb la descomposició factorial en codi de colors i en arbre; permeten l'activitat clàssica de l'hotel de les 100 portes per descobrir els quadrats perfectes.",
-      "url": "https://drive.google.com/file/d/12Y-GYS5bhTRs1r7OEqooORDBhrYVoBp1/view",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Manel Martínez, jornades d'Ademgi 2024 — Parlem i compartim dels sabers a les competències"
-    },
-    {
-      "id": "presentacio-parlem-i-compartim",
-      "titol": "Parlem i compartim dels sabers a les competències (presentació completa)",
-      "descripcio": "Presentació de les jornades d'Ademgi 2024 amb les activitats i preguntes guiades per treballar els dos jocs de cartes anteriors a l'aula.",
-      "url": "https://docs.google.com/presentation/d/1euo-q7BsDOGFu2mQeH9cJNvmkXsFbsMT/present?slide=id.p1",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Manel Martínez, jornades d'Ademgi 2024"
-    },
-    {
-      "id": "abundants-deficients-perfectes",
-      "titol": "Abundants, deficients i perfectes i algunes relacions",
-      "descripcio": "Classificació de nombres segons la suma dels seus divisors propis (abundant, deficient o perfecte); bona excusa per buscar tots els divisors d'un nombre amb un objectiu clar.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/investiguem/nombres-amb-nom-propi?authuser=0",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "CREAMAT — Nombres amb nom propi"
-    },
-    {
-      "id": "il-lustracio-quadrats-senars",
-      "titol": "Il·lustració de la relació entre quadrats perfectes i suma de senars consecutius",
-      "descripcio": "Imatge que relaciona les dues pautes que sorgeixen de l'hotel de les 100 portes: els quadrats perfectes i la suma de senars successius.",
-      "url": "https://x.com/Haskell_ETSIIT/status/899673002857648128",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "@Haskell_ETSIIT"
-    },
-    {
-      "id": "triangle-de-pascal-multiples",
-      "titol": "Triangle de Pascal per detectar múltiples",
-      "descripcio": "A partir del triangle de Pascal, pintar o marcar les caselles ocupades per múltiples de 2, 3, 4 o 5 i observar els patrons que s'hi formen.",
-      "url": "https://matematiquesmarines.blogspot.com/2014/11/triangle-de-pascal.html",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Institut Baix a Mar"
-    },
-    {
-      "id": "els-primers-nombres-primers",
-      "titol": "Els primers nombres primers",
-      "descripcio": "Cinc reptes de resolució de problemes amb els 30 primers nombres primers (sumes de dos primers, quadrats, múltiples de 6, potències de 2, espiral numèrica).",
-      "url": "https://puntmat.blogspot.com/2014/04/els-primers-nombres-primers.html",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "role-play-googolplex",
-      "titol": "Nosaltres com a recurs: role-plays a classe de matemàtiques (i 2)",
-      "descripcio": "Joc de rol/coreografia amb l'alumnat: segons el nombre de participants (primer o compost) es formen en una o diverses rotllanes, per visualitzar la divisibilitat.",
-      "url": "https://publicacions.iec.cat/repository/pdf/00000251/00000063.pdf",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Revista NouBiaix núm. 40 (juliol 2017), Albert Herrero — club matemàtic Googolplex"
-    },
-    {
-      "id": "video-es-pot-veure-la-divisibilitat",
-      "titol": "Es pot veure la divisibilitat?",
-      "descripcio": "Vídeo del VideoMat 2016 que mostra la mateixa activitat de coreografia per visualitzar nombres primers i compostos.",
-      "url": "https://www.youtube.com/watch?v=65SV8d-JhbA",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "VideoMat 2016"
-    },
-    {
-      "id": "mes-sobre-l-arbre-de-factors",
-      "titol": "Més sobre l'arbre de factors",
-      "descripcio": "Explica el procés de construir un arbre de factors fins arribar als factors primers, i com qualsevol camí porta a la mateixa descomposició (unicitat).",
-      "url": "http://puntmat.blogspot.com/2011/12/mes-sobre-larbre-de-factors.html",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "practica-productiva-restes-1",
-      "titol": "Pràctica productiva: Restes 1 següent",
-      "descripcio": "Càlcul del màxim comú divisor a partir de l'algorisme d'Euclides mitjançant restes successives sobre una graella de nombres de l'1 al 100.",
-      "url": "https://puntmat.blogspot.com/2014/11/practica-productiva-amb-restes.html",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "video-graella-numerica-creamat",
-      "titol": "Graella numèrica (vídeo per al professorat)",
-      "descripcio": "Explica com dur a terme l'activitat de la graella numèrica per al càlcul del mcd, amb èmfasi en el paper de les preguntes del professorat.",
-      "url": "https://www.youtube.com/watch?v=VBf9UNceOgc",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "CREAMAT, Cecilia Calvo"
-    },
-    {
-      "id": "mcd-mcm-algorisme-euclides-snap",
-      "titol": "Mcd, mcm i algorisme d'Euclides (programació amb Snap!)",
-      "descripcio": "Exemples per programar el càlcul del mcm i el mcd amb l'entorn de programació per blocs Snap!, connectant amb el pensament computacional.",
-      "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matsnap/nombres/m2p2",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "XTEC Ateneu"
-    },
-    {
-      "id": "mcm-mcd-amb-policubs-dosil",
-      "titol": "Mcm/mcd amb policubs",
-      "descripcio": "Proposta manipulativa per treballar el mínim comú múltiple i el màxim comú divisor amb policubs de colors.",
-      "url": "http://www.mdosil.cat/?p=793",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Mireia Dosil"
-    },
-    {
-      "id": "divisibilidad-con-policubos",
-      "titol": "Divisibilidad con policubos",
-      "descripcio": "Variant de l'activitat anterior amb policubs, centrada en el concepte de divisibilitat.",
-      "url": "https://mates.aomatos.com/divisibilidad-con-policubos/",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Antonio Ómatos"
-    },
-    {
-      "id": "tiktok-howie-hua-policubs",
-      "titol": "Vídeo TikTok sobre mcm/mcd amb material manipulatiu",
-      "descripcio": "Vídeo curt que mostra visualment el càlcul del mcm i el mcd amb material manipulatiu.",
-      "url": "https://x.com/howie_hua/status/1578526824866271234",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "@howie_hua"
-    },
-    {
-      "id": "hot-dogs-and-buns",
-      "titol": "How Many Hot Dogs And Buns Should He Buy?",
-      "descripcio": "A partir d'un fragment de la pel·lícula 'El pare de la núvia', plantejar quants paquets de salsitxes i panets cal comprar perquè no en sobri cap: aplicació pràctica del mcm.",
-      "url": "https://robertkaplinsky.com/work/how-many-hot-dogs-and-buns-should-he-buy/",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Robert Kaplinsky"
-    },
-    {
-      "id": "els-sona-contes-geometria-nombres",
-      "titol": "Els «sona»: contes, geometria i nombres (1)",
-      "descripcio": "Dibuixos geomètrics («lusona») usats per contacontes africans, traçats d'un sol cop sobre una quadrícula; el nombre de voltes per recobrir tots els punts d'un rectangle correspon al mcd dels seus costats.",
-      "url": "https://calaix2.blogspot.com/2017/11/els-sona-contes-geometria-i-nombres.html",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "Blog Calaix +ie"
-    },
-    {
-      "id": "quants-quadrets-travessa-la-diagonal",
-      "titol": "Quants quadrets travessa la diagonal?",
-      "descripcio": "Descobrir la fórmula a+b−mcd(a,b) per calcular quants quadrets travessa la diagonal d'un rectangle dibuixat en una quadrícula, sense haver-los de comptar un a un.",
-      "url": "https://stackoverflow.com/questions/42210240/number-of-distinct-rectangles-in-which-diagonal-is-passing-in-n-squares",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "StackOverflow"
-    },
-    {
-      "id": "video-diagonal-rectangle-cross",
-      "titol": "How Many Squares does the Diagonal of an m x n Rectangle Cross?",
-      "descripcio": "Demostració en vídeo, clara i intuïtiva, de la fórmula que relaciona el recorregut de la diagonal d'un rectangle amb el mcd dels seus costats.",
-      "url": "https://www.youtube.com/watch?v=_fO9W301Z1k",
-      "codi": "NUM.RE",
-      "curs": "1ESO",
-      "font": "YouTube"
-    },
-    {
-      "id": "video-alia-3x2",
-      "titol": "Àlia. 3x2? No m'ho crec!!",
-      "descripcio": "Vídeo on el personatge Àlia analitza si les ofertes de tipus 3x2 i altres descomptes comercials són realment tan avantatjoses com semblen, comparant-les de manera crítica.",
-      "url": "https://www.3cat.cat/3cat/3-x-2-no-mho-crec-/video/6037804/",
-      "codi": "NUM.RE",
-      "curs": "2ESO",
-      "font": "3Cat / CREAMAT"
-    },
-    {
-      "id": "suport-didactic-alia",
-      "titol": "Suport didàctic d'Àlia",
-      "descripcio": "Material didàctic complementari de la sèrie Àlia per treballar la comparació de descomptes i ofertes comercials.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/%C3%A0lia#h.p_YV4xdasl9raQ",
-      "codi": "NUM.RE",
-      "curs": "2ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "the-daisy-flower-for-fractions",
-      "titol": "The daisy: a flower for fractions",
-      "descripcio": "Activitat interactiva de GeoGebra amb gràfics que representen dades en fraccions, decimals i percentatges, per comparar diferents formes de representar quantitats.",
-      "url": "https://www.geogebra.org/m/gvhzj8mz",
-      "codi": "NUM.RE",
-      "curs": "2ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "recompte-de-camins-minims",
-      "titol": "Recompte de camins mínims entre dos punts d'una quadrícula",
-      "descripcio": "Calcular el nombre de camins de longitud mínima en una quadrícula entre dos vèrtexs; el nombre de camins a cada punt coincideix amb els nombres del triangle aritmètic.",
-      "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0075/b03c9f9e-ad99-4f63-b92a-3656685c41db/PA2_Recompte-de-camins.pdf",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "Aubanell (2015), Orientacions per a la millora de la geometria, p. 63"
-    },
-    {
-      "id": "quaderns-avaluacio-31",
-      "titol": "Quaderns d'Avaluació núm. 31 (orientacions completes)",
-      "descripcio": "Document complet d'orientacions per a la millora de la geometria on s'inclou l'activitat de recompte de camins mínims.",
-      "url": "https://serveiseducatius.xtec.cat/cesire/wp-content/uploads/usu2650/2021/06/quaderns31orientacions.pdf",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "Serveis Educatius XTEC / CESIRE"
-    },
-    {
-      "id": "aneu-on-l-atzar-us-porti",
-      "titol": "Aneu on l'atzar us porti",
-      "descripcio": "Problema de la primera fase del concurs Fem Matemàtiques 2022 (1r i 2n d'ESO), similar al recompte de camins mínims i aplicable amb les propietats del triangle aritmètic.",
-      "url": "https://drive.google.com/file/d/1xpwoEXETc2-CCgp1DiIEw3k64Voif-EU/view",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "Concurs Fem Matemàtiques 2022"
-    },
-    {
-      "id": "mathigon-sequencia-patrons",
-      "titol": "Seqüència de Mathigon per descobrir patrons",
-      "descripcio": "Activitat interactiva per descobrir i explorar visualment patrons al triangle aritmètic, incloent-hi la simetria i la relació amb els nombres combinatoris.",
-      "url": "https://es.mathigon.org/course/sequences/pascals-triangle",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "Mathigon"
-    },
-    {
-      "id": "triangle-de-pascal-ins-baix-a-mar",
-      "titol": "Triangle de Pascal (aproximació manual)",
-      "descripcio": "Explicació manual del triangle de Pascal com a complement a l'activitat interactiva de Mathigon, centrada en la construcció fila a fila.",
-      "url": "https://matematiquesmarines.blogspot.com/2014/11/triangle-de-pascal.html",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "Institut Baix a Mar"
-    },
-    {
-      "id": "harmonic-triangle-nrich",
-      "titol": "Harmonic Triangle",
-      "descripcio": "Construcció d'un triangle harmònic (fraccions unitàries on cada entrada és la suma de les dues de sota) per identificar patrons a les diagonals i trobar una expressió general.",
-      "url": "https://nrich.maths.org/problems/harmonic-triangle",
-      "codi": "NUM.RE",
-      "curs": "4ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "tauler-de-fraccions-polypad",
-      "titol": "Tauler de fraccions (Polypad)",
-      "descripcio": "Material manipulatiu (físic o virtual amb Mathigon Polypad) per treballar fraccions pròpies/impròpies, comparació, ordenació i fraccions equivalents amb tires de colors.",
-      "url": "https://polypad.amplify.com/p#fraction-bars",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Mathigon Polypad"
-    },
-    {
-      "id": "video-quadre-fraccions-unitaries",
-      "titol": "Quadre de fraccions unitàries",
-      "descripcio": "Vídeo del CREAMAT en què Anton Aubanell i Francesc Massich expliquen activitats amb el tauler de fraccions.",
-      "url": "https://www.youtube.com/watch?v=LPLywW9v1is",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "geogebra-comparing-fractions-lines-circles",
-      "titol": "Comparing fractions with lines and circles (GeoGebra)",
-      "descripcio": "Applet de GeoGebra per comparar fraccions mitjançant representacions amb rectes i cercles.",
-      "url": "https://www.geogebra.org/m/QqFyBqcV",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "geogebra-converting-mixed-improper",
-      "titol": "Converting Mixed Number Fractions to Improper Fractions (GeoGebra)",
-      "descripcio": "Applet de GeoGebra per practicar la conversió de nombres mixtos a fraccions impròpies.",
-      "url": "https://www.geogebra.org/m/tbeqdpqd",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "geogebra-converting-improper-mixed",
-      "titol": "Converting between improper fractions and mixed numbers (GeoGebra)",
-      "descripcio": "Applet de GeoGebra complementari per practicar la conversió en ambdós sentits entre fraccions impròpies i nombres mixtos.",
-      "url": "https://www.geogebra.org/m/K59T4szR",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "conferencia-tratamiento-fracciones",
-      "titol": "Tratamiento de las fracciones, un ejemplo de cambio",
-      "descripcio": "Conferència de José Manuel Vidal González sobre la importància d'ensenyar a resoldre problemes amb fraccions abans que a calcular, per posar l'accent en la comprensió dels conceptes.",
-      "url": "https://serveiseducatius.xtec.cat/cesire/recurs-eco2/tratamiento-de-las-fracciones-un-ejemplo-de-cambio/",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "fes-de-champollion",
-      "titol": "Fes de Champollion (numeracions antigues)",
-      "descripcio": "Activitat de desxiframent: a partir de documents amb doble numeració (antiga i actual) l'alumnat dedueix el funcionament de sistemes de numeració antics (egípcia, assíria, maia, grega) en bases 10, 20 o 60, en grups de tres.",
-      "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/activitats-de-numeracio-i-calcul/fes-de-champollion-numeracions-antigues/",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Calaix+ie"
-    },
-    {
-      "id": "multiplicacio-egipcia",
-      "titol": "La multiplicació egípcia",
-      "descripcio": "Explicació de l'algoritme clàssic egipci de multiplicació, per mostrar que els càlculs no s'han fet sempre de la mateixa manera al llarg de la història.",
-      "url": "https://calaix2.blogspot.com/2015/06/multiplicar-amb-dobles-o-amb-dobles-i.html",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Calaix+ie"
-    },
-    {
-      "id": "divisio-egipcia",
-      "titol": "La divisió egípcia",
-      "descripcio": "Explicació de l'algoritme clàssic egipci de divisió, comprensible pas a pas, per treballar mètodes de càlcul històrics diferents dels actuals.",
-      "url": "https://calaix2.blogspot.com/2012/11/divisions-1-la-divisio-egipcia.html#more",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Calaix+ie"
-    },
-    {
-      "id": "web-calculus-joan-jareno",
-      "titol": "Calculus, de Joan Jareño",
-      "descripcio": "Web amb informació sobre la història del desenvolupament de les numeracions orals i escrites.",
-      "url": "http://www.xtec.cat/~jjareno/calculus/",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Joan Jareño"
-    },
-    {
-      "id": "article-origen-escriptura-numeros",
-      "titol": "El origen de la escritura de los números",
-      "descripcio": "Article de Cultura Científica, de Raúl Ibáñez, per aprofundir en la història dels nombres i els sistemes de numeració.",
-      "url": "https://culturacientifica.com/2018/10/31/el-origen-de-la-escritura-de-los-numeros/",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Cultura Científica — Raúl Ibáñez"
-    },
-    {
-      "id": "arc-nombres-negatius-zero",
-      "titol": "Els nombres negatius i el zero: Xina, Grècia, Índia, Món àrab, Europa (250-1567)",
-      "descripcio": "Mòdul de l'ARC amb l'explicació de la història dels nombres negatius a través de diverses civilitzacions; permet vincular-ho amb altres matèries com ciències socials.",
-      "url": "https://apliense.xtec.cat/arc/node/421",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "ARC"
-    },
-    {
-      "id": "video-fraccio-d-un-nombre",
-      "titol": "Fracció d'un nombre",
-      "descripcio": "Vídeo del CREAMAT que inspira una activitat amb material manipulatiu (taps repartits en rectangles) per calcular la fracció d'un nombre i, a la inversa, trobar el nombre a partir d'una fracció donada.",
-      "url": "https://www.youtube.com/watch?v=c3kFjX_4MGg&list=PL7u-OLF_IPJ0kFiUPLBTU1vpWgafF2cat",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "arc-cartes-fraccions-improòpies",
-      "titol": "Cartes de fraccions impròpies",
-      "descripcio": "Joc de 48 cartes numerades amb fraccions impròpies, cadascuna representada amb quatre formats (sectors circulars, segments, fracció impròpia i nombre mixt); es proposen dos jocs (fer parelles i fer famílies) per grups de 4-6 alumnes.",
-      "url": "https://apliense.xtec.cat/arc/node/353",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "ARC"
-    },
-    {
-      "id": "mes-enlla-de-les-potencies",
-      "titol": "Més enllà de les potències",
-      "descripcio": "Document de l'Institut Baix a Mar sobre com introduir i treballar el concepte de potència de manera progressiva i motivadora.",
-      "url": "https://matematiquesmarines.blogspot.com/2019/03/mes-enlla-de-les-potencies.html",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Institut Baix a Mar"
-    },
-    {
-      "id": "les-primeres-potencies",
-      "titol": "Les primeres potències",
-      "descripcio": "Entrada del blog PuntMat amb activitats sobre potències de base 2 i base 3: repartir nombres parells amb targetes de potències de 2, i un joc de fitxes en un tauler per representar sumes amb potències de 3.",
-      "url": "https://puntmat.blogspot.com/2015/10/les-primeres-potencies.html",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "explorant-ordres-de-magnitud",
-      "titol": "Explorant els ordres de magnitud",
-      "descripcio": "Document amb 5 activitats per treballar ordres de magnitud, notació científica i el sistema internacional d'unitats a partir d'aproximar magnituds molt grans i molt petites amb potències de 10.",
-      "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0046/492adc0e-b4f6-43af-ac81-cff8f26e0dfb/PA1_Ordres_de_magnitud.pdf",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "Orientacions pràctiques per a la millora de la geometria a l'ESO (XTEC)"
-    },
-    {
-      "id": "video-el-rei-i-el-savi",
-      "titol": "El rei i el savi",
-      "descripcio": "Vídeo del programa Una mà de contes que explica la llegenda de l'inventor dels escacs i el gra de blat duplicat a cada casella, punt de partida per calcular nombres molt grans amb notació científica.",
-      "url": "https://www.ccma.cat/tv3/sx3/el-rei-i-el-savi/video/1570389/",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "TV3 — Una mà de contes"
-    },
-    {
-      "id": "wolframalpha-2-elevat-64",
-      "titol": "Càlcul de 2^64 amb WolframAlpha",
-      "descripcio": "Ús de WolframAlpha (o un full de càlcul) per calcular el nombre total de grans de blat de la llegenda de l'escaquer, resultat que es pot expressar en notació científica.",
-      "url": "https://www.wolframalpha.com/input?i=2%5E64",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "WolframAlpha"
-    },
-    {
-      "id": "video-chess-board-rice-exponential",
-      "titol": "Chess board with rice: exponential growth",
-      "descripcio": "Vídeo que visualitza el creixement exponencial del nombre de grans de blat sobre l'escaquer, per reflexionar sobre la magnitud del resultat.",
-      "url": "https://www.youtube.com/watch?v=wNJVvwhU3a0&list=PLL4wyBfce7uwLnDG42W6DNYi_g_PoPrck&index=34",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "YouTube"
-    },
-    {
-      "id": "video-quants-granets-de-blat-cabens",
-      "titol": "Quants granets de blat caben?",
-      "descripcio": "Vídeo de la col·lecció VídeoMAT fet per alumnat de l'escola de Lladurs (ZER El Solsonès), que respon a la pregunta de la llegenda de l'escaquer des de la seva pròpia experiència.",
-      "url": "https://www.youtube.com/watch?v=9dqtNHS_b7M&list=PL7u-OLF_IPJ3bNvzX9RlIE_rvcLE7pk4T&index=4",
-      "codi": "NUM.QU",
-      "curs": "1ESO",
-      "font": "VídeoMAT — ZER El Solsonès"
-    },
-    {
-      "id": "geogebra-the-daisy-flower-fractions",
-      "titol": "The daisy: a flower for fractions (GeoGebra)",
-      "descripcio": "Recurs de GeoGebra de Daniel Mentrard per visualitzar diferents representacions dels nombres racionals (fracció, decimal, percentatge) segons la situació.",
-      "url": "https://www.geogebra.org/m/gvhzj8mz",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "GeoGebra — Daniel Mentrard"
-    },
-    {
-      "id": "nrich-fraction-rectangle",
-      "titol": "Fraction rectangle",
-      "descripcio": "Activitat de NRICH en què cal trobar la fracció que correspon a cadascuna de les 10 formes numerades d'un rectangle dividit en quadrilàters i triangles.",
-      "url": "https://nrich.maths.org/problems/fractions-rectangle",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "fraction-talks",
-      "titol": "Fraction Talks",
-      "descripcio": "Web amb figures geomètriques per identificar i discutir fraccions de manera visual, similar a l'activitat de Fraction rectangle.",
-      "url": "http://fractiontalks.com/",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "Fraction Talks"
-    },
-    {
-      "id": "fraction-talks-pattern-block-edition",
-      "titol": "Fraction Talks – Pattern Block Edition!",
-      "descripcio": "Proposta de Math for Love amb Fraction Talks fetes amb Pattern Blocks, per treballar en grup o individualment justificant les respostes.",
-      "url": "https://mathforlove.com/lesson/fraction-talks-pattern-block-edition/",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "Math for Love"
-    },
-    {
-      "id": "fraccions-ull-d-horus",
-      "titol": "Les fraccions: l'Ull d'Horus",
-      "descripcio": "Activitat sobre les fraccions de l'antic Egipte a partir de l'heqat, unitat de capacitat representada amb l'Ull d'Horus; l'alumnat completa una taula i en descobreix la representació geomètrica.",
-      "url": "http://www.xtec.cat/~jcanadil/activitats/fraccions_ull_Horus.htm",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "Web personal — J. Cañadilla"
-    },
-    {
-      "id": "video-fraccions-egipcies",
-      "titol": "Fraccions egípcies",
-      "descripcio": "Vídeo del CREAMAT sobre com els egipcis escrivien fraccions no unitàries com a suma de fraccions unitàries, útil en contextos de repartiment.",
-      "url": "https://www.youtube.com/watch?v=x2odikQ5JNY",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "nrich-greedy-algorithm",
-      "titol": "The greedy algorithm",
-      "descripcio": "Activitat de NRICH amb un algoritme per escriure qualsevol fracció com a suma de fraccions unitàries, a la manera egípcia.",
-      "url": "https://nrich.maths.org/problems/greedy-algorithm",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "nrich-history-of-fractions",
-      "titol": "History of Fractions",
-      "descripcio": "Article de NRICH sobre la història de les fraccions al sistema de numeració sexagesimal babilònic, base per treballar la representació posicional.",
-      "url": "https://nrich.maths.org/articles/history-fractions",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "raiz-cuadrada-de-2-prehistoria",
-      "titol": "La raíz cuadrada de 2… en la prehistoria",
-      "descripcio": "Article que explica el càlcul de l'arrel de 2 registrat a la tauleta babilònica YBC7289, amb aproximacions de gran precisió i antiguitat.",
-      "url": "https://dguinstation.wordpress.com/2012/05/19/la-raiz-cuadrada-de-2-en-la-prehistoria/",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "dguinstation.wordpress.com"
-    },
-    {
-      "id": "mmaca-matematica-mesopotamica",
-      "titol": "Matemàtica Mesopotàmica",
-      "descripcio": "Explicació detallada del càlcul de l'arrel de 2 a la tauleta babilònica YBC7289 i del sistema de numeració mesopotàmic.",
-      "url": "https://mmaca.cat/moduls/matematica-mesopotamica/",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "MMACA"
-    },
-    {
-      "id": "babylonian-maths-motivate",
-      "titol": "Babylonian maths",
-      "descripcio": "Web de consulta del projecte Motivate amb informació sobre el sistema de numeració babilònic.",
-      "url": "https://motivate.maths.org/content/BabylonianMaths/",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "Motivate"
-    },
-    {
-      "id": "geogebra-construccio-grafica-nombre-racional",
-      "titol": "Construcció gràfica d'un nombre racional (GeoGebra)",
-      "descripcio": "Material de Guillem Bonet a GeoGebra per construir geomètricament fraccions expressades com a nombre mixt, alternativa digital a la construcció a mà amb regle i compàs.",
-      "url": "https://www.geogebra.org/m/mhMbwZPH",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "GeoGebra — Guillem Bonet"
-    },
-    {
-      "id": "nrich-peaches-today-peaches-tomorrow",
-      "titol": "Peaches today, Peaches tomorrow…",
-      "descripcio": "Problema de NRICH en tres parts progressives sobre un mico que es guarda una fracció de préssecs cada dia; treballa fraccions en contextos de resolució de problemes oberts.",
-      "url": "https://nrich.maths.org/problems/peaches-today-peaches-tomorrow",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "creamat-representacio-de-fraccions",
-      "titol": "Representació de fraccions",
-      "descripcio": "Entrada del CREAMAT amb diferents maneres de representar fraccions i fer repartiments equitatius, amb vídeos de com dur-ho a terme a l'aula.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/representaci%C3%B3-de-fraccions#h.p_r2RAmTXV_-Oi",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "les-primeres-potencies-2eso",
-      "titol": "Les primeres potències (xifra final de potències)",
-      "descripcio": "Entrada del blog PuntMat amb l'activitat de trobar la xifra final de potències de base fixa (2, 3, 4, 5) mitjançant la detecció de patrons periòdics.",
-      "url": "https://puntmat.blogspot.com/2015/10/les-primeres-potencies.html",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "instagram-potencies-exponent-zero-negatiu",
-      "titol": "Potència elevada a zero o a exponent negatiu (Instagram)",
-      "descripcio": "Publicació d'Instagram del compte matematica.significativa amb tres imatges d'una progressió descendent de potències de base 2 (cada terme la meitat de l'anterior) per deduir què significa una potència elevada a zero o a un exponent negatiu.",
-      "url": "https://www.instagram.com/p/C_aaVMjoWQq/?igsh=MWMyanRtMmsyczNqcw%3D%3D&img_index=1",
-      "codi": "NUM.QU",
-      "curs": "2ESO",
-      "font": "Instagram — matematica.significativa"
-    },
-    {
-      "id": "nrich-introduction-irrational-numbers",
-      "titol": "An introduction to irrational numbers",
-      "descripcio": "Activitat de NRICH sobre fraccions mediants i la seqüència de Farey; permet endevinar una fracció irreductible fent preguntes binàries i trobar fraccions generatrius de decimals.",
-      "url": "https://nrich.maths.org/articles/introduction-irrational-numbers",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "nrich-near-10",
-      "titol": "Near 10",
-      "descripcio": "Problema de NRICH sobre quants nombres enters n compleixen que la diferència entre l'arrel de n i 10 és menor que 1; treballa el concepte d'arrel i la seva aproximació.",
-      "url": "https://nrich.maths.org/problems/near-10",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "puntmat-decimals-periodics",
-      "titol": "Decimals periòdics",
-      "descripcio": "Entrada del blog PuntMat amb activitats per comprendre la relació entre fraccions i decimals periòdics, examinant denominadors com 7, 13 i 19 i la seva descomposició factorial.",
-      "url": "https://puntmat.blogspot.com/2013/01/decimals-periodics.html",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "nrich-terminating-or-not",
-      "titol": "Terminating or Not?",
-      "descripcio": "Activitat de NRICH per analitzar quan una fracció té representació decimal finita o infinita, a partir dels factors primers del denominador (finita només amb factors 2 i/o 5).",
-      "url": "https://nrich.maths.org/problems/terminating-or-not",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "nrich-repetitiously",
-      "titol": "Repetitiously",
-      "descripcio": "Activitat de NRICH per expressar decimals periòdics com a fraccions mitjançant equacions (per exemple, x=0,2̂ i 10x=2+x).",
-      "url": "https://nrich.maths.org/problems/repetitiously",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "nrich-tiny-nines",
-      "titol": "Tiny nines",
-      "descripcio": "Activitat de NRICH per cercar patrons partint de fraccions com 1/9, 1/99, 1/999 i predir el resultat de fraccions semblants amb denominadors de nous.",
-      "url": "https://nrich.maths.org/problems/tiny-nines",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "creamat-petits-nous",
-      "titol": "Petits Nous",
-      "descripcio": "Document del CREAMAT amb la presentació de les activitats sobre fraccions i decimals periòdics per treballar amb metodologies col·laboratives (Llapis al centre, 1-2-4).",
-      "url": "https://docs.google.com/document/d/1F4LsprMVKo6lheNxp5-Plp_8f1V1wLKH/edit",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "arc-simulacio-cigrons",
-      "titol": "Simulació amb cigrons",
-      "descripcio": "Activitat d'Anton Aubanell a l'ARC amb la tècnica de captura i recaptura per estimar el nombre d'individus d'una població (cigrons) i calcular l'error absolut i relatiu de l'estimació.",
-      "url": "https://apliense.xtec.cat/arc/node/1356",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "ARC — Anton Aubanell"
-    },
-    {
-      "id": "desmos-notacio-cientifica",
-      "titol": "Notació científica (Desmos)",
-      "descripcio": "Activitat de Desmos traduïda i publicada per Sandro Maccarrone en què l'alumnat ordena nombres de menor a major sense calculadora, per descobrir la utilitat de la notació científica en comparar magnituds molt diferents.",
-      "url": "https://teacher.desmos.com/activitybuilder/custom/618a280b2a3c6e33be95fb47?lang=es",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "Desmos — trad. Sandro Maccarrone"
-    },
-    {
-      "id": "video-potencies-de-10",
-      "titol": "Potències de 10",
-      "descripcio": "Vídeo que mostra visualment com ampliar o reduir escales de l'univers, des d'objectes quotidians fins a galàxies i partícules subatòmiques, per treballar ordres de magnitud i potències de 10.",
-      "url": "https://www.youtube.com/watch?v=9JUpIa4ncWg",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "YouTube"
-    },
-    {
-      "id": "creamat-piramide-de-penics",
-      "titol": "Piràmide de Penics",
-      "descripcio": "Activitat en tres actes (Dan Meyer) del CREAMAT: a partir del vídeo del rècord Guinness d'una piràmide de monedes, l'alumnat formula preguntes, estima i calcula amb les dades proporcionades.",
-      "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/penics",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "CREAMAT — Dan Meyer"
-    },
-    {
-      "id": "video-guinness-penny-pyramid",
-      "titol": "Guinness World Record Penny Pyramid - 300 hours in under 3min",
-      "descripcio": "Vídeo del rècord Guinness que mostra la construcció d'una piràmide de monedes, punt de partida de l'activitat en tres actes 'Piràmide de Penics'.",
-      "url": "https://www.youtube.com/watch?v=uDJ3sor2oQ0",
-      "codi": "NUM.QU",
-      "curs": "3ESO",
-      "font": "YouTube"
-    },
-    {
-      "id": "video-arquimedes-descobriment-pi",
-      "titol": "Arquímedes y el Descubrimiento del número Pi",
-      "descripcio": "Vídeo que explica el mètode d'Arquimedes per aproximar el valor de π amb polígons inscrits i circumscrits, base d'una activitat en grups per calcular perímetres i errors absolut i relatiu.",
-      "url": "https://www.youtube.com/watch?v=d1d4g0TcJUY",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "YouTube"
-    },
-    {
-      "id": "cesire-llull-quadratura-cercle",
-      "titol": "Llull i les matemàtiques (II): La quadratura del cercle",
-      "descripcio": "Entrada del CESIRE que explica com Ramon Llull abordava la quadratura del cercle amb quadrats inscrit i circumscrit; es pot traslladar a l'aula per investigar l'error del mètode.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/efem%C3%A8rides-dies-i-anys-especials/llull-i-les-matem%C3%A0tiques-ii-la-quadratura-del-cercle",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "CESIRE"
-    },
-    {
-      "id": "geogebra-proporcions-arees-llull",
-      "titol": "Investigació de proporcions entre àrees (GeoGebra)",
-      "descripcio": "Eina de GeoGebra per investigar les proporcions entre les àrees dels quadrats inscrit, circumscrit i el nou quadrat proposat per Llull en el mètode de la quadratura del cercle.",
-      "url": "https://www.geogebra.org/m/pWXEZ5D2",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "article-llull-matematic-ara-balears",
-      "titol": "Científics valoren Ramon Llull matemàtic",
-      "descripcio": "Article del diari Ara Balears sobre l'escultura de la tomba de Llull relacionada amb la quadratura del cercle, curiositat que complementa l'activitat.",
-      "url": "https://www.arabalears.cat/balears/cientifics-valor-ramon-llull-matematic_1_1636378.html",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "Ara Balears"
-    },
-    {
-      "id": "irracionalitat-arrel-2-mosaic",
-      "titol": "La irracionalitat de √2 i un mosaic molt especial",
-      "descripcio": "Proposta d'Anton Aubanell (Orientacions pràctiques per a la millora de la geometria a l'ESO) inspirada en Puig Adam: construir un mosaic amb triangles i rombes per deduir la incommensurabilitat de √2 a partir d'una petita franja visible.",
-      "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0043/40054ef3-a797-49e0-877e-b25a0dcae347/PA4_Irracionalitat_arrel_2.pdf",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "Orientacions pràctiques per a la millora de la geometria a l'ESO (XTEC) — Anton Aubanell"
-    },
-    {
-      "id": "mosaic-puig-adam-pattern-blocks",
-      "titol": "Mosaic de Puig Adam i generalització a Pattern Blocks",
-      "descripcio": "Activitat del grup Cúbic (Universitat de Barcelona) que amplia la proposta del mosaic de triangles i rombes de Puig Adam amb Pattern Blocks.",
-      "url": "http://www.ub.edu/cubic/wp-content/uploads/2017/11/Mosaic-Puig-Adam-i-Patternblocks.pdf",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "Grup Cúbic — UB"
-    },
-    {
-      "id": "arc-estrella-fractal",
-      "titol": "Estrella fractal",
-      "descripcio": "Activitat de papiroflèxia de Carme Garcia (ARC) per construir l'estrella fractal de Francesco Decio, treballant càlculs amb nombres irracionals a partir de les proporcions de les peces.",
-      "url": "https://apliense.xtec.cat/arc/node/30878",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "ARC — Carme Garcia"
-    },
-    {
-      "id": "arc-icosaedres-rectangles-auris",
-      "titol": "Icosaedres i rectangles auris",
-      "descripcio": "Activitat d'Anton Aubanell (ARC) per construir un icosaedre a partir de tres rectangles auris, amb proposta didàctica per demostrar la proporció àuria amb el teorema de Pitàgores.",
-      "url": "https://apliense.xtec.cat/arc/node/1327",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "ARC — Anton Aubanell"
-    },
-    {
-      "id": "creamat-geopla-nombres-irracionals",
-      "titol": "Nombres irracionals (geoplà)",
-      "descripcio": "Activitat del CREAMAT per representar nombres irracionals amb el geoplà, calculant hipotenuses de triangles rectangles i explorant quines arrels de nombres naturals hi són construïbles.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/geopl%C3%A0?authuser=0#h.p_UrPw7ftq4FFg",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "geogebra-geoplans-digitals",
-      "titol": "Geoplans digitals (GeoGebra)",
-      "descripcio": "Enllaç a geoplans en format digital a GeoGebra, alternativa al geoplà físic per representar nombres irracionals.",
-      "url": "https://www.geogebra.org/m/JUvsTRTg#material/gSKgsQZ5",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "GeoGebra"
-    },
-    {
-      "id": "geoboard-math-learning-center",
-      "titol": "Geoboard (The Math Learning Center)",
-      "descripcio": "Aplicació digital de geoplà de The Math Learning Center, alternativa al geoplà físic o a GeoGebra per a la representació de nombres irracionals.",
-      "url": "https://apps.mathlearningcenter.org/geoboard/",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "The Math Learning Center"
-    },
-    {
-      "id": "puntmat-irracionals-manipulatius",
-      "titol": "Nombres irracionals i materials manipulatius",
-      "descripcio": "Entrada del blog PuntMat amb tasques per treballar nombres irracionals amb Tangrams, Pattern Blocks, Puig Blocs i geoplans.",
-      "url": "https://puntmat.blogspot.com/2018/12/nombres-irracionals-i-materials.html",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "PuntMat"
-    },
-    {
-      "id": "creamat-geopals",
-      "titol": "Geopals",
-      "descripcio": "Proposta del CREAMAT per representar nombres irracionals de manera pràctica i significativa amb el material Geopals.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/geopals?pli=1",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "arc-caravana-de-cotxes",
-      "titol": "[3actes] Caravana de cotxes",
-      "descripcio": "Activitat en tres actes de Dan Meyer (ARC) sobre estimar quants cotxes de joguina hi ha en un cercle, per treballar estimació, aproximació i percentatge d'error.",
-      "url": "https://apliense.xtec.cat/arc/node/29450",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "ARC — Dan Meyer"
-    },
-    {
-      "id": "geogebra-metode-montecarlo-pi",
-      "titol": "El Método Monte Carlo. Estimación del Valor de Pi (GeoGebra)",
-      "descripcio": "Miniaplicació de GeoGebra de Rafael Pérez que repeteix milers de vegades l'experiment de llançar punts aleatoris dins d'un quadrat amb cercle inscrit per estimar π amb el mètode de Montecarlo.",
-      "url": "https://www.geogebra.org/m/cF7RwK3H",
-      "codi": "NUM.QU",
-      "curs": "4ESO",
-      "font": "GeoGebra — Rafael Pérez"
-    },
-    {
-      "id": "recull-fm-general",
-      "titol": "Recull de problemes del concurs Fem Matemàtiques",
-      "descripcio": "Portal amb el recull de problemes del concurs Fem Matemàtiques, amb nombrosos exemples que requereixen tècniques de comptatge per resoldre'ls.",
-      "url": "https://recullfm.feemcat.org/",
-      "codi": "NUM.CO",
-      "curs": "1ESO",
-      "font": "Concurs Fem Matemàtiques"
-    },
-    {
-      "id": "les-piramides-dallaia",
-      "titol": "Les piràmides d'Al·laia",
-      "descripcio": "Problema obert del Fem Matemàtiques 2024: construir i estudiar piràmides de base quadrada i rectangular fetes de blocs cúbics, comptant blocs i nivells per deduir relacions numèriques.",
-      "url": "https://recullfm.feemcat.org/bloc-de-contingut/algebraic/les-piramides-dallaia-2/",
-      "codi": "NUM.CO",
-      "curs": "1ESO",
-      "font": "Fem Matemàtiques 2024"
-    },
-    {
-      "id": "fent-torres-amb-peces-del-jenga",
-      "titol": "Fent torres amb peces del Jenga",
-      "descripcio": "Problema obert del Fem Matemàtiques 2024 en què cal aplicar tècniques de comptatge amb peces del joc Jenga.",
-      "url": "https://recullfm.feemcat.org/bloc-de-contingut/algebraic/fent-torres-amb-peces-del-jenga/",
-      "codi": "NUM.CO",
-      "curs": "1ESO",
-      "font": "Fem Matemàtiques 2024"
-    },
-    {
-      "id": "nrich-how-many",
-      "titol": "How Many?",
-      "descripcio": "Activitat de comptatge visual: es mostren imatges (préssecs, taronges, gerds) durant uns segons i l'alumnat ha d'estimar quants n'hi ha i explicar com ho ha calculat.",
-      "url": "https://nrich.maths.org/problems/how-many",
-      "codi": "NUM.CO",
-      "curs": "1ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "nrich-how-would-we-count",
-      "titol": "How would we count?",
-      "descripcio": "Activitat de comptatge visual amb una disposició de punts: l'alumnat ha de calcular quants punts hi ha i compartir les seves estratègies de comptatge.",
-      "url": "https://nrich.maths.org/problems/how-would-we-count",
-      "codi": "NUM.CO",
-      "curs": "1ESO",
-      "font": "NRICH"
-    },
-    {
-      "id": "counting-tree",
-      "titol": "Counting tree",
-      "descripcio": "Activitat d'estimació visual: una imatge d'un bosc amb cercles (arbres vells) i triangles (arbres joves) que l'alumnat ha d'estimar i comptar per tipus, en petits grups.",
-      "url": "https://www.map.mathshell.org/tasks.php?unit=ME02&collection=9",
-      "codi": "NUM.CO",
-      "curs": "2ESO",
-      "font": "Mathematics Assessment Project"
-    },
-    {
-      "id": "tirem-2-daus-part-2",
-      "titol": "Tirem 2 daus (part 2)",
-      "descripcio": "Entrada del web Calaix +ie de Joan Jareño amb la cursa de camells i algunes variants del joc.",
-      "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/altres/tirem-els-daus-part-2/",
-      "codi": "NUM.CO",
-      "curs": "2ESO",
-      "font": "Calaix +ie (Joan Jareño)"
-    },
-    {
-      "id": "el-toc-bum",
-      "titol": "El TOC-BUM (un joc de càlcul)",
-      "descripcio": "Joc senzill de càlcul que permet treballar el comptatge mostrant com recollir dades, construir taules i extreure'n conclusions a partir de l'observació.",
-      "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/activitats-de-numeracio-i-calcul/el-toc-bum-un-joc-de-calcul/",
-      "codi": "NUM.CO",
-      "curs": "2ESO",
-      "font": "Calaix +ie"
-    },
-    {
-      "id": "cubets-encaixables-combinem",
-      "titol": "Cubets encaixables: combinem!",
-      "descripcio": "Ús de cubets encaixables com a recurs manipulatiu per explorar combinatòria, simetria i estructures espacials, experimentant maneres d'encaixar-los per formar figures i patrons.",
-      "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/cubets-encaixables-combinem?authuser=0",
-      "codi": "NUM.CO",
-      "curs": "2ESO",
-      "font": "CREAMAT"
-    },
-    {
-      "id": "combinar-i-comptar-joguines-poemes",
-      "titol": "Combinar i comptar: Joguines, poemes i matemàtiques",
-      "descripcio": "Enfocament lúdic per treballar la combinatòria amb materials quotidians (joguines, poemes), explorant de quantes maneres es poden combinar diferents elements.",
-      "url": "https://calaix2.blogspot.com/2012/10/combinar-i-comptar-joguines-poemes.html",
-      "codi": "NUM.CO",
-      "curs": "2ESO",
-      "font": "Calaix +ie"
-    },
-    {
-      "id": "visual-patterns",
-      "titol": "Visual patterns",
-      "descripcio": "Web amb 500 patrons visuals de diferents nivells de dificultat: a partir dels primers elements d'un patró, cal determinar el nombre d'objectes del pas 43 i expressar la regla de formació.",
-      "url": "https://www.visualpatterns.org/",
-      "codi": "NUM.CO",
-      "curs": "3ESO",
-      "font": "Visual Patterns"
-    },
-    {
-      "id": "fitxa-de-colors-arc",
-      "titol": "Fitxa de colors",
-      "descripcio": "Activitat manipulativa amb fitxes de colors per plantejar el problema general de la combinatòria: formar agrupacions amb criteris variables (importa l'ordre? es repeteix?) i deduir les fórmules de variacions, permutacions i combinacions.",
-      "url": "https://apliense.xtec.cat/arc/node/1347",
-      "codi": "NUM.CO",
-      "curs": "4ESO",
-      "font": "ARC"
-    },
-    {
-      "id": "quin-cadenat-es-mes-segur",
-      "titol": "Quin cadenat és més segur?",
-      "descripcio": "Situació d'aprenentatge a partir de la seguretat dels cadenats: l'alumnat determina el nombre de combinacions possibles aplicant la regla del producte i les variacions amb repetició, connectant amb la probabilitat.",
-      "url": "https://atd-tad.org/wp-content/uploads/2024/03/2024_Conferencia-CREAMAT-LABINQUIRY_r.pdf",
-      "codi": "NUM.CO",
-      "curs": "4ESO",
-      "font": "Berta Barquero, Marianna Bosch i Susana Vásquez — cicle de conferències CREAMAT"
-    },
-    {
-      "id": "linies-poligonals-arc",
-      "titol": "Línies poligonals",
-      "descripcio": "Activitat amb peces geomètriques on l'alumnat calcula el nombre de línies possibles combinant-les amb diferents orientacions i moviments, aplicant la regla del producte i considerant restriccions.",
-      "url": "https://apliense.xtec.cat/arc/node/31247",
-      "codi": "NUM.CO",
-      "curs": "4ESO",
-      "font": "Anton Aubanell — ARC"
-    },
-    {
-      "id": "linies-poligonals-presentacio",
-      "titol": "Línies poligonals — presentació",
-      "descripcio": "Document de presentació de l'activitat Línies poligonals, amb el desenvolupament complet de la proposta.",
-      "url": "https://apliense.xtec.cat/arc/sites/default/files/Presentaci%C3%B3%20-%20L%C3%ADnies%20poligonals%20-%20Anton%20Aubanell.pdf",
-      "codi": "NUM.CO",
-      "curs": "4ESO",
-      "font": "Anton Aubanell — ARC"
-    }
+ "_meta": {
+  "font": "TOR d'ESO. Blocs processats (sentit numèric, 5 de 5): 'TOR_ESO Sentit numeric_Relacions.pdf', 'TOR_ESO Sentit numeric_Quantitat.pdf', 'TOR_ESO Sentit numeric_comptatge.pdf', 'TOR_ESO Sentit numeric. Raonament proporcional.pdf' i 'TOR_ESO Sentit numeric. Sentit de les operacions.pdf'. Sentit numèric complet — pendents els altres 3 sentits (16 PDFs: espacial, mesura, algebraic, estocàstic).",
+  "descripcio": "Exemples concrets d'activitats i recursos didàctics, amb enllaç a la font original quan n'hi ha, extrets dels documents TOR del departament. Cada recurs s'enllaça a un bloc curricular (codi) dins d'un curs (curs), seguint el mateix nivell d'agregació que 'codi' a data-sabers.json — no a un saber individual. El camp 'url' és opcional: una activitat casolana sense font externa publicada (per exemple un joc de taula descrit únicament al TOR) es representa amb url null en lloc de ser descartada — norma estàndard des d'aquesta versió, vegeu HANDOFF.md.",
+  "cursOrder": [
+   "1ESO",
+   "2ESO",
+   "3ESO",
+   "4ESO"
   ]
+ },
+ "recursos": [
+  {
+   "id": "cartes-multiplicacio-10x10",
+   "titol": "Cartes de multiplicació 10x10",
+   "descripcio": "Joc de cartes amb productes de parelles de nombres de l'1 al 10; una cara mostra l'expressió aritmètica i la representació geomètrica en rectangle, l'altra el resultat.",
+   "url": "https://drive.google.com/file/d/1_CElW0k7avoe-BXoDvafai7ofD461cpr/view",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Manel Martínez, jornades d'Ademgi 2024 — Parlem i compartim dels sabers a les competències"
+  },
+  {
+   "id": "cartes-de-l-1-al-100",
+   "titol": "Cartes de l'1 al 100 (i activitat de l'hotel de les 100 portes)",
+   "descripcio": "Cartes amb la descomposició factorial en codi de colors i en arbre; permeten l'activitat clàssica de l'hotel de les 100 portes per descobrir els quadrats perfectes.",
+   "url": "https://drive.google.com/file/d/12Y-GYS5bhTRs1r7OEqooORDBhrYVoBp1/view",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Manel Martínez, jornades d'Ademgi 2024 — Parlem i compartim dels sabers a les competències"
+  },
+  {
+   "id": "presentacio-parlem-i-compartim",
+   "titol": "Parlem i compartim dels sabers a les competències (presentació completa)",
+   "descripcio": "Presentació de les jornades d'Ademgi 2024 amb les activitats i preguntes guiades per treballar els dos jocs de cartes anteriors a l'aula.",
+   "url": "https://docs.google.com/presentation/d/1euo-q7BsDOGFu2mQeH9cJNvmkXsFbsMT/present?slide=id.p1",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Manel Martínez, jornades d'Ademgi 2024"
+  },
+  {
+   "id": "abundants-deficients-perfectes",
+   "titol": "Abundants, deficients i perfectes i algunes relacions",
+   "descripcio": "Classificació de nombres segons la suma dels seus divisors propis (abundant, deficient o perfecte); bona excusa per buscar tots els divisors d'un nombre amb un objectiu clar.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/investiguem/nombres-amb-nom-propi?authuser=0",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "CREAMAT — Nombres amb nom propi"
+  },
+  {
+   "id": "il-lustracio-quadrats-senars",
+   "titol": "Il·lustració de la relació entre quadrats perfectes i suma de senars consecutius",
+   "descripcio": "Imatge que relaciona les dues pautes que sorgeixen de l'hotel de les 100 portes: els quadrats perfectes i la suma de senars successius.",
+   "url": "https://x.com/Haskell_ETSIIT/status/899673002857648128",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "@Haskell_ETSIIT"
+  },
+  {
+   "id": "triangle-de-pascal-multiples",
+   "titol": "Triangle de Pascal per detectar múltiples",
+   "descripcio": "A partir del triangle de Pascal, pintar o marcar les caselles ocupades per múltiples de 2, 3, 4 o 5 i observar els patrons que s'hi formen.",
+   "url": "https://matematiquesmarines.blogspot.com/2014/11/triangle-de-pascal.html",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Institut Baix a Mar"
+  },
+  {
+   "id": "els-primers-nombres-primers",
+   "titol": "Els primers nombres primers",
+   "descripcio": "Cinc reptes de resolució de problemes amb els 30 primers nombres primers (sumes de dos primers, quadrats, múltiples de 6, potències de 2, espiral numèrica).",
+   "url": "https://puntmat.blogspot.com/2014/04/els-primers-nombres-primers.html",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "role-play-googolplex",
+   "titol": "Nosaltres com a recurs: role-plays a classe de matemàtiques (i 2)",
+   "descripcio": "Joc de rol/coreografia amb l'alumnat: segons el nombre de participants (primer o compost) es formen en una o diverses rotllanes, per visualitzar la divisibilitat.",
+   "url": "https://publicacions.iec.cat/repository/pdf/00000251/00000063.pdf",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Revista NouBiaix núm. 40 (juliol 2017), Albert Herrero — club matemàtic Googolplex"
+  },
+  {
+   "id": "video-es-pot-veure-la-divisibilitat",
+   "titol": "Es pot veure la divisibilitat?",
+   "descripcio": "Vídeo del VideoMat 2016 que mostra la mateixa activitat de coreografia per visualitzar nombres primers i compostos.",
+   "url": "https://www.youtube.com/watch?v=65SV8d-JhbA",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "VideoMat 2016"
+  },
+  {
+   "id": "mes-sobre-l-arbre-de-factors",
+   "titol": "Més sobre l'arbre de factors",
+   "descripcio": "Explica el procés de construir un arbre de factors fins arribar als factors primers, i com qualsevol camí porta a la mateixa descomposició (unicitat).",
+   "url": "http://puntmat.blogspot.com/2011/12/mes-sobre-larbre-de-factors.html",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "practica-productiva-restes-1",
+   "titol": "Pràctica productiva: Restes 1 següent",
+   "descripcio": "Càlcul del màxim comú divisor a partir de l'algorisme d'Euclides mitjançant restes successives sobre una graella de nombres de l'1 al 100.",
+   "url": "https://puntmat.blogspot.com/2014/11/practica-productiva-amb-restes.html",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "video-graella-numerica-creamat",
+   "titol": "Graella numèrica (vídeo per al professorat)",
+   "descripcio": "Explica com dur a terme l'activitat de la graella numèrica per al càlcul del mcd, amb èmfasi en el paper de les preguntes del professorat.",
+   "url": "https://www.youtube.com/watch?v=VBf9UNceOgc",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "CREAMAT, Cecilia Calvo"
+  },
+  {
+   "id": "mcd-mcm-algorisme-euclides-snap",
+   "titol": "Mcd, mcm i algorisme d'Euclides (programació amb Snap!)",
+   "descripcio": "Exemples per programar el càlcul del mcm i el mcd amb l'entorn de programació per blocs Snap!, connectant amb el pensament computacional.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matsnap/nombres/m2p2",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "XTEC Ateneu"
+  },
+  {
+   "id": "mcm-mcd-amb-policubs-dosil",
+   "titol": "Mcm/mcd amb policubs",
+   "descripcio": "Proposta manipulativa per treballar el mínim comú múltiple i el màxim comú divisor amb policubs de colors.",
+   "url": "http://www.mdosil.cat/?p=793",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Mireia Dosil"
+  },
+  {
+   "id": "divisibilidad-con-policubos",
+   "titol": "Divisibilidad con policubos",
+   "descripcio": "Variant de l'activitat anterior amb policubs, centrada en el concepte de divisibilitat.",
+   "url": "https://mates.aomatos.com/divisibilidad-con-policubos/",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Antonio Ómatos"
+  },
+  {
+   "id": "tiktok-howie-hua-policubs",
+   "titol": "Vídeo TikTok sobre mcm/mcd amb material manipulatiu",
+   "descripcio": "Vídeo curt que mostra visualment el càlcul del mcm i el mcd amb material manipulatiu.",
+   "url": "https://x.com/howie_hua/status/1578526824866271234",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "@howie_hua"
+  },
+  {
+   "id": "hot-dogs-and-buns",
+   "titol": "How Many Hot Dogs And Buns Should He Buy?",
+   "descripcio": "A partir d'un fragment de la pel·lícula 'El pare de la núvia', plantejar quants paquets de salsitxes i panets cal comprar perquè no en sobri cap: aplicació pràctica del mcm.",
+   "url": "https://robertkaplinsky.com/work/how-many-hot-dogs-and-buns-should-he-buy/",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Robert Kaplinsky"
+  },
+  {
+   "id": "els-sona-contes-geometria-nombres",
+   "titol": "Els «sona»: contes, geometria i nombres (1)",
+   "descripcio": "Dibuixos geomètrics («lusona») usats per contacontes africans, traçats d'un sol cop sobre una quadrícula; el nombre de voltes per recobrir tots els punts d'un rectangle correspon al mcd dels seus costats.",
+   "url": "https://calaix2.blogspot.com/2017/11/els-sona-contes-geometria-i-nombres.html",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "Blog Calaix +ie"
+  },
+  {
+   "id": "quants-quadrets-travessa-la-diagonal",
+   "titol": "Quants quadrets travessa la diagonal?",
+   "descripcio": "Descobrir la fórmula a+b−mcd(a,b) per calcular quants quadrets travessa la diagonal d'un rectangle dibuixat en una quadrícula, sense haver-los de comptar un a un.",
+   "url": "https://stackoverflow.com/questions/42210240/number-of-distinct-rectangles-in-which-diagonal-is-passing-in-n-squares",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "StackOverflow"
+  },
+  {
+   "id": "video-diagonal-rectangle-cross",
+   "titol": "How Many Squares does the Diagonal of an m x n Rectangle Cross?",
+   "descripcio": "Demostració en vídeo, clara i intuïtiva, de la fórmula que relaciona el recorregut de la diagonal d'un rectangle amb el mcd dels seus costats.",
+   "url": "https://www.youtube.com/watch?v=_fO9W301Z1k",
+   "codi": "NUM.RE",
+   "curs": "1ESO",
+   "font": "YouTube"
+  },
+  {
+   "id": "video-alia-3x2",
+   "titol": "Àlia. 3x2? No m'ho crec!!",
+   "descripcio": "Vídeo on el personatge Àlia analitza si les ofertes de tipus 3x2 i altres descomptes comercials són realment tan avantatjoses com semblen, comparant-les de manera crítica.",
+   "url": "https://www.3cat.cat/3cat/3-x-2-no-mho-crec-/video/6037804/",
+   "codi": "NUM.RE",
+   "curs": "2ESO",
+   "font": "3Cat / CREAMAT"
+  },
+  {
+   "id": "suport-didactic-alia",
+   "titol": "Suport didàctic d'Àlia",
+   "descripcio": "Material didàctic complementari de la sèrie Àlia per treballar la comparació de descomptes i ofertes comercials.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/%C3%A0lia#h.p_YV4xdasl9raQ",
+   "codi": "NUM.RE",
+   "curs": "2ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "the-daisy-flower-for-fractions",
+   "titol": "The daisy: a flower for fractions",
+   "descripcio": "Activitat interactiva de GeoGebra amb gràfics que representen dades en fraccions, decimals i percentatges, per comparar diferents formes de representar quantitats.",
+   "url": "https://www.geogebra.org/m/gvhzj8mz",
+   "codi": "NUM.RE",
+   "curs": "2ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "recompte-de-camins-minims",
+   "titol": "Recompte de camins mínims entre dos punts d'una quadrícula",
+   "descripcio": "Calcular el nombre de camins de longitud mínima en una quadrícula entre dos vèrtexs; el nombre de camins a cada punt coincideix amb els nombres del triangle aritmètic.",
+   "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0075/b03c9f9e-ad99-4f63-b92a-3656685c41db/PA2_Recompte-de-camins.pdf",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "Aubanell (2015), Orientacions per a la millora de la geometria, p. 63"
+  },
+  {
+   "id": "quaderns-avaluacio-31",
+   "titol": "Quaderns d'Avaluació núm. 31 (orientacions completes)",
+   "descripcio": "Document complet d'orientacions per a la millora de la geometria on s'inclou l'activitat de recompte de camins mínims.",
+   "url": "https://serveiseducatius.xtec.cat/cesire/wp-content/uploads/usu2650/2021/06/quaderns31orientacions.pdf",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "Serveis Educatius XTEC / CESIRE"
+  },
+  {
+   "id": "aneu-on-l-atzar-us-porti",
+   "titol": "Aneu on l'atzar us porti",
+   "descripcio": "Problema de la primera fase del concurs Fem Matemàtiques 2022 (1r i 2n d'ESO), similar al recompte de camins mínims i aplicable amb les propietats del triangle aritmètic.",
+   "url": "https://drive.google.com/file/d/1xpwoEXETc2-CCgp1DiIEw3k64Voif-EU/view",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "Concurs Fem Matemàtiques 2022"
+  },
+  {
+   "id": "mathigon-sequencia-patrons",
+   "titol": "Seqüència de Mathigon per descobrir patrons",
+   "descripcio": "Activitat interactiva per descobrir i explorar visualment patrons al triangle aritmètic, incloent-hi la simetria i la relació amb els nombres combinatoris.",
+   "url": "https://es.mathigon.org/course/sequences/pascals-triangle",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "Mathigon"
+  },
+  {
+   "id": "triangle-de-pascal-ins-baix-a-mar",
+   "titol": "Triangle de Pascal (aproximació manual)",
+   "descripcio": "Explicació manual del triangle de Pascal com a complement a l'activitat interactiva de Mathigon, centrada en la construcció fila a fila.",
+   "url": "https://matematiquesmarines.blogspot.com/2014/11/triangle-de-pascal.html",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "Institut Baix a Mar"
+  },
+  {
+   "id": "harmonic-triangle-nrich",
+   "titol": "Harmonic Triangle",
+   "descripcio": "Construcció d'un triangle harmònic (fraccions unitàries on cada entrada és la suma de les dues de sota) per identificar patrons a les diagonals i trobar una expressió general.",
+   "url": "https://nrich.maths.org/problems/harmonic-triangle",
+   "codi": "NUM.RE",
+   "curs": "4ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "tauler-de-fraccions-polypad",
+   "titol": "Tauler de fraccions (Polypad)",
+   "descripcio": "Material manipulatiu (físic o virtual amb Mathigon Polypad) per treballar fraccions pròpies/impròpies, comparació, ordenació i fraccions equivalents amb tires de colors.",
+   "url": "https://polypad.amplify.com/p#fraction-bars",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Mathigon Polypad"
+  },
+  {
+   "id": "video-quadre-fraccions-unitaries",
+   "titol": "Quadre de fraccions unitàries",
+   "descripcio": "Vídeo del CREAMAT en què Anton Aubanell i Francesc Massich expliquen activitats amb el tauler de fraccions.",
+   "url": "https://www.youtube.com/watch?v=LPLywW9v1is",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "geogebra-comparing-fractions-lines-circles",
+   "titol": "Comparing fractions with lines and circles (GeoGebra)",
+   "descripcio": "Applet de GeoGebra per comparar fraccions mitjançant representacions amb rectes i cercles.",
+   "url": "https://www.geogebra.org/m/QqFyBqcV",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "geogebra-converting-mixed-improper",
+   "titol": "Converting Mixed Number Fractions to Improper Fractions (GeoGebra)",
+   "descripcio": "Applet de GeoGebra per practicar la conversió de nombres mixtos a fraccions impròpies.",
+   "url": "https://www.geogebra.org/m/tbeqdpqd",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "geogebra-converting-improper-mixed",
+   "titol": "Converting between improper fractions and mixed numbers (GeoGebra)",
+   "descripcio": "Applet de GeoGebra complementari per practicar la conversió en ambdós sentits entre fraccions impròpies i nombres mixtos.",
+   "url": "https://www.geogebra.org/m/K59T4szR",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "conferencia-tratamiento-fracciones",
+   "titol": "Tratamiento de las fracciones, un ejemplo de cambio",
+   "descripcio": "Conferència de José Manuel Vidal González sobre la importància d'ensenyar a resoldre problemes amb fraccions abans que a calcular, per posar l'accent en la comprensió dels conceptes.",
+   "url": "https://serveiseducatius.xtec.cat/cesire/recurs-eco2/tratamiento-de-las-fracciones-un-ejemplo-de-cambio/",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "fes-de-champollion",
+   "titol": "Fes de Champollion (numeracions antigues)",
+   "descripcio": "Activitat de desxiframent: a partir de documents amb doble numeració (antiga i actual) l'alumnat dedueix el funcionament de sistemes de numeració antics (egípcia, assíria, maia, grega) en bases 10, 20 o 60, en grups de tres.",
+   "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/activitats-de-numeracio-i-calcul/fes-de-champollion-numeracions-antigues/",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Calaix+ie"
+  },
+  {
+   "id": "multiplicacio-egipcia",
+   "titol": "La multiplicació egípcia",
+   "descripcio": "Explicació de l'algoritme clàssic egipci de multiplicació, per mostrar que els càlculs no s'han fet sempre de la mateixa manera al llarg de la història.",
+   "url": "https://calaix2.blogspot.com/2015/06/multiplicar-amb-dobles-o-amb-dobles-i.html",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Calaix+ie"
+  },
+  {
+   "id": "divisio-egipcia",
+   "titol": "La divisió egípcia",
+   "descripcio": "Explicació de l'algoritme clàssic egipci de divisió, comprensible pas a pas, per treballar mètodes de càlcul històrics diferents dels actuals.",
+   "url": "https://calaix2.blogspot.com/2012/11/divisions-1-la-divisio-egipcia.html#more",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Calaix+ie"
+  },
+  {
+   "id": "web-calculus-joan-jareno",
+   "titol": "Calculus, de Joan Jareño",
+   "descripcio": "Web amb informació sobre la història del desenvolupament de les numeracions orals i escrites.",
+   "url": "http://www.xtec.cat/~jjareno/calculus/",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Joan Jareño"
+  },
+  {
+   "id": "article-origen-escriptura-numeros",
+   "titol": "El origen de la escritura de los números",
+   "descripcio": "Article de Cultura Científica, de Raúl Ibáñez, per aprofundir en la història dels nombres i els sistemes de numeració.",
+   "url": "https://culturacientifica.com/2018/10/31/el-origen-de-la-escritura-de-los-numeros/",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Cultura Científica — Raúl Ibáñez"
+  },
+  {
+   "id": "arc-nombres-negatius-zero",
+   "titol": "Els nombres negatius i el zero: Xina, Grècia, Índia, Món àrab, Europa (250-1567)",
+   "descripcio": "Mòdul de l'ARC amb l'explicació de la història dels nombres negatius a través de diverses civilitzacions; permet vincular-ho amb altres matèries com ciències socials.",
+   "url": "https://apliense.xtec.cat/arc/node/421",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "ARC"
+  },
+  {
+   "id": "video-fraccio-d-un-nombre",
+   "titol": "Fracció d'un nombre",
+   "descripcio": "Vídeo del CREAMAT que inspira una activitat amb material manipulatiu (taps repartits en rectangles) per calcular la fracció d'un nombre i, a la inversa, trobar el nombre a partir d'una fracció donada.",
+   "url": "https://www.youtube.com/watch?v=c3kFjX_4MGg&list=PL7u-OLF_IPJ0kFiUPLBTU1vpWgafF2cat",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "arc-cartes-fraccions-improòpies",
+   "titol": "Cartes de fraccions impròpies",
+   "descripcio": "Joc de 48 cartes numerades amb fraccions impròpies, cadascuna representada amb quatre formats (sectors circulars, segments, fracció impròpia i nombre mixt); es proposen dos jocs (fer parelles i fer famílies) per grups de 4-6 alumnes.",
+   "url": "https://apliense.xtec.cat/arc/node/353",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "ARC"
+  },
+  {
+   "id": "mes-enlla-de-les-potencies",
+   "titol": "Més enllà de les potències",
+   "descripcio": "Document de l'Institut Baix a Mar sobre com introduir i treballar el concepte de potència de manera progressiva i motivadora.",
+   "url": "https://matematiquesmarines.blogspot.com/2019/03/mes-enlla-de-les-potencies.html",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Institut Baix a Mar"
+  },
+  {
+   "id": "les-primeres-potencies",
+   "titol": "Les primeres potències",
+   "descripcio": "Entrada del blog PuntMat amb activitats sobre potències de base 2 i base 3: repartir nombres parells amb targetes de potències de 2, i un joc de fitxes en un tauler per representar sumes amb potències de 3.",
+   "url": "https://puntmat.blogspot.com/2015/10/les-primeres-potencies.html",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "explorant-ordres-de-magnitud",
+   "titol": "Explorant els ordres de magnitud",
+   "descripcio": "Document amb 5 activitats per treballar ordres de magnitud, notació científica i el sistema internacional d'unitats a partir d'aproximar magnituds molt grans i molt petites amb potències de 10.",
+   "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0046/492adc0e-b4f6-43af-ac81-cff8f26e0dfb/PA1_Ordres_de_magnitud.pdf",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "Orientacions pràctiques per a la millora de la geometria a l'ESO (XTEC)"
+  },
+  {
+   "id": "video-el-rei-i-el-savi",
+   "titol": "El rei i el savi",
+   "descripcio": "Vídeo del programa Una mà de contes que explica la llegenda de l'inventor dels escacs i el gra de blat duplicat a cada casella, punt de partida per calcular nombres molt grans amb notació científica.",
+   "url": "https://www.ccma.cat/tv3/sx3/el-rei-i-el-savi/video/1570389/",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "TV3 — Una mà de contes"
+  },
+  {
+   "id": "wolframalpha-2-elevat-64",
+   "titol": "Càlcul de 2^64 amb WolframAlpha",
+   "descripcio": "Ús de WolframAlpha (o un full de càlcul) per calcular el nombre total de grans de blat de la llegenda de l'escaquer, resultat que es pot expressar en notació científica.",
+   "url": "https://www.wolframalpha.com/input?i=2%5E64",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "WolframAlpha"
+  },
+  {
+   "id": "video-chess-board-rice-exponential",
+   "titol": "Chess board with rice: exponential growth",
+   "descripcio": "Vídeo que visualitza el creixement exponencial del nombre de grans de blat sobre l'escaquer, per reflexionar sobre la magnitud del resultat.",
+   "url": "https://www.youtube.com/watch?v=wNJVvwhU3a0&list=PLL4wyBfce7uwLnDG42W6DNYi_g_PoPrck&index=34",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "YouTube"
+  },
+  {
+   "id": "video-quants-granets-de-blat-cabens",
+   "titol": "Quants granets de blat caben?",
+   "descripcio": "Vídeo de la col·lecció VídeoMAT fet per alumnat de l'escola de Lladurs (ZER El Solsonès), que respon a la pregunta de la llegenda de l'escaquer des de la seva pròpia experiència.",
+   "url": "https://www.youtube.com/watch?v=9dqtNHS_b7M&list=PL7u-OLF_IPJ3bNvzX9RlIE_rvcLE7pk4T&index=4",
+   "codi": "NUM.QU",
+   "curs": "1ESO",
+   "font": "VídeoMAT — ZER El Solsonès"
+  },
+  {
+   "id": "geogebra-the-daisy-flower-fractions",
+   "titol": "The daisy: a flower for fractions (GeoGebra)",
+   "descripcio": "Recurs de GeoGebra de Daniel Mentrard per visualitzar diferents representacions dels nombres racionals (fracció, decimal, percentatge) segons la situació.",
+   "url": "https://www.geogebra.org/m/gvhzj8mz",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "GeoGebra — Daniel Mentrard"
+  },
+  {
+   "id": "nrich-fraction-rectangle",
+   "titol": "Fraction rectangle",
+   "descripcio": "Activitat de NRICH en què cal trobar la fracció que correspon a cadascuna de les 10 formes numerades d'un rectangle dividit en quadrilàters i triangles.",
+   "url": "https://nrich.maths.org/problems/fractions-rectangle",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "fraction-talks",
+   "titol": "Fraction Talks",
+   "descripcio": "Web amb figures geomètriques per identificar i discutir fraccions de manera visual, similar a l'activitat de Fraction rectangle.",
+   "url": "http://fractiontalks.com/",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "Fraction Talks"
+  },
+  {
+   "id": "fraction-talks-pattern-block-edition",
+   "titol": "Fraction Talks – Pattern Block Edition!",
+   "descripcio": "Proposta de Math for Love amb Fraction Talks fetes amb Pattern Blocks, per treballar en grup o individualment justificant les respostes.",
+   "url": "https://mathforlove.com/lesson/fraction-talks-pattern-block-edition/",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "Math for Love"
+  },
+  {
+   "id": "fraccions-ull-d-horus",
+   "titol": "Les fraccions: l'Ull d'Horus",
+   "descripcio": "Activitat sobre les fraccions de l'antic Egipte a partir de l'heqat, unitat de capacitat representada amb l'Ull d'Horus; l'alumnat completa una taula i en descobreix la representació geomètrica.",
+   "url": "http://www.xtec.cat/~jcanadil/activitats/fraccions_ull_Horus.htm",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "Web personal — J. Cañadilla"
+  },
+  {
+   "id": "video-fraccions-egipcies",
+   "titol": "Fraccions egípcies",
+   "descripcio": "Vídeo del CREAMAT sobre com els egipcis escrivien fraccions no unitàries com a suma de fraccions unitàries, útil en contextos de repartiment.",
+   "url": "https://www.youtube.com/watch?v=x2odikQ5JNY",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "nrich-greedy-algorithm",
+   "titol": "The greedy algorithm",
+   "descripcio": "Activitat de NRICH amb un algoritme per escriure qualsevol fracció com a suma de fraccions unitàries, a la manera egípcia.",
+   "url": "https://nrich.maths.org/problems/greedy-algorithm",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "nrich-history-of-fractions",
+   "titol": "History of Fractions",
+   "descripcio": "Article de NRICH sobre la història de les fraccions al sistema de numeració sexagesimal babilònic, base per treballar la representació posicional.",
+   "url": "https://nrich.maths.org/articles/history-fractions",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "raiz-cuadrada-de-2-prehistoria",
+   "titol": "La raíz cuadrada de 2… en la prehistoria",
+   "descripcio": "Article que explica el càlcul de l'arrel de 2 registrat a la tauleta babilònica YBC7289, amb aproximacions de gran precisió i antiguitat.",
+   "url": "https://dguinstation.wordpress.com/2012/05/19/la-raiz-cuadrada-de-2-en-la-prehistoria/",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "dguinstation.wordpress.com"
+  },
+  {
+   "id": "mmaca-matematica-mesopotamica",
+   "titol": "Matemàtica Mesopotàmica",
+   "descripcio": "Explicació detallada del càlcul de l'arrel de 2 a la tauleta babilònica YBC7289 i del sistema de numeració mesopotàmic.",
+   "url": "https://mmaca.cat/moduls/matematica-mesopotamica/",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "MMACA"
+  },
+  {
+   "id": "babylonian-maths-motivate",
+   "titol": "Babylonian maths",
+   "descripcio": "Web de consulta del projecte Motivate amb informació sobre el sistema de numeració babilònic.",
+   "url": "https://motivate.maths.org/content/BabylonianMaths/",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "Motivate"
+  },
+  {
+   "id": "geogebra-construccio-grafica-nombre-racional",
+   "titol": "Construcció gràfica d'un nombre racional (GeoGebra)",
+   "descripcio": "Material de Guillem Bonet a GeoGebra per construir geomètricament fraccions expressades com a nombre mixt, alternativa digital a la construcció a mà amb regle i compàs.",
+   "url": "https://www.geogebra.org/m/mhMbwZPH",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "GeoGebra — Guillem Bonet"
+  },
+  {
+   "id": "nrich-peaches-today-peaches-tomorrow",
+   "titol": "Peaches today, Peaches tomorrow…",
+   "descripcio": "Problema de NRICH en tres parts progressives sobre un mico que es guarda una fracció de préssecs cada dia; treballa fraccions en contextos de resolució de problemes oberts.",
+   "url": "https://nrich.maths.org/problems/peaches-today-peaches-tomorrow",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "creamat-representacio-de-fraccions",
+   "titol": "Representació de fraccions",
+   "descripcio": "Entrada del CREAMAT amb diferents maneres de representar fraccions i fer repartiments equitatius, amb vídeos de com dur-ho a terme a l'aula.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/representaci%C3%B3-de-fraccions#h.p_r2RAmTXV_-Oi",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "les-primeres-potencies-2eso",
+   "titol": "Les primeres potències (xifra final de potències)",
+   "descripcio": "Entrada del blog PuntMat amb l'activitat de trobar la xifra final de potències de base fixa (2, 3, 4, 5) mitjançant la detecció de patrons periòdics.",
+   "url": "https://puntmat.blogspot.com/2015/10/les-primeres-potencies.html",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "instagram-potencies-exponent-zero-negatiu",
+   "titol": "Potència elevada a zero o a exponent negatiu (Instagram)",
+   "descripcio": "Publicació d'Instagram del compte matematica.significativa amb tres imatges d'una progressió descendent de potències de base 2 (cada terme la meitat de l'anterior) per deduir què significa una potència elevada a zero o a un exponent negatiu.",
+   "url": "https://www.instagram.com/p/C_aaVMjoWQq/?igsh=MWMyanRtMmsyczNqcw%3D%3D&img_index=1",
+   "codi": "NUM.QU",
+   "curs": "2ESO",
+   "font": "Instagram — matematica.significativa"
+  },
+  {
+   "id": "nrich-introduction-irrational-numbers",
+   "titol": "An introduction to irrational numbers",
+   "descripcio": "Activitat de NRICH sobre fraccions mediants i la seqüència de Farey; permet endevinar una fracció irreductible fent preguntes binàries i trobar fraccions generatrius de decimals.",
+   "url": "https://nrich.maths.org/articles/introduction-irrational-numbers",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "nrich-near-10",
+   "titol": "Near 10",
+   "descripcio": "Problema de NRICH sobre quants nombres enters n compleixen que la diferència entre l'arrel de n i 10 és menor que 1; treballa el concepte d'arrel i la seva aproximació.",
+   "url": "https://nrich.maths.org/problems/near-10",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "puntmat-decimals-periodics",
+   "titol": "Decimals periòdics",
+   "descripcio": "Entrada del blog PuntMat amb activitats per comprendre la relació entre fraccions i decimals periòdics, examinant denominadors com 7, 13 i 19 i la seva descomposició factorial.",
+   "url": "https://puntmat.blogspot.com/2013/01/decimals-periodics.html",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "nrich-terminating-or-not",
+   "titol": "Terminating or Not?",
+   "descripcio": "Activitat de NRICH per analitzar quan una fracció té representació decimal finita o infinita, a partir dels factors primers del denominador (finita només amb factors 2 i/o 5).",
+   "url": "https://nrich.maths.org/problems/terminating-or-not",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "nrich-repetitiously",
+   "titol": "Repetitiously",
+   "descripcio": "Activitat de NRICH per expressar decimals periòdics com a fraccions mitjançant equacions (per exemple, x=0,2̂ i 10x=2+x).",
+   "url": "https://nrich.maths.org/problems/repetitiously",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "nrich-tiny-nines",
+   "titol": "Tiny nines",
+   "descripcio": "Activitat de NRICH per cercar patrons partint de fraccions com 1/9, 1/99, 1/999 i predir el resultat de fraccions semblants amb denominadors de nous.",
+   "url": "https://nrich.maths.org/problems/tiny-nines",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "creamat-petits-nous",
+   "titol": "Petits Nous",
+   "descripcio": "Document del CREAMAT amb la presentació de les activitats sobre fraccions i decimals periòdics per treballar amb metodologies col·laboratives (Llapis al centre, 1-2-4).",
+   "url": "https://docs.google.com/document/d/1F4LsprMVKo6lheNxp5-Plp_8f1V1wLKH/edit",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "arc-simulacio-cigrons",
+   "titol": "Simulació amb cigrons",
+   "descripcio": "Activitat d'Anton Aubanell a l'ARC amb la tècnica de captura i recaptura per estimar el nombre d'individus d'una població (cigrons) i calcular l'error absolut i relatiu de l'estimació.",
+   "url": "https://apliense.xtec.cat/arc/node/1356",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "ARC — Anton Aubanell"
+  },
+  {
+   "id": "desmos-notacio-cientifica",
+   "titol": "Notació científica (Desmos)",
+   "descripcio": "Activitat de Desmos traduïda i publicada per Sandro Maccarrone en què l'alumnat ordena nombres de menor a major sense calculadora, per descobrir la utilitat de la notació científica en comparar magnituds molt diferents.",
+   "url": "https://teacher.desmos.com/activitybuilder/custom/618a280b2a3c6e33be95fb47?lang=es",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "Desmos — trad. Sandro Maccarrone"
+  },
+  {
+   "id": "video-potencies-de-10",
+   "titol": "Potències de 10",
+   "descripcio": "Vídeo que mostra visualment com ampliar o reduir escales de l'univers, des d'objectes quotidians fins a galàxies i partícules subatòmiques, per treballar ordres de magnitud i potències de 10.",
+   "url": "https://www.youtube.com/watch?v=9JUpIa4ncWg",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "YouTube"
+  },
+  {
+   "id": "creamat-piramide-de-penics",
+   "titol": "Piràmide de Penics",
+   "descripcio": "Activitat en tres actes (Dan Meyer) del CREAMAT: a partir del vídeo del rècord Guinness d'una piràmide de monedes, l'alumnat formula preguntes, estima i calcula amb les dades proporcionades.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/penics",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "CREAMAT — Dan Meyer"
+  },
+  {
+   "id": "video-guinness-penny-pyramid",
+   "titol": "Guinness World Record Penny Pyramid - 300 hours in under 3min",
+   "descripcio": "Vídeo del rècord Guinness que mostra la construcció d'una piràmide de monedes, punt de partida de l'activitat en tres actes 'Piràmide de Penics'.",
+   "url": "https://www.youtube.com/watch?v=uDJ3sor2oQ0",
+   "codi": "NUM.QU",
+   "curs": "3ESO",
+   "font": "YouTube"
+  },
+  {
+   "id": "video-arquimedes-descobriment-pi",
+   "titol": "Arquímedes y el Descubrimiento del número Pi",
+   "descripcio": "Vídeo que explica el mètode d'Arquimedes per aproximar el valor de π amb polígons inscrits i circumscrits, base d'una activitat en grups per calcular perímetres i errors absolut i relatiu.",
+   "url": "https://www.youtube.com/watch?v=d1d4g0TcJUY",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "YouTube"
+  },
+  {
+   "id": "cesire-llull-quadratura-cercle",
+   "titol": "Llull i les matemàtiques (II): La quadratura del cercle",
+   "descripcio": "Entrada del CESIRE que explica com Ramon Llull abordava la quadratura del cercle amb quadrats inscrit i circumscrit; es pot traslladar a l'aula per investigar l'error del mètode.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/efem%C3%A8rides-dies-i-anys-especials/llull-i-les-matem%C3%A0tiques-ii-la-quadratura-del-cercle",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "CESIRE"
+  },
+  {
+   "id": "geogebra-proporcions-arees-llull",
+   "titol": "Investigació de proporcions entre àrees (GeoGebra)",
+   "descripcio": "Eina de GeoGebra per investigar les proporcions entre les àrees dels quadrats inscrit, circumscrit i el nou quadrat proposat per Llull en el mètode de la quadratura del cercle.",
+   "url": "https://www.geogebra.org/m/pWXEZ5D2",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "article-llull-matematic-ara-balears",
+   "titol": "Científics valoren Ramon Llull matemàtic",
+   "descripcio": "Article del diari Ara Balears sobre l'escultura de la tomba de Llull relacionada amb la quadratura del cercle, curiositat que complementa l'activitat.",
+   "url": "https://www.arabalears.cat/balears/cientifics-valor-ramon-llull-matematic_1_1636378.html",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "Ara Balears"
+  },
+  {
+   "id": "irracionalitat-arrel-2-mosaic",
+   "titol": "La irracionalitat de √2 i un mosaic molt especial",
+   "descripcio": "Proposta d'Anton Aubanell (Orientacions pràctiques per a la millora de la geometria a l'ESO) inspirada en Puig Adam: construir un mosaic amb triangles i rombes per deduir la incommensurabilitat de √2 a partir d'una petita franja visible.",
+   "url": "https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0043/40054ef3-a797-49e0-877e-b25a0dcae347/PA4_Irracionalitat_arrel_2.pdf",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "Orientacions pràctiques per a la millora de la geometria a l'ESO (XTEC) — Anton Aubanell"
+  },
+  {
+   "id": "mosaic-puig-adam-pattern-blocks",
+   "titol": "Mosaic de Puig Adam i generalització a Pattern Blocks",
+   "descripcio": "Activitat del grup Cúbic (Universitat de Barcelona) que amplia la proposta del mosaic de triangles i rombes de Puig Adam amb Pattern Blocks.",
+   "url": "http://www.ub.edu/cubic/wp-content/uploads/2017/11/Mosaic-Puig-Adam-i-Patternblocks.pdf",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "Grup Cúbic — UB"
+  },
+  {
+   "id": "arc-estrella-fractal",
+   "titol": "Estrella fractal",
+   "descripcio": "Activitat de papiroflèxia de Carme Garcia (ARC) per construir l'estrella fractal de Francesco Decio, treballant càlculs amb nombres irracionals a partir de les proporcions de les peces.",
+   "url": "https://apliense.xtec.cat/arc/node/30878",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "ARC — Carme Garcia"
+  },
+  {
+   "id": "arc-icosaedres-rectangles-auris",
+   "titol": "Icosaedres i rectangles auris",
+   "descripcio": "Activitat d'Anton Aubanell (ARC) per construir un icosaedre a partir de tres rectangles auris, amb proposta didàctica per demostrar la proporció àuria amb el teorema de Pitàgores.",
+   "url": "https://apliense.xtec.cat/arc/node/1327",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "ARC — Anton Aubanell"
+  },
+  {
+   "id": "creamat-geopla-nombres-irracionals",
+   "titol": "Nombres irracionals (geoplà)",
+   "descripcio": "Activitat del CREAMAT per representar nombres irracionals amb el geoplà, calculant hipotenuses de triangles rectangles i explorant quines arrels de nombres naturals hi són construïbles.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/geopl%C3%A0?authuser=0#h.p_UrPw7ftq4FFg",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "geogebra-geoplans-digitals",
+   "titol": "Geoplans digitals (GeoGebra)",
+   "descripcio": "Enllaç a geoplans en format digital a GeoGebra, alternativa al geoplà físic per representar nombres irracionals.",
+   "url": "https://www.geogebra.org/m/JUvsTRTg#material/gSKgsQZ5",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "geoboard-math-learning-center",
+   "titol": "Geoboard (The Math Learning Center)",
+   "descripcio": "Aplicació digital de geoplà de The Math Learning Center, alternativa al geoplà físic o a GeoGebra per a la representació de nombres irracionals.",
+   "url": "https://apps.mathlearningcenter.org/geoboard/",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "The Math Learning Center"
+  },
+  {
+   "id": "puntmat-irracionals-manipulatius",
+   "titol": "Nombres irracionals i materials manipulatius",
+   "descripcio": "Entrada del blog PuntMat amb tasques per treballar nombres irracionals amb Tangrams, Pattern Blocks, Puig Blocs i geoplans.",
+   "url": "https://puntmat.blogspot.com/2018/12/nombres-irracionals-i-materials.html",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "creamat-geopals",
+   "titol": "Geopals",
+   "descripcio": "Proposta del CREAMAT per representar nombres irracionals de manera pràctica i significativa amb el material Geopals.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/geopals?pli=1",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "arc-caravana-de-cotxes",
+   "titol": "[3actes] Caravana de cotxes",
+   "descripcio": "Activitat en tres actes de Dan Meyer (ARC) sobre estimar quants cotxes de joguina hi ha en un cercle, per treballar estimació, aproximació i percentatge d'error.",
+   "url": "https://apliense.xtec.cat/arc/node/29450",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "ARC — Dan Meyer"
+  },
+  {
+   "id": "geogebra-metode-montecarlo-pi",
+   "titol": "El Método Monte Carlo. Estimación del Valor de Pi (GeoGebra)",
+   "descripcio": "Miniaplicació de GeoGebra de Rafael Pérez que repeteix milers de vegades l'experiment de llançar punts aleatoris dins d'un quadrat amb cercle inscrit per estimar π amb el mètode de Montecarlo.",
+   "url": "https://www.geogebra.org/m/cF7RwK3H",
+   "codi": "NUM.QU",
+   "curs": "4ESO",
+   "font": "GeoGebra — Rafael Pérez"
+  },
+  {
+   "id": "recull-fm-general",
+   "titol": "Recull de problemes del concurs Fem Matemàtiques",
+   "descripcio": "Portal amb el recull de problemes del concurs Fem Matemàtiques, amb nombrosos exemples que requereixen tècniques de comptatge per resoldre'ls.",
+   "url": "https://recullfm.feemcat.org/",
+   "codi": "NUM.CO",
+   "curs": "1ESO",
+   "font": "Concurs Fem Matemàtiques"
+  },
+  {
+   "id": "les-piramides-dallaia",
+   "titol": "Les piràmides d'Al·laia",
+   "descripcio": "Problema obert del Fem Matemàtiques 2024: construir i estudiar piràmides de base quadrada i rectangular fetes de blocs cúbics, comptant blocs i nivells per deduir relacions numèriques.",
+   "url": "https://recullfm.feemcat.org/bloc-de-contingut/algebraic/les-piramides-dallaia-2/",
+   "codi": "NUM.CO",
+   "curs": "1ESO",
+   "font": "Fem Matemàtiques 2024"
+  },
+  {
+   "id": "fent-torres-amb-peces-del-jenga",
+   "titol": "Fent torres amb peces del Jenga",
+   "descripcio": "Problema obert del Fem Matemàtiques 2024 en què cal aplicar tècniques de comptatge amb peces del joc Jenga.",
+   "url": "https://recullfm.feemcat.org/bloc-de-contingut/algebraic/fent-torres-amb-peces-del-jenga/",
+   "codi": "NUM.CO",
+   "curs": "1ESO",
+   "font": "Fem Matemàtiques 2024"
+  },
+  {
+   "id": "nrich-how-many",
+   "titol": "How Many?",
+   "descripcio": "Activitat de comptatge visual: es mostren imatges (préssecs, taronges, gerds) durant uns segons i l'alumnat ha d'estimar quants n'hi ha i explicar com ho ha calculat.",
+   "url": "https://nrich.maths.org/problems/how-many",
+   "codi": "NUM.CO",
+   "curs": "1ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "nrich-how-would-we-count",
+   "titol": "How would we count?",
+   "descripcio": "Activitat de comptatge visual amb una disposició de punts: l'alumnat ha de calcular quants punts hi ha i compartir les seves estratègies de comptatge.",
+   "url": "https://nrich.maths.org/problems/how-would-we-count",
+   "codi": "NUM.CO",
+   "curs": "1ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "counting-tree",
+   "titol": "Counting tree",
+   "descripcio": "Activitat d'estimació visual: una imatge d'un bosc amb cercles (arbres vells) i triangles (arbres joves) que l'alumnat ha d'estimar i comptar per tipus, en petits grups.",
+   "url": "https://www.map.mathshell.org/tasks.php?unit=ME02&collection=9",
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "Mathematics Assessment Project"
+  },
+  {
+   "id": "tirem-2-daus-part-2",
+   "titol": "Tirem 2 daus (part 2)",
+   "descripcio": "Entrada del web Calaix +ie de Joan Jareño amb la cursa de camells i algunes variants del joc.",
+   "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/altres/tirem-els-daus-part-2/",
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "Calaix +ie (Joan Jareño)"
+  },
+  {
+   "id": "el-toc-bum",
+   "titol": "El TOC-BUM (un joc de càlcul)",
+   "descripcio": "Joc senzill de càlcul que permet treballar el comptatge mostrant com recollir dades, construir taules i extreure'n conclusions a partir de l'observació.",
+   "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/activitats-de-numeracio-i-calcul/el-toc-bum-un-joc-de-calcul/",
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "Calaix +ie"
+  },
+  {
+   "id": "cubets-encaixables-combinem",
+   "titol": "Cubets encaixables: combinem!",
+   "descripcio": "Ús de cubets encaixables com a recurs manipulatiu per explorar combinatòria, simetria i estructures espacials, experimentant maneres d'encaixar-los per formar figures i patrons.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/cubets-encaixables-combinem?authuser=0",
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "CREAMAT"
+  },
+  {
+   "id": "combinar-i-comptar-joguines-poemes",
+   "titol": "Combinar i comptar: Joguines, poemes i matemàtiques",
+   "descripcio": "Enfocament lúdic per treballar la combinatòria amb materials quotidians (joguines, poemes), explorant de quantes maneres es poden combinar diferents elements.",
+   "url": "https://calaix2.blogspot.com/2012/10/combinar-i-comptar-joguines-poemes.html",
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "Calaix +ie"
+  },
+  {
+   "id": "visual-patterns",
+   "titol": "Visual patterns",
+   "descripcio": "Web amb 500 patrons visuals de diferents nivells de dificultat: a partir dels primers elements d'un patró, cal determinar el nombre d'objectes del pas 43 i expressar la regla de formació.",
+   "url": "https://www.visualpatterns.org/",
+   "codi": "NUM.CO",
+   "curs": "3ESO",
+   "font": "Visual Patterns"
+  },
+  {
+   "id": "fitxa-de-colors-arc",
+   "titol": "Fitxa de colors",
+   "descripcio": "Activitat manipulativa amb fitxes de colors per plantejar el problema general de la combinatòria: formar agrupacions amb criteris variables (importa l'ordre? es repeteix?) i deduir les fórmules de variacions, permutacions i combinacions.",
+   "url": "https://apliense.xtec.cat/arc/node/1347",
+   "codi": "NUM.CO",
+   "curs": "4ESO",
+   "font": "ARC"
+  },
+  {
+   "id": "quin-cadenat-es-mes-segur",
+   "titol": "Quin cadenat és més segur?",
+   "descripcio": "Situació d'aprenentatge a partir de la seguretat dels cadenats: l'alumnat determina el nombre de combinacions possibles aplicant la regla del producte i les variacions amb repetició, connectant amb la probabilitat.",
+   "url": "https://atd-tad.org/wp-content/uploads/2024/03/2024_Conferencia-CREAMAT-LABINQUIRY_r.pdf",
+   "codi": "NUM.CO",
+   "curs": "4ESO",
+   "font": "Berta Barquero, Marianna Bosch i Susana Vásquez — cicle de conferències CREAMAT"
+  },
+  {
+   "id": "linies-poligonals-arc",
+   "titol": "Línies poligonals",
+   "descripcio": "Activitat amb peces geomètriques on l'alumnat calcula el nombre de línies possibles combinant-les amb diferents orientacions i moviments, aplicant la regla del producte i considerant restriccions.",
+   "url": "https://apliense.xtec.cat/arc/node/31247",
+   "codi": "NUM.CO",
+   "curs": "4ESO",
+   "font": "Anton Aubanell — ARC"
+  },
+  {
+   "id": "linies-poligonals-presentacio",
+   "titol": "Línies poligonals — presentació",
+   "descripcio": "Document de presentació de l'activitat Línies poligonals, amb el desenvolupament complet de la proposta.",
+   "url": "https://apliense.xtec.cat/arc/sites/default/files/Presentaci%C3%B3%20-%20L%C3%ADnies%20poligonals%20-%20Anton%20Aubanell.pdf",
+   "codi": "NUM.CO",
+   "curs": "4ESO",
+   "font": "Anton Aubanell — ARC"
+  },
+  {
+   "id": "nanas-paint-mixup",
+   "titol": "Nana's Paint Mixup",
+   "descripcio": "Problema en tres actes de Dan Meyer per introduir la proporcionalitat directa a partir d'un vídeo, sense dades inicials, on l'alumnat formula preguntes i en cerca la resolució.",
+   "url": "https://blog.mrmeyer.com/2014/3acts-nanas-paint-mixup/",
+   "codi": "NUM.RP",
+   "curs": "1ESO",
+   "font": "Dan Meyer"
+  },
+  {
+   "id": "som-una-agencia-de-viatges",
+   "titol": "Som una agència de viatges",
+   "descripcio": "Activitat cooperativa de l'ARC on l'alumnat simula ser una agència de viatges i calcula el cost total d'un viatge a París (benzina, allotjament, entrades), treballant proporcionalitat directa i percentatges.",
+   "url": "https://apliense.xtec.cat/arc/node/29968",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "ARC (Aplicació de Recursos al Currículum)"
+  },
+  {
+   "id": "anem-a-fer-llimonada",
+   "titol": "Anem a fer llimonada",
+   "descripcio": "Problema de l'ARC on l'alumnat compara barreges d'aigua i llimona representades amb quadrats, i ha de determinar quina té més gust de llimona usant fraccions, decimals o percentatges.",
+   "url": "https://apliense.xtec.cat/arc/node/1755",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "Lluís Mora"
+  },
+  {
+   "id": "mixing-lemonade",
+   "titol": "Mixing Lemonade",
+   "descripcio": "Activitat interactiva de NRICH amb un applet que permet comparar barreges de llimonada amb diferents concentracions per decidir quina és més intensa.",
+   "url": "https://nrich.maths.org/problems/mixing-lemonade",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "el-problema-dels-pastors-i-els-pans",
+   "titol": "El problema dels pastors i els pans",
+   "descripcio": "Problema clàssic de repartiment proporcional (L'home que calculava, de Malba Tahan): dos pastors amb 5 i 3 pans es reparteixen 8 monedes d'un caçador segons el pa consumit conjuntament.",
+   "url": "https://calaix2.blogspot.com/2021/03/estirem-el-problema-dels-pastors-i-els.html#more",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "Blog del Calaix +ie"
+  },
+  {
+   "id": "proyecto-newton-diagrames-repartiment",
+   "titol": "Diagrames per al repartiment proporcional (Proyecto Newton)",
+   "descripcio": "Recurs que mostra com utilitzar diagrames de fraccions irreductibles per facilitar el càlcul en problemes de repartiment proporcional.",
+   "url": "https://drive.google.com/file/d/1io42qYYqsblZVVuCUWJxsWTYTibvcsPO/view",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "Proyecto Newton"
+  },
+  {
+   "id": "a-la-paula-i-la-sara-els-toca-la-loteria",
+   "titol": "A la Paula i la Sara els toca la loteria",
+   "descripcio": "Problema de repartiment proporcional d'un premi de loteria segons l'aportació inicial de cada sòcia, amb preguntes d'ampliació sobre repartiments successius del premi.",
+   "url": "https://www.liveworksheets.com/w/es/matematicas/364226",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "Elaboració pròpia"
+  },
+  {
+   "id": "monedes",
+   "titol": "Monedes",
+   "descripcio": "Activitat de l'ARC que explora les monedes i bitllets d'euro en circulació i el seu valor, relacionant-ho amb nombres decimals, percentatges i el canvi de divises.",
+   "url": "https://apliense.xtec.cat/arc/node/1760",
+   "codi": "NUM.RP",
+   "curs": "2ESO",
+   "font": "Lluís Mora"
+  },
+  {
+   "id": "desmos-real-life-graphs-tables-proportions",
+   "titol": "Desmos: Real Life — Graphs, Tables, Proportions, Equations",
+   "descripcio": "Simulació digital de Desmos on l'alumnat manipula dues magnituds (velocitat i temps, treballadors i hores) per determinar si la relació és directa, inversa o no proporcional.",
+   "url": "https://teacher.desmos.com/activitybuilder/custom/5fa99980a015aa399f1d9b44",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "Desmos"
+  },
+  {
+   "id": "desmos-direct-and-inverse-variation",
+   "titol": "Desmos: Direct & Inverse Variation",
+   "descripcio": "Simulació digital de Desmos on l'alumnat manipula dues magnituds per determinar si la relació és directa, inversa o no proporcional, observant gràfica i taula de valors.",
+   "url": "https://teacher.desmos.com/activitybuilder/custom/56702f8a2571f01e069d0989?lang=es",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "Desmos"
+  },
+  {
+   "id": "geogebra-proporcionalidad",
+   "titol": "GeoGebra: Proporcionalidad",
+   "descripcio": "Simulació digital de GeoGebra on l'alumnat manipula dues magnituds per determinar si la relació és directa, inversa o no proporcional, observant gràfica i taula de valors.",
+   "url": "https://www.geogebra.org/m/ybxfw2we",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "GeoGebra"
+  },
+  {
+   "id": "oh-for-the-mathematics-of-yesteryear",
+   "titol": "Oh for the mathematics of yesteryear",
+   "descripcio": "Problema de NRICH sobre un exèrcit assetjat que ha de repartir provisions de pa entre un nombre creixent de soldats mantenint les racions durant un període fix; treballa la proporcionalitat inversa.",
+   "url": "https://nrich.maths.org/problems/oh-mathematics-yesteryear",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "do-unto-caesar",
+   "titol": "Do unto Caesar",
+   "descripcio": "Activitat de NRICH sobre repartiment proporcional, adaptable a contextos com un club d'inversió on cal esbrinar aportacions inicials a partir de la proporció final de beneficis.",
+   "url": "https://nrich.maths.org/problems/do-unto-caesar",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "NRICH"
+  },
+  {
+   "id": "quina-es-l-alcada-d-aquest-jugador",
+   "titol": "Quina és l'alçada d'aquest jugador?",
+   "descripcio": "Repte de PuntMat que utilitza proporcions i el cànon de \"L'home de Vitruvi\" (alçada ≈ envergadura) per estimar l'alçada d'un jugador de bàsquet a partir d'una imatge.",
+   "url": "https://puntmat.blogspot.com/2012/03/quina-es-laltura-daquest-jugador.html",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "PuntMat"
+  },
+  {
+   "id": "rectangles-equivalents-i-la-funcio-de-proporcionalitat-inversa",
+   "titol": "Rectangles equivalents i la funció de proporcionalitat inversa",
+   "descripcio": "Activitat de l'ARC on l'alumnat retalla rectangles de la mateixa àrea i, en representar-los amb un vèrtex a l'origen, dedueix la corba de la funció de proporcionalitat inversa.",
+   "url": "https://apliense.xtec.cat/arc/node/195",
+   "codi": "NUM.RP",
+   "curs": "3ESO",
+   "font": "ARC (Aplicació de Recursos al Currículum)"
+  },
+  {
+   "curs": "1ESO",
+   "id": "subtracting-reverses",
+   "titol": "Subtracting Reverses",
+   "descripcio": "Joc en què es giren i resten repetidament els dígits d'un nombre de dues xifres fins arribar a 0; l'alumnat descobreix que sempre s'arriba a múltiples de 9.",
+   "url": "https://mathforlove.com/lesson/subtracting-reverses/",
+   "font": "Math for Love",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "el-poder-del-37",
+   "titol": "El poder del 37",
+   "descripcio": "Es tria un dígit, se suma tres vegades i es multiplica per 37; l'alumnat descobreix que el resultat és el dígit triat repetit tres cops, i n'explora la generalització.",
+   "url": "https://mathforlove.com/lesson/the-power-of-37/",
+   "font": "Math for Love",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "quadrats-magics-nombres-enters",
+   "titol": "Quadrats Màgics i nombres enters",
+   "descripcio": "L'alumnat busca quadrats màgics de nombres enters en què totes les files, columnes i diagonals sumin 0, partint d'exemples amb molts zeros fins a generalitzar-ne la condició.",
+   "url": "https://puntmat.blogspot.com/2012/11/quadrat-magics-i-nombres-enters.html",
+   "font": "PuntMat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "consecutive-numbers",
+   "titol": "Consecutive Numbers",
+   "descripcio": "A partir de quatre nombres consecutius cal trobar tots els resultats possibles combinant-los amb + i -, buscant patrons i propietats que es repeteixen.",
+   "url": "https://nrich.maths.org/problems/consecutive-numbers",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "model-caixa-multiplicacio",
+   "titol": "Model de caixa per a la multiplicació",
+   "descripcio": "Explicació del model de caixa (àrea) per representar la multiplicació per descomposició, amb diverses aplicacions a partir d'un mateix problema.",
+   "url": "https://bancfm.blogspot.com/2020/12/puzzle-multiplicatiu-model-darea-o.html",
+   "font": "Banc de recursos, Fem Matemàtiques",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "puzzle-multiplicatiu",
+   "titol": "Puzzle multiplicatiu",
+   "descripcio": "Problema del concurs Fem Matemàtiques (2019, 1r d'ESO) basat en el model de caixa; l'apartat b hi afegeix un treball implícit de prealgebra i factorització per trobar incògnites.",
+   "url": "https://recullfm.feemcat.org/bloc-de-contingut/algebraic/puzzle-multiplicatiu/",
+   "font": "Fem Matemàtiques 2019, 1r ESO",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "multiplication-magic-square",
+   "titol": "Multiplication magic square",
+   "descripcio": "Cal completar un quadrat màgic multiplicatiu de manera que el producte de files, columnes i diagonals sigui 1; treballa les operacions inverses.",
+   "url": "https://nrich.maths.org/problems/multiplication-magic-square",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "menseki-meiro",
+   "titol": "Rompecabezas japoneses: Menseki Meiro",
+   "descripcio": "Laberints d'àrees (area mazes): trencaclosques de rectangles que es resolen amb raonament lògic per trobar longituds o àrees desconegudes.",
+   "url": "https://mates.aomatos.com/rompecabezas-japoneses-menseki-meiro/",
+   "font": "Antonio Ómatos",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "arrel-quadrada-d-un-nombre",
+   "titol": "Arrel quadrada d'un nombre",
+   "descripcio": "Activitat per trobar el costat d'un quadrat a partir de la seva àrea, relacionant potències quadrades i arrel quadrada, i familiaritzant amb els quadrats perfectes menors de 100.",
+   "url": "http://www.xtec.cat/~smargeli/edu365/arrelq1.htm",
+   "font": "Sílvia Margelí, edu365 (XTEC)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "geogebra-arrel-quadrada",
+   "titol": "Arrel quadrada (GeoGebra)",
+   "descripcio": "Recurs de GeoGebra per trobar una solució aproximada d'arrels quadrades de nombres grans a partir del concepte d'àrea d'un quadrat.",
+   "url": "https://www.geogebra.org/m/bv7KM8Tj",
+   "font": "GeoGebra — Joan Jareño",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "arrel-quadrada-metode-hero",
+   "titol": "Arrel quadrada 1: el mètode d'Heró",
+   "descripcio": "Explica un petit algoritme (el mètode d'Heró) per donar un sentit geomètric al càlcul progressiu de l'arrel quadrada d'un nombre.",
+   "url": "https://calaix2.blogspot.com/2013/09/arrel-quadrada-1-el-metode-dhero.html#more",
+   "font": "Joan Jareño, Blog del Calaix +ie",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "un-dia-negre-amb-la-calculadora",
+   "titol": "Un dia negre amb la calculadora",
+   "descripcio": "Activitat sobre l'ús eficient de la calculadora que fomenta estimar el resultat abans de calcular, per poder detectar errors.",
+   "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/activitats-de-numeracio-i-calcul/un-dia-negre-amb-la-calculadora/",
+   "font": "Blog Calaix Matemàtiques (XTEC)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "broken-calculator-4",
+   "titol": "Broken Calculator 4",
+   "descripcio": "Reptes de càlcul amb restriccions sobre quines tecles de la calculadora es poden fer servir.",
+   "url": "https://www.transum.org/software/sw/starter_of_the_day/students/Broken_Calculator.asp",
+   "font": "Transum",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "video-divisio-de-fraccions",
+   "titol": "Divisió de fraccions (vídeo)",
+   "descripcio": "Vídeo del CREAMAT que explica de manera visual el concepte de divisió de fraccions.",
+   "url": "https://www.youtube.com/watch?v=HaL1h7YVVjY",
+   "font": "CREAMAT (YouTube)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "proyecto-newton-fraccio-de-fraccio",
+   "titol": "Proyecto Newton: fracció d'una fracció",
+   "descripcio": "Activitat manipulativa amb 20 papers pintats en proporcions donades per introduir la multiplicació de fraccions com a \"fracció d'una fracció\".",
+   "url": "https://drive.google.com/file/d/1io42qYYqsblZVVuCUWJxsWTYTibvcsPO/view",
+   "font": "Proyecto Newton — Pepe Vidal",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "joc-del-24",
+   "titol": "Joc del 24",
+   "descripcio": "Joc en què cal combinar quatre nombres amb les operacions bàsiques per arribar al resultat 24.",
+   "url": "https://cangur.org/estalmat/joc24/",
+   "font": "Antoni Gomà, Estalmat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "24-en-ruta",
+   "titol": "24 en ruta!",
+   "descripcio": "Variant del Joc del 24, amb el detall de com portar l'activitat a l'aula.",
+   "url": "https://puntsingular.wordpress.com/2018/07/30/24-en-ruta/",
+   "font": "Manel Martínez, Punt Singular",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "1ESO",
+   "id": "countdown-nrich",
+   "titol": "Countdown",
+   "descripcio": "Repte d'aconseguir una xifra objectiu combinant els nombres disponibles amb les quatre operacions bàsiques; sol tenir més d'una solució vàlida.",
+   "url": "https://nrich.maths.org/6499",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "polypad-barres-fraccions",
+   "titol": "Barres de fraccions virtuals (Polypad)",
+   "descripcio": "Eina interactiva de Polypad (Mathigon) amb barres de fraccions virtuals per crear, explorar i visualitzar operacions amb fraccions de manera manipulativa.",
+   "url": "https://polypad.amplify.com/p#fraction-bars",
+   "font": "Mathigon Polypad",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "number-shacks",
+   "titol": "Number Shacks: pràctica productiva de sumes i restes",
+   "descripcio": "Pràctica productiva amb \"cases de nombres\" (Number Shacks) per treballar sumes i restes de nombres enters i buscar-hi patrons.",
+   "url": "http://puntmat.blogspot.com/2020/09/practica-productiva-sumes-i-restes-de.html",
+   "font": "PuntMat, a partir de Number Shacks (Don Steward)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "the-fraction-challenge",
+   "titol": "The fraction Challenge",
+   "descripcio": "Activitat de Desmos per crear fraccions i operar-les de manera que el resultat compleixi un criteri donat (el més gran, el positiu més petit, etc.).",
+   "url": "https://teacher.desmos.com/activitybuilder/custom/592dcdc83822970b36e1361d?lang=es",
+   "font": "Desmos",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "areas-desconcertantes",
+   "titol": "Áreas desconcertantes",
+   "descripcio": "Activitat de Desmos per treballar la multiplicació i divisió de fraccions en el context del càlcul d'àrees.",
+   "url": "https://teacher.desmos.com/activitybuilder/custom/667d6f5b21c147e8049843b6?lang=es&collections=6658a03d1fdc8715ed0f4f60%2C667d6f5a21c147e804983859",
+   "font": "Desmos",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "primers-nombres-cubics",
+   "titol": "Els primers nombres cúbics",
+   "descripcio": "Petites investigacions de cerca de patrons sobre els primers nombres cúbics: suma de senars consecutius i suma de cubs dels dígits.",
+   "url": "https://puntmat.blogspot.com/2015/09/els-primers-nombres-cubics.html",
+   "font": "PuntMat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "per-que-ens-agrada-el-median",
+   "titol": "Per què ens agrada el Median?",
+   "descripcio": "Cerca del patró darrere de comparar \"sumar els quadrats de dos nombres\" amb \"elevar al quadrat la seva suma\", amb una activitat afegida d'escriure nombres com a potències.",
+   "url": "https://puntmat.blogspot.com/2012/04/per-que-ens-agrada-el-median.html",
+   "font": "PuntMat, a partir de Median (Don Steward)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "quina-fraccio-de-la-botella",
+   "titol": "¿Qué fracción de la botella está llena?",
+   "descripcio": "Imatge d'una ampolla parcialment plena perquè l'alumnat en dedueixi la fracció ocupada; dona peu a un debat amb diverses interpretacions vàlides.",
+   "url": "https://x.com/lolamenting/status/1755475642311696555",
+   "font": "X — @lolamenting (Lola Morales)",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "fair-shares",
+   "titol": "Fair Shares?",
+   "descripcio": "Problema de repartiment de diners entre germans, donant a cadascun una quantitat fixa més una fracció del que queda, per trobar com repartir-ho a parts iguals.",
+   "url": "https://nrich.maths.org/problems/fair-shares",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "testament-del-nabab",
+   "titol": "El problema del testament del Nabab i la resolució per síntesi",
+   "descripcio": "Problema clàssic de repartiment de diamants amb fraccions successives, resolt aritmèticament (sense àlgebra) i relacionat amb nombres quadrats i triangulars.",
+   "url": "http://calaix2.blogspot.com/2022/12/el-problema-del-testament-del-nabab-i.html#more",
+   "font": "Joan Jareño, Blog Calaix +ie",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "mes-sobre-minillicons",
+   "titol": "Més sobre minilliçons",
+   "descripcio": "Tires d'operacions encadenades (\"minilliçons\") en què cada resultat conegut s'utilitza per calcular el següent, amb enters, decimals o percentatges.",
+   "url": "https://puntmat.blogspot.com/2014/03/mes-sobre-minillicons.html",
+   "font": "PuntMat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "2ESO",
+   "id": "estimacio-ii",
+   "titol": "Estimació (II): Existeixen els problemes d'estimació?",
+   "descripcio": "Reflexió i exemples sobre transformar problemes de càlcul exacte en problemes d'estimació, com \"en tindríem prou per equilibrar una balança amb un hipopòtam?\".",
+   "url": "https://puntmat.blogspot.com/2012/12/estimacio-ii-existeixen-els-problemes.html",
+   "font": "PuntMat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "piramides-con-raices-cuadradas",
+   "titol": "Pirámides con raíces cuadradas",
+   "descripcio": "Piràmide numèrica on cada casella conté l'arrel quadrada del producte de les dues caselles inferiors; treballa potències, arrels i descomposició factorial.",
+   "url": "https://anagarciaazcarate.wordpress.com/2020/09/22/piramides-con-raices-cuadradas/",
+   "font": "Ana García Azcárate",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "tangling-and-untangling",
+   "titol": "Tangling and untangling",
+   "descripcio": "Investigació sobre seqüències de fraccions generades combinant dues operacions (sumar 1, o invertir i canviar de signe), a partir d'una idea de John Conway.",
+   "url": "https://nrich.maths.org/problems/tangling-and-untangling",
+   "font": "NRICH — John Conway",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "twisting-and-turning",
+   "titol": "Twisting and Turning (vídeo)",
+   "descripcio": "Vídeo que representa visualment, amb cordes que s'enrotllen i desenrotllen, la seqüència de nombres generada per l'activitat Tangling and untangling.",
+   "url": "https://www.youtube.com/watch?v=AkgdYkRfPmU",
+   "font": "YouTube",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "theres-the-limit",
+   "titol": "There's the limit",
+   "descripcio": "Activitat sobre el comportament de les potències a mesura que l'exponent creix, per buscar-hi patrons i límits.",
+   "url": "https://nrich.maths.org/problems/theres-limit",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "el-googol",
+   "titol": "El Googol",
+   "descripcio": "Problema del concurs Fem Matemàtiques sobre el nombre googol i les potències de deu.",
+   "url": "https://recullfm.feemcat.org/bloc-de-contingut/numeric/el-googol/",
+   "font": "Fem Matemàtiques",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "exponent-rules-aspirin",
+   "titol": "If Exponent Rules Are Aspirin, Then How Do You Create The Headache?",
+   "descripcio": "Reflexió i seqüència d'activitats de Dan Meyer per introduir les propietats de les potències evitant que semblin regles arbitràries.",
+   "url": "https://blog.mrmeyer.com/2015/if-exponent-rules-are-aspirin-then-how-do-you-create-the-headache/",
+   "font": "Dan Meyer",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "domino-potencies-maxim-minim",
+   "titol": "Domino de potències: valor màxim o mínim",
+   "descripcio": "Amb els quatre nombres de dues fitxes de dòmino cal formar una expressió amb potències que doni el valor màxim o mínim possible, justificant per què no se'n pot obtenir cap altre.",
+   "url": "https://twitter.com/smaccarrone/status/1457760571223384068?t=Vjmg8RL4c1LCf_prSBn0HA&s=09",
+   "font": "X (Twitter) — Sandro Maccarrone",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "negative-power",
+   "titol": "Negative Power",
+   "descripcio": "Calcular el valor d'una potència negativa i, després, ordenar quatre xifres per obtenir el resultat més gran i més petit possible; treballa la prioritat d'operacions.",
+   "url": "https://nrich.maths.org/problems/negative-power",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "grans-de-sorra",
+   "titol": "Quants grans de sorra hi ha en una galleda o en una platja?",
+   "descripcio": "Investigació d'estimació de quantitats molt grans que s'ha d'expressar en notació científica, aplicant mètodes de mesura i càlcul.",
+   "url": "https://www.earthlearningidea.com/PDF/363_Catalan.pdf",
+   "font": "Earth Learning Idea",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "calcul-mental-4x4",
+   "titol": "Cálculo mental todo terreno (4x4)",
+   "descripcio": "Tauler 4x4 de GeoGebra per omplir amb nombres perquè la suma de files i columnes coincideixi amb el valor indicat; practica el càlcul mental.",
+   "url": "https://www.geogebra.org/m/umcPNQbw#material/m4xpYpa7",
+   "font": "GeoGebra — Rafael Losada",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "3ESO",
+   "id": "jocs-de-calcul-mental",
+   "titol": "Jocs de Càlcul Mental",
+   "descripcio": "Recull de solitaris de càlcul mental per col·locar nombres i obtenir els resultats indicats, recopilats per Ignasi del Blanco i digitalitzats pel CESIRE.",
+   "url": "https://sites.google.com/xtec.cat/cesire-mates-take-away/1r-i-2n-deso/jocs-de-c%C3%A0lcul-mental",
+   "font": "CESIRE — Serveis Educatius XTEC",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "4ESO",
+   "id": "power-countdown",
+   "titol": "Power countdown",
+   "descripcio": "Joc per aconseguir un nombre objectiu combinant potències, inversos i multiplicacions a partir d'un conjunt de nombres donats.",
+   "url": "https://nrich.maths.org/problems/power-countdown",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "4ESO",
+   "id": "the-root-of-the-problem",
+   "titol": "The root of the problem",
+   "descripcio": "Repte de calcular una suma de fraccions amb arrels al denominador sense arrodonir, per descobrir que el resultat final és un nombre enter.",
+   "url": "https://nrich.maths.org/problems/root-problem",
+   "font": "NRICH",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "4ESO",
+   "id": "practica-productiva-restes-3",
+   "titol": "Pràctica productiva: restes (3)",
+   "descripcio": "Joc \"Diffy\": es va restant el menor del major entre quatre caselles fins arribar a una fila de zeros, amb qualsevol tipus de nombre (enters, racionals, irracionals).",
+   "url": "https://puntmat.blogspot.com/2017/06/practica-productiva-restes-3.html",
+   "font": "PuntMat",
+   "codi": "NUM.SO"
+  },
+  {
+   "curs": "4ESO",
+   "id": "tangram-nou-peces-arrels",
+   "titol": "El Tangram de nueve piezas y las raíces cuadradas",
+   "descripcio": "Càlcul dels costats i perímetres de les peces d'un Tangram de nou peces amb el teorema de Pitàgores, per practicar arrels quadrades.",
+   "url": "https://anagarciaazcarate.wordpress.com/2019/09/17/el-tangram-de-nueve-piezas-y-las-raices-cuadradas/",
+   "font": "Ana García Azcárate",
+   "codi": "NUM.SO"
+  },
+  {
+   "id": "cursa-de-camells",
+   "titol": "Cursa de camells (o de cavalls)",
+   "descripcio": "Joc de tauler casolà amb 12 fitxes i dos daus: cada alumne tria un camell, es tiren els daus i avança el camell amb la suma obtinguda; en acabar s'estudia per què guanyen més sovint els camells del mig amb una taula de doble entrada.",
+   "url": null,
+   "codi": "NUM.CO",
+   "curs": "2ESO",
+   "font": "Elaboració pròpia"
+  },
+  {
+   "id": "joc-de-cartes-operacions-inverses",
+   "titol": "Joc de cartes: operacions inverses",
+   "descripcio": "Joc de memòria amb cartes de nombres enters del -10 al 10 i cartes d'operacions (+1, ·2, :3...): cada jugador ha d'aparellar dues cartes numèriques iguals aplicant-hi una operació de la mà, reforçant les relacions inverses entre operacions.",
+   "url": null,
+   "codi": "NUM.SO",
+   "curs": "2ESO",
+   "font": "Elaboració pròpia"
+  },
+  {
+   "id": "creixement-exponencial-bacteris-virus",
+   "titol": "Problemes de creixement exponencial: bacteris i virus",
+   "descripcio": "Dos enunciats de reproducció bacteriana i propagació d'un virus perquè l'alumnat elabori una taula, en construeixi la gràfica i faci prediccions sobre l'evolució en el temps.",
+   "url": null,
+   "codi": "NUM.SO",
+   "curs": "4ESO",
+   "font": "Elaboració pròpia"
+  }
+ ]
 }
