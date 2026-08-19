@@ -30,7 +30,18 @@ async function loadSabersData() {
     console.warn('[data-links.json] problemes d\'integritat detectats:\n' + problems.join('\n'));
   }
 
-  SABERS_STATE = { repartiment, sabers, links, temaIndex, saberIndex, linkIndex };
+  // data-recursos.json és un afegit encara parcial (vegeu HANDOFF.md): es
+  // carrega a part i de manera tolerant, perquè si el fitxer no existeix
+  // (o una còpia antiga del projecte no el té) sabers.html segueix funcionant
+  // igual, simplement sense els chips "Recursos TOR".
+  let recursosData = null;
+  try {
+    recursosData = await fetchJson('assets/data/data-recursos.json');
+  } catch (err) {
+    console.warn('[data-recursos.json] no s\'ha pogut carregar (opcional): ' + err.message);
+  }
+
+  SABERS_STATE = { repartiment, sabers, links, temaIndex, saberIndex, linkIndex, recursosData };
   activeSaberCurs = repartiment._meta.cursOrder[0];
   return SABERS_STATE;
 }
@@ -135,6 +146,26 @@ function buildTemaChips(saberId) {
   return `<div class="tema-links">${chips}</div>`;
 }
 
+/* Chips "Recursos TOR" — enllacen a recursos.html filtrant pel mateix codi+curs
+ * que aquest saber (?recurs-codi=<codi>&recurs-curs=<curs>), mateix patró que
+ * buildTemaChips però cap a la tercera vista. No hi ha índex precalculat perquè
+ * data-recursos.json és petit (desenes d'entrades): un filtre lineal n'hi ha prou.
+ * Si RECURSOS_DATA no s'ha carregat (fitxer absent o pàgina antiga), no mostra res. */
+function countRecursosForCodiCurs(codi, curs) {
+  if (!SABERS_STATE.recursosData) return 0;
+  return SABERS_STATE.recursosData.recursos.filter(r => r.codi === codi && r.curs === curs).length;
+}
+function buildRecursChip(s) {
+  const n = countRecursosForCodiCurs(s.codi, s.cursImpartir);
+  if (!n) return '';
+  return `<div class="tema-links">
+    <a class="tema-chip" href="recursos.html?recurs-codi=${encodeURIComponent(s.codi)}&recurs-curs=${encodeURIComponent(s.cursImpartir)}" title="Veure els recursos TOR d'aquest bloc">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2.5l6 3.5v6l-6 3.5-6-3.5v-6z"/></svg>
+      ${n} recurs${n === 1 ? '' : 'os'} TOR
+    </a>
+  </div>`;
+}
+
 function buildSaberCard(s) {
   return `<div class="saber-card" id="saber-${escHtml(s.id)}" data-saber-id="${escHtml(s.id)}"
       data-search="${escHtml((s.saber + ' ' + s.codi + ' ' + s.bloc + ' ' + s.fontOficial + ' ' + s.fontInterna).toLowerCase())}"
@@ -160,6 +191,7 @@ function buildSaberCard(s) {
         <span><strong>AMP/ESS:</strong> ${escHtml(s.ampEss)}</span>
       </div>
       ${buildTemaChips(s.id)}
+      ${buildRecursChip(s)}
     </div>
   </div>`;
 }
