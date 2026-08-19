@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recursos i activitats · Matemàtiques ESO 2025-26</title>
+
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/repartiment.css">
+<link rel="stylesheet" href="assets/css/sabers.css">
+<link rel="stylesheet" href="assets/css/recursos.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/print.css">
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <a class="pill-btn" href="index.html" title="Torna a l'índex">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M10 4l-5 4 5 4"/></svg>
+      Índex
+    </a>
+    <div class="brand">Recursos i activitats <small>Matemàtiques ESO · 2025-26</small></div>
+    <a class="pill-btn" href="sabers.html" title="Veure els sabers curriculars">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2.5l1.6 3.6 3.9.4-2.9 2.7.8 3.8L8 11.1l-3.4 1.9.8-3.8-2.9-2.7 3.9-.4z"/></svg>
+      Sabers
+    </a>
+    <a class="pill-btn" href="repartiment.html" title="Veure el repartiment de continguts">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="11" height="11" rx="1.5"/><path d="M2.5 6.5h11M6.5 6.5v6.5"/></svg>
+      Repartiment
+    </a>
+    <button class="pill-btn" onclick="window.print()" title="Imprimeix">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="10" height="6" rx="1"/><path d="M5 7V3.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5V7M5 13v-2h6v2"/></svg>
+      Imprimir
+    </button>
+    <button class="pill-btn edit-start" id="btn-edit-start" title="Activar mode edició">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.6 2.6l2.8 2.8M11.8 1.4a1.4 1.4 0 0 1 2 2L5 12.2 1.6 13l.8-3.4z"/></svg>
+      Edició
+    </button>
+    <button class="pill-btn edit-dl" id="btn-edit-dl" title="Descarrega el fitxer modificat">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v8M5 7l3 3 3-3"/><path d="M3 13h10"/></svg>
+      Descarrega data-recursos.json
+    </button>
+    <button class="pill-btn edit-stop" id="btn-edit-stop" title="Sortir del mode edició">
+      ✕ Sortir d'edició
+    </button>
+  </header>
+
+  <div class="edit-banner">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;flex-shrink:0"><path d="M10.6 2.6l2.8 2.8M11.8 1.4a1.4 1.4 0 0 1 2 2L5 12.2 1.6 13l.8-3.4z"/></svg>
+    Mode edició actiu
+    <span class="edit-banner-note">— Els canvis s'apliquen quan descarregueu el fitxer i el pugeu al repositori (substituint assets/data/data-recursos.json).</span>
+  </div>
+
+  <div class="tabs-bar" id="tabsBar"></div>
+  <main class="main" id="main"></main>
+
+</div><!-- /.app -->
+
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/links.js"></script>
+<script src="assets/js/recursos-render.js"></script>
+<script src="assets/js/recursos-edit.js"></script>
+<script src="assets/js/app-recursos.js"></script>
+</body>
+</html>
