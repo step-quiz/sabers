@@ -1,0 +1,42 @@
+/* recursos.css — Estils de la pàgina "Recursos". Depèn de tokens.css, layout.css
+ * i reutilitza classes de repartiment.css (.edit-banner, .edit-mini-btn,
+ * .edit-add-btn, mode edició) i de sabers.css (.saber-codi, .saber-chip,
+ * .saber-links, .filters-bar i companyia) — per això recursos.html carrega
+ * totes dues, mateix motiu pel qual sabers.html ja carregava repartiment.css. */
+
+/* ── Grup (codi curricular dins un curs) ─────────────────────────────── */
+.recurs-group {
+  border: 1px solid var(--line); border-radius: 10px;
+  margin-bottom: 14px; padding: 12px 14px; background: var(--card);
+}
+.recurs-group-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+.recurs-group-bloc { font-size: 13px; color: var(--muted); font-weight: 600; }
+.recurs-group-count { font-size: 12px; color: var(--hint); margin-left: auto; }
+
+/* ── Llista i targeta de recurs ───────────────────────────────────────── */
+.recurs-list { display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 10px; }
+@media (min-width: 860px) { .recurs-list { grid-template-columns: 1fr 1fr; } }
+
+.recurs-card {
+  border: 1px solid var(--line-2); border-radius: 8px;
+  padding: 10px 12px; background: var(--surface-2);
+}
+.recurs-card-title { display: flex; align-items: flex-start; gap: 5px; }
+.recurs-card-title a {
+  font-size: 14px; font-weight: 600; color: var(--navy); line-height: 1.35;
+  text-decoration: none;
+}
+.recurs-card-title a:hover { text-decoration: underline; }
+.recurs-ext-icon { width: 11px; height: 11px; margin-top: 3px; color: var(--hint); flex-shrink: 0; }
+.recurs-desc { font-size: 13px; color: var(--ink); line-height: 1.5; margin-top: 4px; }
+.recurs-font { font-size: 11.5px; color: var(--hint); margin-top: 6px; font-style: italic; }
+.recurs-font strong { font-style: normal; }
+
+/* ── Mode edició: targeta plena amplada (com al mode edició de sabers) ── */
+body.is-editing .recurs-list { grid-template-columns: 1fr; }
+body.is-editing .recurs-card { background: var(--card); }
+
+@media print {
+  .filters-bar { display: none !important; }
+  .recurs-group { break-inside: avoid; }
+}
