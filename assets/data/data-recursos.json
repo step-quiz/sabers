@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "font": "TOR d'ESO. Blocs processats (sentit numèric, 5 de 5): 'TOR_ESO Sentit numeric_Relacions.pdf', 'TOR_ESO Sentit numeric_Quantitat.pdf', 'TOR_ESO Sentit numeric_comptatge.pdf', 'TOR_ESO Sentit numeric. Raonament proporcional.pdf' i 'TOR_ESO Sentit numeric. Sentit de les operacions.pdf'. Sentit numèric complet — pendents els altres 3 sentits (16 PDFs: espacial, mesura, algebraic, estocàstic).",
+  "font": "TOR d'ESO. Blocs processats: sentit numèric complet (5/5 PDFs: Relacions, Quantitat, Comptatge, Raonament proporcional, Sentit de les operacions) i, del sentit espacial (1/4 PDFs), 'TOR ESO Sentit espacial_Formes geometriques de dues i tres dimensions.pdf'. Pendents 15 PDFs: 3 de sentit espacial (Localització i sistemes de representació, Moviments i transformacions, Visualització i modelització geomètrica), 3 de sentit de la mesura, 6 de sentit algebraic, 3 de sentit estocàstic.",
   "descripcio": "Exemples concrets d'activitats i recursos didàctics, amb enllaç a la font original quan n'hi ha, extrets dels documents TOR del departament. Cada recurs s'enllaça a un bloc curricular (codi) dins d'un curs (curs), seguint el mateix nivell d'agregació que 'codi' a data-sabers.json — no a un saber individual. El camp 'url' és opcional: una activitat casolana sense font externa publicada (per exemple un joc de taula descrit únicament al TOR) es representa amb url null en lloc de ser descartada — norma estàndard des d'aquesta versió, vegeu HANDOFF.md.",
   "cursOrder": [
    "1ESO",
@@ -1539,6 +1539,573 @@
    "codi": "NUM.SO",
    "curs": "4ESO",
    "font": "Elaboració pròpia"
+  },
+  {
+   "curs": "1ESO",
+   "id": "impulsem-la-geometria-1eso",
+   "titol": "Impulsem la geometria",
+   "descripcio": "Campanya del CREAMAT (2012-13) amb un ampli recull de propostes per treballar el sentit espacial, ampliat des d'aleshores.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/geometria?authuser=0",
+   "font": "CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "laboratori-de-matematiques-fg-1eso",
+   "titol": "Laboratori de matemàtiques",
+   "descripcio": "Campanya del CREAMAT amb activitats amb pattern blocks, multilink, geoplans i tangrams per facilitar l'aprenentatge del sentit espacial.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques?authuser=0",
+   "font": "CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "polypad-geometria-1eso",
+   "titol": "Polypad — geometria",
+   "descripcio": "Eines de geometria de Polypad per explorar i investigar formes de manera intuïtiva.",
+   "url": "https://polypad.amplify.com/p",
+   "font": "Mathigon Polypad",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "orientacions-millora-geometria-1eso",
+   "titol": "Orientacions pràctiques per a la millora de la geometria",
+   "descripcio": "Document d'Anton Aubanell (2015) amb orientacions i múltiples exemples d'activitats per treballar el sentit espacial.",
+   "url": "https://serveiseducatius.xtec.cat/cesire/wp-content/uploads/usu2650/2021/06/quaderns31orientacions.pdf",
+   "font": "Anton Aubanell (2015)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "prova-cangur-1eso",
+   "titol": "Prova Cangur",
+   "descripcio": "Font de propostes i problemes de sentit espacial d'edicions anteriors de la prova Cangur.",
+   "url": "https://scm.iec.cat/concurs-presencial/cangur/",
+   "font": "Cangur",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "quant-mesuren-angles-peces",
+   "titol": "Quant mesuren els angles de les diferents peces",
+   "descripcio": "Amb les peces dels geomosaics o pattern blocks, l'alumnat descobreix els angles a partir de l'estudi de les propietats i relacions entre peces, no de la mesura directa.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/pattern-blocks-1",
+   "font": "Laboratori de matemàtiques, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "endevina-figura-3d-pel-tacte",
+   "titol": "Endevina la figura 3D pel tacte",
+   "descripcio": "Amb un conjunt de figures 3D dins d'una bossa opaca, l'alumnat n'ha de descriure una pel tacte fins que un company l'endevini, treballant el vocabulari geomètric.",
+   "url": null,
+   "font": "Elaboració pròpia",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "quelis-quin-es-lintrus",
+   "titol": "Quelis: Quin és l'intrús",
+   "descripcio": "Es presenten quatre imatges de quadrilàters i cal decidir quina no es correspon amb les altres tres, argumentant-ho; fomenta el diàleg i la comunicació matemàtica.",
+   "url": "https://puntmat.blogspot.com/2018/05/qui-es-lintrus.html",
+   "font": "PuntMat",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "mirada-matematica",
+   "titol": "Mirada matemàtica",
+   "descripcio": "Projecte que combina la creació de microhistòries (format piulada, màx. 280 caràcters) a partir d'una fotografia amb elements matemàtics, com ara figures geomètriques.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/mirada",
+   "font": "M. del Pilar Menoyo, campanya Matemàtiques i projectes (CREAMAT)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "tangram-minim-de-brugner",
+   "titol": "El Tangram mínim de Brügner",
+   "descripcio": "Tangram de només tres peces (triangles rectangles semblants) inventat per Georg Brügner el 1984, bon recurs per estudiar les propietats dels polígons.",
+   "url": "http://calaix2.blogspot.com/2017/03/el-tangram-minim-de-brugner-1.html",
+   "font": "Joan Jareño, Blog del Calaix +ie",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "pattern-blocks-estudi-complet-peces",
+   "titol": "Pattern blocks: estudi complet de totes les peces",
+   "descripcio": "Estudi sistemàtic de les propietats de totes les peces dels pattern blocks (angles, simetries).",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/pattern-blocks-2#h.p_l3xIA3nB20NF",
+   "font": "Laboratori de matemàtiques, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "composicions-simetriques-pattern-blocks",
+   "titol": "Composicions simètriques amb pattern blocks",
+   "descripcio": "Joc de dau en què cada jugador obté peces de pattern blocks i ha de configurar una composició simètrica, puntuant per cada eix de simetria i ordre de gir.",
+   "url": "https://ademgi.feemcat.org/taller-de-pattern-blocks-girs-i-simetries/",
+   "font": "ADEMGI, a partir de The Math Learning Center",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "classifiquem-logos-tapaboques-cotxes",
+   "titol": "Classifiquem logos i tapaboques de cotxes",
+   "descripcio": "Amb els Grups de Leonardo, l'alumnat classifica logotips i tapaboques de cotxes segons els girs invariants i els eixos de simetria que presenten.",
+   "url": "https://sites.google.com/xtec.cat/cesire-mates-take-away/1r-i-2n-deso/classifiquem-logos-i-tapaboques-de-cotxes?authuser=0",
+   "font": "Mates take away, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "lletres-logos-rosasses-rajoles",
+   "titol": "Lletres, logos, rosasses, rajoles…",
+   "descripcio": "Versió ampliada de la classificació per simetria de logotips i motius, incloent-hi la cerca del \"motiu mínim\" que per repetició reconstrueix la figura sencera.",
+   "url": "https://blocs.xtec.cat/calaixmatematiques/activitats/geometria/lletres-logos-rosasses-rajoles/",
+   "font": "Joan Jareño, Blog Calaix Matemàtiques",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "sempre-de-vegades-o-mai",
+   "titol": "Sempre, de vegades o mai",
+   "descripcio": "Targetes amb afirmacions geomètriques (p. ex. \"els triangles tenen un eix de simetria\") que l'alumnat ha de discutir si es compleixen sempre, de vegades o mai, argumentant i buscant contraexemples.",
+   "url": "https://docs.google.com/document/d/1wuoq-x9micrOLta5kGGOup9xn2KQSTtZ/edit?usp=sharing&ouid=105182084184490872700&rtpof=true&sd=true",
+   "font": "NRICH (traducció catalana)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "matematiques-monestir-de-poblet",
+   "titol": "Matemàtiques al monestir de Poblet",
+   "descripcio": "Projecte de 18 activitats (preparació a classe + treball de camp) en el context del monestir de Poblet, que combina simetria, figures geomètriques, escales i unitats de mesura.",
+   "url": "https://apliense.xtec.cat/arc/node/1467",
+   "font": "Josep Lluís Cañadilla, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "euclid-the-game",
+   "titol": "Euclid: The Game",
+   "descripcio": "Joc de construccions gràfiques successives amb regla i compàs sobre GeoGebra: cada construcció resolta s'afegeix com a nova eina per a la següent, construint la geometria euclidiana a poc a poc.",
+   "url": "https://euclid.findell.org/Level1/",
+   "font": "Kasper Peulen",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "construim-i-classifiquem-triangles",
+   "titol": "Construïm i classifiquem triangles",
+   "descripcio": "Amb material manipulatiu, l'alumnat descobreix que no sempre es pot construir un triangle amb tres costats donats, i en classifica segons costats i angles.",
+   "url": "https://apliense.xtec.cat/arc/node/947",
+   "font": "Jordi Payró, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "construim-triangles-amb-llumins",
+   "titol": "Construïm triangles amb llumins",
+   "descripcio": "Investigació de patrons sobre quants triangles es poden construir amb un nombre creixent de llumins, buscant una regla general per predir-ho sense construir-los.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/geometria/constru%C3%AFm-triangles-amb-llumins?authuser=0",
+   "font": "Geometria, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "descobrim-punts-notables-plegant-triangles",
+   "titol": "Descobrim els punts notables plegant els triangles",
+   "descripcio": "Activitat manipulativa de plegat de paper per entendre bisectriu, mediatriu, altura, mediana, incentre, circumcentre, ortocentre i baricentre d'un triangle.",
+   "url": "https://apliense.xtec.cat/arc/node/1725",
+   "font": "Enric Brasó, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "joc-de-rol-de-la-mediatriu",
+   "titol": "Joc de rol de la mediatriu",
+   "descripcio": "Dos alumnes se separen al pati i la resta, un a un, se situa a la mateixa distància d'ambdós; l'alumnat observador des d'un punt elevat descobreix que tots queden alineats, definint la mediatriu.",
+   "url": null,
+   "font": "Elaboració pròpia",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "teorema-de-viviani-arc",
+   "titol": "Teorema de Viviani",
+   "descripcio": "Proposta que treballa figures geomètriques al pla, demostracions visuals i raonament geomètric a partir del teorema de Viviani.",
+   "url": "https://apliense.xtec.cat/arc/node/1282",
+   "font": "Anton Aubanell, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "geogebra-teorema-de-viviani",
+   "titol": "Construcció GeoGebra del Teorema de Viviani",
+   "descripcio": "Construcció interactiva de GeoGebra per treballar el Teorema de Viviani.",
+   "url": "https://www.geogebra.org/m/ucZC3QMh",
+   "font": "GeoGebra — Manel Martínez",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "quant-sumen-angles-dun-triangle",
+   "titol": "Quant sumen els angles d'un triangle?",
+   "descripcio": "Cada alumne treballa amb el seu propi triangle seguint les indicacions del professor; en exposar-los tots junts es descobreix que la suma dels angles interiors sempre és 180°.",
+   "url": "https://puntsingular.wordpress.com/2018/03/31/quant-sumen-els-angles-interiors-dun-triangle/",
+   "font": "Manel Martínez, Punt Singular",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "pizzeria-mes-propera-voronoi",
+   "titol": "La pizzeria més propera (diagrames de Voronoi)",
+   "descripcio": "A partir de dividir una ciutat en regions segons la pizzeria més propera, l'alumnat construeix mediatrius progressivament amb 2, 3 i 4 pizzeries fins descobrir els diagrames de Voronoi amb GeoGebra.",
+   "url": "https://www.geogebra.org/m/rjpwk96f",
+   "font": "Núria Serra, a partir de l'NCTM",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "joc-dels-quadrilaters",
+   "titol": "El joc dels quadrilàters",
+   "descripcio": "Joc de cartes en què cal aparellar una imatge, un nom i dues propietats d'un mateix quadrilàter, treballant-ne les propietats i classificació.",
+   "url": "https://docs.google.com/document/d/1ow6Ws4hbPrymbBRNdFOYyMM0ebJW8ivN/edit?usp=sharing&ouid=105182084184490872700&rtpof=true&sd=true",
+   "font": "NRICH (traducció catalana)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "fem-volar-estels",
+   "titol": "Fem volar estels",
+   "descripcio": "Proposta per classificar quadrilàters més enllà del paral·lelisme i la comparació de costats, incloent-hi els deltoides (costats iguals dos a dos que concorren en un mateix vèrtex).",
+   "url": "https://drive.google.com/file/d/1c7kIFsGDBlYZc_GrovnXbphUVL0yjdwQ/view",
+   "font": "Geometria, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "elements-duna-circumferencia",
+   "titol": "Elements d'una circumferència",
+   "descripcio": "Construcció de GeoGebra per treballar els elements de la circumferència.",
+   "url": "https://www.geogebra.org/m/wVfHbpuD",
+   "font": "GeoGebra — Bernat Ancochea i Isabel Sorigué",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "buscant-geometria-en-una-imatge",
+   "titol": "Buscant geometria en una imatge",
+   "descripcio": "A partir d'una imatge d'una rosassa del Museu de l'Aquitanià, l'alumnat hi busca i n'analitza els elements geomètrics amb GeoGebra.",
+   "url": "https://www.geogebra.org/m/zeRwKbvK",
+   "font": "GeoGebra",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "angles-en-la-circumferencia",
+   "titol": "Angles en la circumferència",
+   "descripcio": "Estudi amb GeoGebra de la relació entre l'angle inscrit i l'angle central d'una circumferència, i en quins casos l'angle inscrit és de 90°.",
+   "url": "https://www.geogebra.org/m/ddhxm5t2",
+   "font": "GeoGebra — Manel Martínez",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "centre-circumferencia-amb-escaire",
+   "titol": "Trobar el centre d'una circumferència amb escaire",
+   "descripcio": "Amb un escaire i un llapis, situant el vèrtex de l'angle recte sobre la circumferència es dibuixen dues cordes; repetint el procés des d'un altre punt, la intersecció de dos diàmetres dona el centre.",
+   "url": null,
+   "font": "Elaboració pròpia",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "1ESO",
+   "id": "descobrim-pi",
+   "titol": "Descobrim pi",
+   "descripcio": "Cada parella d'alumnes, amb un objecte cilíndric i un cordill, obté una aproximació experimental del nombre pi mesurant diàmetre i circumferència.",
+   "url": "https://apliense.xtec.cat/arc/node/203",
+   "font": "Anton Aubanell, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "impulsem-la-geometria-2eso",
+   "titol": "Impulsem la geometria",
+   "descripcio": "Campanya del CREAMAT (2012-13) amb un ampli recull de propostes per treballar el sentit espacial, ampliat des d'aleshores.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/geometria?authuser=0",
+   "font": "CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "laboratori-de-matematiques-fg-2eso",
+   "titol": "Laboratori de matemàtiques",
+   "descripcio": "Campanya del CREAMAT amb activitats amb pattern blocks, multilink, geoplans i tangrams per facilitar l'aprenentatge de la geometria.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques?authuser=0",
+   "font": "CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "polypad-geometria-2eso",
+   "titol": "Polypad — geometria",
+   "descripcio": "Eines de geometria de Polypad per explorar i investigar formes de manera intuïtiva.",
+   "url": "https://polypad.amplify.com/p",
+   "font": "Mathigon Polypad",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "orientacions-millora-geometria-2eso",
+   "titol": "Orientacions pràctiques per a la millora de la geometria",
+   "descripcio": "Document d'Anton Aubanell (2015) amb orientacions i múltiples exemples d'activitats per treballar el sentit espacial.",
+   "url": "https://serveiseducatius.xtec.cat/cesire/wp-content/uploads/usu2650/2021/06/quaderns31orientacions.pdf",
+   "font": "Anton Aubanell (2015)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "prova-cangur-2eso",
+   "titol": "Prova Cangur",
+   "descripcio": "Font de propostes i problemes de sentit espacial d'edicions anteriors de la prova Cangur.",
+   "url": "https://scm.iec.cat/concurs-presencial/cangur/",
+   "font": "Cangur",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "figures-semblants-david-virgili",
+   "titol": "Figures semblants",
+   "descripcio": "A partir de tres grups de figures, l'alumnat justifica si són semblants i construeix pentàgons semblants treballant la raó de semblança i la raó entre àrees; forma part d'un paquet de tres activitats sobre semblança i el teorema de Tales.",
+   "url": "https://www.geogebra.org/m/jwtgydzq",
+   "font": "GeoGebra — David Virgili",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "propietats-figures-semblants",
+   "titol": "Propietats de les figures semblants",
+   "descripcio": "Recurs de GeoGebra per treballar les raons de proporcionalitat entre costats i entre àrees de dos triangles semblants.",
+   "url": "https://www.geogebra.org/m/nbE4QK3h",
+   "font": "GeoGebra — Jordi Font",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "construccio-figures-semblants",
+   "titol": "Construcció de figures semblants",
+   "descripcio": "L'alumnat primer modifica la mida d'una figura amb un editor de textos i després aprèn a dibuixar figures semblants amb GeoGebra.",
+   "url": "https://apliense.xtec.cat/arc/node/1502",
+   "font": "Josep Lluís Cañadilla, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "tales-ombres-i-altures",
+   "titol": "Tales, ombres i altures",
+   "descripcio": "Seguint els passos de Tales de Milet, l'alumnat calcula l'altura de diversos objectes (porteria, cistella, porta) a partir de les ombres, i compara els resultats entre grups.",
+   "url": "https://apliense.xtec.cat/arc/node/30787",
+   "font": "Núria Serra, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "que-faria-tales-un-dia-ennuvolat",
+   "titol": "Què faria Tales un dia ennuvolat?",
+   "descripcio": "Ampliació de l'activitat de les ombres per a un dia ennuvolat: es calculen altures amb miralls aplicant la llei de la reflexió.",
+   "url": "https://youtu.be/UtND5wG0MDU?si=RgjCKcqYJTQWD0yZ",
+   "font": "vídeoMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "projecte-home-casa",
+   "titol": "Home (Casa)",
+   "descripcio": "Projecte interdisciplinari de disseny d'una casa amb condicions inicials donades, que connecta matemàtiques, economia i tecnologia amb temes d'habitatge com el preu o la gentrificació.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/home",
+   "font": "Jordi Domènech, campanya Matemàtiques i projectes (CREAMAT)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "sistema-solar-a-escala",
+   "titol": "Sistema solar a escala",
+   "descripcio": "Projecte de l'INS Marta Mata de Montornès amb múltiples propostes per treballar les escales a partir del sistema solar.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/solar",
+   "font": "INS Marta Mata de Montornès del Vallès, campanya Matemàtiques i projectes (CREAMAT)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "ruta-sistema-solar-a-escala-garraf",
+   "titol": "Ruta del sistema solar a escala (Garraf)",
+   "descripcio": "Ruta de senderisme des de l'Observatori Astronòmic del Garraf amb una representació a escala dels planetes (1 passa = 1 milió de km), per prendre consciència de l'espai interplanetari.",
+   "url": "https://es.wikiloc.com/rutas-senderismo/sitges-olivella-gr5-ruta-del-sistema-solar-154561764",
+   "font": "Observatori Astronòmic del Garraf",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "mirallet-mirallet",
+   "titol": "Mirallet, mirallet, per què m'has fet tan petitet?",
+   "descripcio": "Dibuixant el propi contorn de la cara en un mirall, l'alumnat descobreix per què la imatge reflectida és més petita que la real: una semblança de raó 1:2, aplicant el teorema de Tales.",
+   "url": "https://apliense.xtec.cat/arc/node/1269",
+   "font": "Anton Aubanell, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "proofs-without-words",
+   "titol": "Proofs without words",
+   "descripcio": "Llibre de GeoGebra amb demostracions visuals del teorema de Pitàgores, per treballar-les en grup i visualitzar-les.",
+   "url": "https://www.geogebra.org/m/jFFERBdd",
+   "font": "GeoGebra — Steve Phelps",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "video-mostracio-teorema-pitagores",
+   "titol": "Vídeo de mostració del teorema de Pitàgores",
+   "descripcio": "Vídeo amb una mostració visual (no una demostració general) del teorema de Pitàgores sobre un triangle rectangle concret; n'hi ha una segona versió amb un enfocament diferent.",
+   "url": "https://www.youtube.com/watch?v=_loyVnYgPN8",
+   "font": "YouTube",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "un-tangram-diferent",
+   "titol": "Un tangram diferent",
+   "descripcio": "Seqüència de 3-4 sessions amb el tangram de Van Hiele (puzle de Lott): estudi i classificació de figures planes, cerca de patrons i descoberta i aplicació del teorema de Pitàgores.",
+   "url": "https://projectes.xtec.cat/nou-curriculum/guies-didactiques-florence-per-a-secundaria/",
+   "font": "Núria Serra",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "tilted-squares",
+   "titol": "Tilted squares",
+   "descripcio": "A partir de quadrats inclinats sobre un geoplà, l'alumnat en calcula la superfície i en dedueix el teorema de Pitàgores; segona part de la seqüència \"Un tangram diferent\".",
+   "url": "https://nrich.maths.org/problems/tilted-squares",
+   "font": "NRICH",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "construccio-de-solids-platonics",
+   "titol": "Construcció de sòlids platònics",
+   "descripcio": "Amb peces manipulatives (Lokon, Polydron) que encaixen pels vèrtexs, l'alumnat investiga quins poliedres regulars es poden construir, descobrint per què només n'hi ha cinc.",
+   "url": null,
+   "font": "Elaboració pròpia",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "quants-poliedres-regulars-hi-ha",
+   "titol": "Quants poliedres regulars hi ha?",
+   "descripcio": "Vídeo que planteja la mateixa recerca que la construcció amb peces manipulatives: per què només existeixen cinc sòlids platònics.",
+   "url": "https://www.youtube.com/watch?v=55RJ0b1r41Q",
+   "font": "vídeoMAT (2018)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "comptem-cares-arestes-vertexs",
+   "titol": "Comptem cares, arestes i vèrtexs",
+   "descripcio": "Investigació conjunta de la classe per descobrir la característica d'Euler (relació entre vèrtexs, cares i arestes) analitzant diferents poliedres i compartint els resultats en una taula.",
+   "url": "https://sites.google.com/xtec.cat/cesire-matematiques-campanyes/laboratori-de-matem%C3%A0tiques/pol%C3%ADgons-encaixables#h.p_h2V3zDgdu4P6",
+   "font": "Laboratori de matemàtiques, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "poliedres-amb-brics-creamat",
+   "titol": "Poliedres amb brics",
+   "descripcio": "Construcció de poliedres amb material reciclable (brics), una activitat inclusiva i de baix cost que es pot adaptar a qualsevol curs de l'ESO.",
+   "url": "https://sites.google.com/xtec.cat/cesire-mates-take-away/1r-i-2n-deso/poliedres-amb-brics",
+   "font": "Mates take away, CREAMAT",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "poliedres-amb-brics-martinez",
+   "titol": "Poliedres amb brics (blog)",
+   "descripcio": "Entrada de blog amb el material i els passos detallats per portar l'activitat de poliedres amb brics a l'aula, i reflexions sobre per què funciona bé com a activitat inclusiva i de llarg recorregut.",
+   "url": "https://puntsingular.wordpress.com/2016/12/20/poliedres-amb-brics/",
+   "font": "Manel Martínez, Punt Singular",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "volta-al-mon-en-8-edificis",
+   "titol": "La volta al món en 8… edificis",
+   "descripcio": "Itinerari de nou unitats que estudia cossos geomètrics (ortoedre, cub, prismes, piràmide, cilindre, con, esfera) a partir d'edificis reals d'arreu del món, amb activitats de resolució de problemes i modelització.",
+   "url": "https://apliense.xtec.cat/arc/node/30716",
+   "font": "Equip ICE de matemàtiques, UdL (2013-16), ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "dissenyem-llauna-de-refresc",
+   "titol": "Dissenyem una llauna de refresc",
+   "descripcio": "Projecte d'optimització: a partir de mesurar llaunes reals, l'alumnat varia les dimensions mantenint la capacitat per trobar la superfície mínima, i en construeix una amb cartolina.",
+   "url": "https://apliense.xtec.cat/arc/node/30786",
+   "font": "Núria Serra, ARC",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "geometric-solids-nctm",
+   "titol": "Geometric solids",
+   "descripcio": "Applet que permet conèixer els sòlids platònics i les seves propietats a través del desplegament, i descobrir la característica d'Euler manipulant-los.",
+   "url": "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Geometric-Solids/",
+   "font": "Illuminations, NCTM",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "4ESO",
+   "id": "crea-el-teu-envas",
+   "titol": "Crea el teu envàs",
+   "descripcio": "Projecte de modelització de volums a partir de la unitat cúbica: l'alumnat estudia envasos reals abans de dissenyar-ne un de nou, adaptable a diferents cursos.",
+   "url": "https://ateneu.xtec.cat/wikiform/wikiexport/materials/csre/matprj/llista/envas",
+   "font": "Maite Gorriz i Santi Vilches",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "4ESO",
+   "id": "serpentine-lake",
+   "titol": "Serpentine Lake",
+   "descripcio": "A partir d'una imatge d'un llac de Londres de 40 hectàrees, l'alumnat aproxima la seva forma amb trapezis per estimar-ne l'àrea, introduint la regla dels trapezis.",
+   "url": "https://undergroundmathematics.org/introducing-calculus/serpentine-lake",
+   "font": "Underground Mathematics",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "4ESO",
+   "id": "nombres-irracionals-materials-manipulatius",
+   "titol": "Nombres irracionals i materials manipulatius",
+   "descripcio": "Propostes per treballar els nombres irracionals a partir de figures del tangram clàssic, els pattern blocks i els geoplans.",
+   "url": "https://puntmat.blogspot.com/2018/12/nombres-irracionals-i-materials.html",
+   "font": "PuntMat",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "4ESO",
+   "id": "quadrat-de-puig-adam",
+   "titol": "Quadrat de Puig Adam",
+   "descripcio": "Amb triangles rectangles isòsceles i rombes de costat unitat, l'alumnat en calcula àrees i perímetres i en dedueix, per un argument de racionalitat/irracionalitat, quantes peces de cada tipus formen un mosaic donat.",
+   "url": "https://www.tinkercad.com/things/gaoQLuFXF4Q-peces-del-mosaic-de-pere-puig-adam",
+   "font": "CREAMAT, a partir de Puig Adam (1956) i Alsina, Aubanell i Burgués (2019)",
+   "codi": "ESP.FG"
+  },
+  {
+   "curs": "4ESO",
+   "id": "prova-cangur-4eso-fg",
+   "titol": "Prova Cangur",
+   "descripcio": "Font de propostes i problemes de sentit espacial d'edicions anteriors de la prova Cangur.",
+   "url": "https://scm.iec.cat/concurs-presencial/cangur/",
+   "font": "Cangur",
+   "codi": "ESP.FG"
   }
  ]
 }
