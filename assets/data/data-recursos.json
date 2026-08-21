@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "font": "TOR d'ESO. Blocs processats: sentit numèric complet (5/5 PDFs: Relacions, Quantitat, Comptatge, Raonament proporcional, Sentit de les operacions) i, del sentit espacial (1/4 PDFs), 'TOR ESO Sentit espacial_Formes geometriques de dues i tres dimensions.pdf'. Pendents 15 PDFs: 3 de sentit espacial (Localització i sistemes de representació, Moviments i transformacions, Visualització i modelització geomètrica), 3 de sentit de la mesura, 6 de sentit algebraic, 3 de sentit estocàstic.",
+  "font": "TOR d'ESO. Blocs processats: sentit numèric complet (5/5 PDFs) i, del sentit espacial (2/4 PDFs), 'TOR ESO Sentit espacial_Formes geometriques de dues i tres dimensions.pdf' i 'TOR ESO Sentit espacial_Localitzacio i sistemes de representacio.pdf'. Pendents 14 PDFs: 2 de sentit espacial (Moviments i transformacions, Visualització i modelització geomètrica), 3 de sentit de la mesura, 6 de sentit algebraic, 3 de sentit estocàstic.",
   "descripcio": "Exemples concrets d'activitats i recursos didàctics, amb enllaç a la font original quan n'hi ha, extrets dels documents TOR del departament. Cada recurs s'enllaça a un bloc curricular (codi) dins d'un curs (curs), seguint el mateix nivell d'agregació que 'codi' a data-sabers.json — no a un saber individual. El camp 'url' és opcional: una activitat casolana sense font externa publicada (per exemple un joc de taula descrit únicament al TOR) es representa amb url null en lloc de ser descartada — norma estàndard des d'aquesta versió, vegeu HANDOFF.md.",
   "cursOrder": [
    "1ESO",
@@ -2106,6 +2106,168 @@
    "url": "https://scm.iec.cat/concurs-presencial/cangur/",
    "font": "Cangur",
    "codi": "ESP.FG"
+  },
+  {
+   "curs": "2ESO",
+   "id": "rene-mon-amour",
+   "titol": "René, mon amour",
+   "descripcio": "Carta en què René Descartes parla en primera persona per donar-se a conèixer, com a introducció a per què es diuen coordenades cartesianes.",
+   "url": "https://docs.google.com/document/d/1MtkJFPI8WP_h3aPS3vskYgQMTg_OKHVsr0qK92N6Zpw/edit?usp=drive_link",
+   "font": "Claudi Alsina",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "2ESO",
+   "id": "localitzar-punts-sense-coordenades",
+   "titol": "Localitzar punts sense coordenades",
+   "descripcio": "Amb una imatge d'objectes distribuïts per la superfície, l'alumnat ha de respondre preguntes de localització sense apropar-s'hi; en projectar-hi després una quadrícula, sense adonar-se'n ja fan servir coordenades.",
+   "url": null,
+   "font": "Elaboració pròpia",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "2ESO",
+   "id": "introduccio-a-les-coordenades",
+   "titol": "Introducció a les coordenades",
+   "descripcio": "Joc de dictat per parelles: un alumne dicta una imatge (punts i segments) a un company que no la veu, sense poder-se comunicar més enllà de la veu, generant la necessitat de les coordenades cartesianes.",
+   "url": "https://docs.google.com/presentation/d/1pN84BlEfPlNvbGlhz5aSAMg6tnHIuAlIVdBMSo-3LFQ/edit?usp=sharing",
+   "font": "Elaboració pròpia",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "2ESO",
+   "id": "joc-dels-vaixells",
+   "titol": "El joc dels vaixells",
+   "descripcio": "Recurs per consolidar la representació de punts en el pla amb un sistema de coordenades cartesià com a referència.",
+   "url": "https://apliense.xtec.cat/arc/node/1452",
+   "font": "Àlex Sayós, ARC",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "2ESO",
+   "id": "a-cartesian-puzzle",
+   "titol": "A Cartesian puzzle",
+   "descripcio": "Donades les coordenades d'alguns quadrilàters amb un vèrtex desconegut, cal trobar-lo posant en joc també els coneixements sobre simetria.",
+   "url": "https://nrich.maths.org/problems/cartesian-puzzle",
+   "font": "NRICH",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "vectors-i-rectes-en-el-pla",
+   "titol": "Vectors i rectes en el pla",
+   "descripcio": "Seqüència per a tot el bloc (incl. sabers d'ampliació): joc de rol on l'alumnat esdevé punts del pla per representar rectes \"vivents\", activitats de GeoGebra, fulls de treball intercanviables i activitats finals (mapa conceptual, invenció d'un problema).",
+   "url": "https://apliense.xtec.cat/arc/node/2110",
+   "font": "Victòria Oliu, ARC",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "mapa-mut-eixample-barcelona",
+   "titol": "Mapa mut de l'Eixample de Barcelona",
+   "descripcio": "A partir del plànol ortogonal de l'Eixample, es defineixen eixos i origen i es calcula la distància real entre punts marcats, introduint vectors, components, direcció i sentit.",
+   "url": "https://www.educaplay.com/printablegame/12087301-mapa_mudo_de_l_eixample.html",
+   "font": "Pedro Monzo, Educaplay",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "situacions-vectorials",
+   "titol": "Situacions vectorials",
+   "descripcio": "Llibre de GeoGebra amb sis parts (la constel·lació d'Orió, el Tour de França, producte escalar, el laberint, un passeig pel parc, el mosaic) per introduir els vectors i resoldre'n problemes; adaptació i ampliació d'un treball de final de màster de Carles Rodríguez.",
+   "url": "https://www.geogebra.org/m/j64jea8t",
+   "font": "Pere Burgués",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "vectors-en-el-pla-oliu",
+   "titol": "Vectors en el pla",
+   "descripcio": "Activitat de GeoGebra per calcular les components d'un vector i trobar-ne d'equivalents.",
+   "url": "https://www.geogebra.org/m/PW9KTwFY",
+   "font": "GeoGebra — Victòria Oliu",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "constellacio-dorio-paper",
+   "titol": "La constel·lació d'Orió (versió en paper)",
+   "descripcio": "L'alumnat dibuixa la constel·lació d'Orió sobre una quadrícula a partir de coordenades cartesianes, calcula components de vectors entre estrelles i en troba la distància amb el teorema de Pitàgores.",
+   "url": "https://apliense.xtec.cat/arc/node/30683",
+   "font": "Pepe Ródenas, ARC",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "investiguem-equacio-de-la-recta",
+   "titol": "Investiguem l'equació de la recta",
+   "descripcio": "Aprofita la relació entre la finestra gràfica i l'algebraica de GeoGebra per estudiar diferents equacions de la recta.",
+   "url": "https://www.geogebra.org/m/oDsL7k2O",
+   "font": "GeoGebra — Jordi Campos",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "punts-rectes-i-vectors",
+   "titol": "Punts, rectes i vectors",
+   "descripcio": "Treball amb components de vectors i equacions de la recta (paramètriques, contínua, general), amb un repàs de les comandes de GeoGebra per a rectes paral·leles, perpendiculars, posició relativa, distàncies, angles i punt mitjà.",
+   "url": "https://www.geogebra.org/m/g4hqadKa",
+   "font": "GeoGebra — Josep Lluís Cañadilla",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "lots-of-vector-lines",
+   "titol": "Lots of vector lines!",
+   "descripcio": "A partir de dotze equacions de rectes en forma vectorial, cal aparellar-les segons condicions (paral·leles, perpendiculars, mateix punt de tall amb un eix, passen per un punt donat...).",
+   "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines",
+   "font": "Underground Mathematics",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "lots-of-lines",
+   "titol": "Lots of lines!",
+   "descripcio": "Mateixa dinàmica que \"Lots of vector lines!\" (aparellar dotze rectes segons condicions), però amb les equacions expressades en formes diferents.",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines",
+   "font": "Underground Mathematics",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "posicio-relativa-de-dues-rectes",
+   "titol": "Posició relativa de dues rectes",
+   "descripcio": "Movent punts lliscants, l'alumnat obté parelles de rectes paral·leles, coincidents o secants i n'observa el pendent i l'ordenada a l'origen.",
+   "url": "https://www.geogebra.org/m/GGkRdEmY",
+   "font": "GeoGebra — Victòria Oliu",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "rectes-i-punts-notables",
+   "titol": "Rectes i punts notables",
+   "descripcio": "Treball amb mediatrius i circumcentre, bisectrius i incentre, altures i ortocentre, medianes i baricentre, i la recta d'Euler d'un triangle.",
+   "url": "https://www.geogebra.org/m/KNU3FsqH",
+   "font": "GeoGebra — Alba Blasco",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "quatre-centres-triangle-recta-euler",
+   "titol": "Els quatre centres del triangle i la recta d'Euler",
+   "descripcio": "A partir de definicions donades, cal construir el baricentre, l'ortocentre i el circumcentre d'un triangle i comprovar que estan alineats a la recta d'Euler.",
+   "url": "https://www.geogebra.org/m/mRv9edNH",
+   "font": "GeoGebra — Pep Bujosa i Carlos Giménez Esteban",
+   "codi": "ESP.LS"
+  },
+  {
+   "curs": "4ESO",
+   "id": "vector-squares",
+   "titol": "Vector squares",
+   "descripcio": "Donat un quadrat definit per equacions vectorials, cal comprovar-ne la perpendicularitat dels costats, trobar-ne la superfície i les equacions de les diagonals.",
+   "url": "https://undergroundmathematics.org/vector-geometry/vector-squares",
+   "font": "Underground Mathematics",
+   "codi": "ESP.LS"
   }
  ]
 }
